@@ -1,0 +1,46 @@
+#FE7 Ch 7x Chest Editor
+#
+
+1
+FE7 Ch 7x Chest Editor
+0xCA141C
+3
+12
+NULL
+NULL
+
+Type?
+0
+1
+NDHU
+Type List.txt
+
+UNKNOWN
+2
+1
+NEHU
+NULL
+
+Chest/???
+4
+1
+NDHU
+Item List.txt
+
+X Coordinate
+8
+1
+NEHU
+NULL
+
+Y Coordinate
+9
+1
+NEHU
+NULL
+
+Type
+10
+1
+NDHU
+Type List2.txt

@@ -1,0 +1,48 @@
+47
+0x00 None
+0x8BE3888 Lords, promoted Foot soldiers
+0x8BE3CD9 Lords, promoted Foot soldiers
+0x8BE40E9 Lords, promoted Foot soldiers
+0x8BE3B53 Promoted mounted
+0x8BE3FA4 Promoted mounted
+0x8BE43B4 Promoted mounted
+0x8BE390A Armours
+0x8BE3D5B Armours
+0x8BE416B Armours
+0x8BE38C9 unpromoted foot soldiers
+0x8BE3D1A unpromoted foot soldiers
+0x8BE412A unpromoted foot soldiers
+0x8BE394B Axemen
+0x8BE3D9C Axemen
+0x8BE41AC Axemen
+0x8BE3A90 unmounted Magic users
+0x8BE3EE1 unmounted Magic users
+0x8BE42F1 unmounted Magic users
+0x8BE3B12 unpromoted mounted
+0x8BE3F63 unpromoted mounted
+0x8BE4373 unpromoted mounted
+0x8BE3B94 Nomad
+0x8BE3FE5 Nomad
+0x8BE43F5 Nomad
+0x8BE3BD5 Nomad trooper
+0x8BE4026 Nomad trooper
+0x8BE4436 Nomad trooper
+0x8BE3C16 Fliers
+0x8BE4067 Fliers
+0x8BE4477 Fliers
+0x8BE3C57 Fire Dragon, Fallen Ice Dragon
+0x8BE39CD Brigand
+0x8BE3E1E Brigand
+0x8BE422E Brigand
+0x8BE3A0E Pirate, Corsair
+0x8BE3E5F Pirate, Corsair
+0x8BE426F Pirate, Corsair 
+0x8BE398C Berserker
+0x8BE3DDD Berserker
+0x8BE41ED Berserker
+0x8BE3A4F Thief, assassin
+0x8BE3EA0 Thief, assassin
+0x8BE42B0 Thief, assassin
+0x8BE3AD1 Civilian, Tent, Transporter
+0x8BE3F22 Civilian, Tent, Transporter
+0x8BE4332 Civilian, Tent, Transporter

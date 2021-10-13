@@ -1,0 +1,6 @@
+5
+0x00 Disabled
+0x01 Solo Ending
+0x02 Paired Ending
+0x03 Preset Paired Ending (à la Nils&Ninian)
+0x04 Preset Paired Ending (à la Pent&Louise)

@@ -1,0 +1,49 @@
+1
+FE7 Spell Association Editor by Zeld, updated by Nintenlord
+0xC999C0
+127
+16
+NULL
+NULL
+
+Weapon
+0
+2
+NDHU
+Item List TU.txt
+
+No. of Chars to Display (1 or 2)
+2
+2
+NEDU
+NULL
+
+Animation Used
+4
+2
+NDHU
+Spell Animations.txt
+
+Alternate Pointer
+8
+4
+NEHU
+NULL
+
+Return to original position (map)
+12
+1
+NDHU
+Returning.txt
+
+Facing position (map)
+13
+1
+NDHU
+Facing.txt
+
+Enemy's flashing colour (map)
+14
+1
+NDHU
+Enemy flash.txt

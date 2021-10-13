@@ -1,0 +1,34 @@
+#Fire Emblem 7 (Paired) Endings Editor (by Icy Toast)
+#
+
+1
+Fire Emblem 7 (Paired) Endings Editor (by Icy Toast)
+0xCEE160
+154
+8
+EndingsList.txt
+NULL
+
+Ending Type
+0
+1
+NDHU
+EndingTypeList.txt
+
+Character 1
+1
+1
+NDHU
+Characters.txt
+
+Character 2
+2
+1
+NDHU
+Characters.txt
+
+Ending Text Value
+4
+2
+NEHU
+NULL

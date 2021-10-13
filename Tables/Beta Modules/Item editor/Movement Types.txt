@@ -1,0 +1,49 @@
+0xBE3888 - Def: Lord, Blade Lord, Hero, Swordmaster, Sniper
+0xBE38C9 - Def: Mercenary, Myrmidon, Archer, Soldier, Dancer, Bard
+0xBE390A - Def: Great Lord, Knight, General
+0xBE394B - Def: Fighter, Warrior
+0xBE398C - Def: Berserker
+0xBE39CD - Def: Brigand
+0xBE3A0E - Def: Pirate, Corsair
+0xBE3A4F - Def: Thief, Assasin
+0xBE3A90 - Def: Monk, Cleric, Bishop, Mage, Sage, Shaman, Druid, Archsage, Magic Seal, Dark Druid
+0xBE3AD1 - Def: Civilian, Transporter, Child, Bramimond, Peer, Prince, Queen, Hung Leila
+0xBE3B12 - Def: Cavalier, Troubadour
+0xBE3B53 - Def: Knight Lord, Paladin, Valkyrie
+0xBE3B94 - Def: Nomad
+0xBE3BD5 - Def: Nomad Trooper
+0xBE3C16 - Def: Pegasus Knight, Falco Knight, Wyvern Rider, Wyvern Lord
+0xBE3C57 - Def: Fire Dragon, Ice Dragon
+0xBE3C98
+0xBE3CD9 - Def (RAIN): Lord, Blade Lord, Hero, Swordmaster, Sniper
+0xBE3D1A - Def (RAIN): Mercenary, Myrmidon, Archer, Soldier, Dancer, Bard
+0xBE3D5B - Def (RAIN): Great Lord, Knight, General
+0xBE3D9C - Def (RAIN): Fighter, Warrior
+0xBE3DDD - Def (RAIN): Berserker
+0xBE3E1E - Def (RAIN): Brigand
+0xBE3E5F - Def (RAIN): Pirate, Corsair
+0xBE3EA0 - Def (RAIN): Thief, Assasin
+0xBE3EE1 - Def (RAIN): Monk, Cleric, Bishop, Mage, Sage, Shaman, Druid, Archsage, Magic Seal, Dark Druid
+0xBE3F22 - Def (RAIN): Civilian, Transporter, Child, Bramimond, Peer, Prince, Queen, Hung Leila
+0xBE3F63 - Def (RAIN): Cavalier, Troubadour
+0xBE3FA4 - Def (RAIN): Knight Lord, Paladin, Valkyrie
+0xBE3FE5 - Def (RAIN): Nomad
+0xBE4026 - Def (RAIN): Nomad Trooper
+0xBE4067 - Def (RAIN): Pegasus Knight, Falco Knight, Wyvern Rider, Wyvern Lord
+0xBE40A8
+0xBE40E9 - Def (SNOW): Lord, Blade Lord, Hero, Swordmaster, Sniper
+0xBE412A - Def (SNOW): Mercenary, Myrmidon, Archer, Soldier, Dancer, Bard
+0xBE416B - Def (SNOW): Great Lord, Knight, General
+0xBE41AC - Def (SNOW): Fighter, Warrior
+0xBE41ED - Def (SNOW): Berserker 
+0xBE422E - Def (SNOW): Brigand
+0xBE426F - Def (SNOW): Pirate, Corsair
+0xBE42B0 - Def (SNOW): Thief, Assasin
+0xBE42F1 - Def (SNOW): Monk, Cleric, Bishop, Mage, Sage, Shaman, Druid, Archsage, Magic Seal, Dark Druid
+0xBE4332 - Def (SNOW): Civilian, Transporter, Child, Bramimond, Peer, Prince, Queen, Hung Leila
+0xBE4373 - Def (SNOW): Cavalier, Troubadour
+0xBE43B4 - Def (SNOW): Knight Lord, Paladin, Valkyrie
+0xBE43F5 - Def (SNOW): Nomad
+0xBE4436 - Def (SNOW): Nomad Trooper
+0xBE4477 - Def (SNOW): Pegasus Knight, Falco Knight, Wyvern Rider, Wyvern Lord
+0xBE44B8

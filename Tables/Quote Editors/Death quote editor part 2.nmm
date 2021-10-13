@@ -1,0 +1,40 @@
+#Death quote editor part 2 by Nintenlord
+#
+
+1
+Death quote editor part 2 by Nintenlord
+0xC9F2EC
+109
+16
+NULL
+NULL
+
+Character
+0
+1
+NDHU
+Characters.txt
+
+Chapter
+1
+1
+NDHU
+Chapters.txt
+
+Text value
+4
+2
+NEHU
+NULL
+
+Pointer to event(Convo is 00)
+8
+4
+NEHU
+NULL
+
+Trigger ID
+12
+1
+NEHU
+NULL

@@ -1,0 +1,8 @@
+Three things to take into account when working with the FE7 Battle Convo Editor Modules:
+
+1.The Trigger ID byte is sorta tricky. In each chapter, only one 'if... then...' type of clause with a certain ID will be executed. If the same ID is triggered again, even if by a different part of the coding, it will be ignored. In the case of Battle Convos, it means that only one convo with the same ID will be triggered per chapter. Which is a good thing, since we don't want to see the same dialogue over and over. (If you do actually want that, use 00, which can be triggered multiple times).
+In most chapters, 01 is reserved for the standard boss convo. If you're going to add a special convo with a specific character in that same chapter, you're going to have to use a different ID. Now, the tricky part is, you don't know which IDs are already in use by the chapter's event data, and picking a wrong one would either disable your convo or another kind of event, depending on which appears last. You could of course have a look at the chapter's event conditions data with a hex editor to find out which IDs aren't in use yet, but I suggest you just take a guess. Anything above, say, 25 will generally be safe.
+
+2.For the specific convos, you can either input a reference to a dialogue/monologue to be used, OR a pointer to event data. In Rekka, the latter option is used only for Nergal's pre-battle dialogue, as this needs to be different for Eliwood Mode and Hector Mode.
+
+3.In Rekka, once a specific battle convo has been activated, the involved characters' unspecific battle convos will be disabled for the rest of the chapter.

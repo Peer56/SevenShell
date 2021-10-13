@@ -1,0 +1,164 @@
+162
+0x00 None (map animation)
+0x01 Eliwood
+0x02 Eliwood Disarmed
+0x03 Lord Knight Eliwood w/ Sword
+0x04 Lord Knight Eliwood w/ Durandal
+0x05 Lord Knight Eliwood w/ Spear
+0x06 Lord Knight Eliwood Disarmed
+0x07 Hector
+0x08 Hector w/ Hand Axe
+0x09 Hector Disarmed
+0x0A Great Lord Hector w/ Axe
+0x0B Great Lord Hector w/ Hand Axe
+0x0C Great Lord Hector w/ Armads
+0x0D Great Lord Hector w/ Sword
+0x0E Great Lord Hector Disarmed
+0x0F Lyn
+0x10 Lyn Disarmed
+0x11 Blade Lord Lyn w/ Sword
+0x12 Blade Lord Lyn w/ Sol Katti
+0x13 Blade Lord Lyn w/ Bow
+0x14 Blade Lord Lyn Disarmed
+0x15 Mountain Thief
+0x16 Mountain Thief w/ Hand Axe
+0x17 Mountain Thief Disarmed
+0x18 Pirate
+0x19 Pirate w/ Hand Axe
+0x1A Pirate Disarmed
+0x1B Hawkeye
+0x1C Hawkeye w/ Hand Axe
+0x1D Hawkeye Disarmed
+0x1E Fighter
+0x1F Fighter w/ Hand Axe
+0x20 Fighter Disarmed
+0x21 Warrior w/ Axe
+0x22 Warrior w/ Hand Axe
+0x23 Warrior w/ Bow
+0x24 Warrior Disarmed
+0x25 Archer
+0x26 Archer Disarmed
+0x27 Archer (F)
+0x28 Archer (F) Disarmed
+0x29 Sniper
+0x2A Sniper Disarmed
+0x2B Sniper (F)
+0x2C Sniper (F) Disarmed
+0x2D Mercenary
+0x2E Mercenary Disarmed
+0x2F Hero w/ Sword
+0x30 Hero w/ Axe
+0x31 Hero w/ Hand Axe
+0x32 Hero Disarmed
+0x33 Swordfighter
+0x34 Swordfighter Disarmed
+0x35 Swordmaster
+0x36 Swordmaster Disarmed
+0x37 Lloyd
+0x38 Lloyd Disarmed
+0x39 Swordmaster (F)
+0x3A Swordmaster (F) Disarmed
+0x3B Socialknight w/ Spear
+0x3C Socialknight w/ Sword
+0x3D Socialknight Disarmed
+0x3E Socialknight w/ Spear (again?)
+0x3F Assassin Legault
+0x40 Assassin Legault Disarmed
+0x41 Paladin w/ Axe
+0x42 Paladin w/ Hand Axe
+0x43 Paladin w/ Sword
+0x44 Paladin w/ Spear
+0x45 Paladin Disarmed
+0x46 Paladin w/ Axe
+0x47 Paladin w/ Hand Axe
+0x48 Paladin w/ Sword
+0x49 Paladin w/ Spear
+0x4A Paladin Disarmed
+0x4B Isadora w/ Axe
+0x4C Isadora w/ Hand Axe
+0x4D Isadora w/ Sword
+0x4E Isadora w/ Spear
+0x4F Isadora Disarmed
+0x50 Soldier
+0x51 Soldier Disarmed
+0x52 Armour Knight
+0x53 Armour Knight Disarmed
+0x54 General w/ Spear
+0x55 General w/ Axe
+0x56 General w/ Hand Axe
+0x57 General Disarmed
+0x58 Mage
+0x59 Nino
+0x5A Sage
+0x5B Sage w/ Staff
+0x5C Sage (F)
+0x5D Sage (F) w/ Staff
+0x5E Sage Nino
+0x5F Sage Nino w/ Staff
+0x60 Priest
+0x61 Priest Disarmed
+0x62 Serra
+0x63 Serra Disarmed
+0x64 Monk
+0x65 Bishop
+0x66 Bishop w/ Staff
+0x67 Bishop Serra
+0x68 Bishop Serra w/ Staff
+0x69 Shaman
+0x6A Druid
+0x6B Druid w/ Staff
+0x6C Dark Druid
+0x6D Dark Druid w/ Staff (messed up)
+0x6E Troubadour
+0x6F Troubadour Disarmed
+0x70 Valkyrie
+0x71 Valkyrie w/ Staff
+0x72 Athos
+0x73 Athos w/ Staff
+0x74 Nomad
+0x75 Nomad Disarmed
+0x76 Nomad Trooper w/ Sword
+0x77 Nomad Trooper w/ Bow
+0x78 Nomad Trooper Disarmed
+0x79 Thief
+0x7A Thief Disarmed
+0x7B Legault
+0x7C Legault Disarmed
+0x7D Leila
+0x7E Leila Disarmed
+0x7F Assassin
+0x80 Assassin Disarmed
+0x81 Pegasus Knight
+0x82 Pegasus Knight Disarmed
+0x83 Falcon Knight w/ Sword
+0x84 Falcon Knight w/ Spear
+0x85 Falcon Knight Disarmed
+0x86 Dragon Knight
+0x87 Dragon Knight Disarmed
+0x88 Dragon Master w/ Spear
+0x89 Dragon Master w/ Sword
+0x8A Dragon Master Disarmed
+0x8B Fire Dragon
+0x8C Archer on Ballista (unused, but still here from FE6)
+0x8D Dancer
+0x8E Bard
+0x8F Lucius
+0x90 Hero w/ Coat w/ Sword
+0x91 Hero w/ Coat w/ Axe
+0x92 Hero w/ Coat w/ Hand Axe
+0x93 Hero w/ Coat Disarmed
+0x94 Bishop Lucius
+0x95 Bishop Lucius w/ Staff
+0x96 Bishop Lucius Disarmed
+0x97 Bishop Disarmed
+0x98 Serra Disarmed
+0x99 Guy
+0x9A Guy Disarmed
+0x9B Swordmaster Guy
+0x9C Guy Disarmed
+0x9D Berserker
+0x9E Berserker w/ Hand Axe
+0x9F Berserker Disarmed
+0xA0 Magic Seal
+0xA1 Tent
+0xA2 Transporter

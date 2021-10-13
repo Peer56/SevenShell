@@ -1,0 +1,9 @@
+By FireBlazer/Keriku
+
+To use, simply change the pointers to a set of 4 0's.
+
+setting it to 0x080000b4 will work but if possible use another set of 00's somewhere else.
+
+If it by some chance doesn't work, try using hard mode instead. =/
+
+Enjoy. ^_^

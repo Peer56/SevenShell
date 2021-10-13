@@ -1,0 +1,202 @@
+0x01 Sacae Plains
+0x02 Sacae Plains: Light Sand Palette
+0x03 Sacae Plains Config
+0x04 Prologue Map
+0x05 Water (Fields; Plains; M&S) Tile Anim
+0x06 Prologue Events 
+0x07 Sacae Plains: Dark Sand Palette
+0x08 Ch.1 Map
+0x09 Ch.1 Events 
+0x0A Plains&Castle
+0x0B Plains&Castle: Bright Palette
+0x0C Plains&Castle Config
+0x0D Ch.2 Map
+0x0E Ch.2 Map Changes
+0x0F Ch.2 Events 
+0x10 Town&Docks
+0x11 Town: Cliffs&stone road unusable Palette
+0x12 Town&Docks Config
+0x13 Ch.3 Map
+0x14 Ch.3 Map Changes
+0x15 Ch.3 Events 
+0x16 Fortress&Fields
+0x17 Fortress&Fields: Dawn Palette
+0x18 Fortress&Fields Config
+0x19 Ch.4 Map
+0x1A Ch.4 Map Changes
+0x1B Ch.4 Events 
+0x1C Fields
+0x1D Fields
+0x1E Fields: Sunny weather Palette
+0x1F Fields Config
+0x20 Ch.5 Map
+0x21 Ch.5 Events 
+0x22 Town: Cliffs&ship unusable Palette
+0x23 Ch.6 Map
+0x24 Ch.6 Map Changes
+0x25 Ch.6 Events 
+0x26 Ch.7 Map
+0x27 Ch.7 Map Changes
+0x28 Ch.7 Events 
+0x29 Plains&Castle: Neutral Palette
+0x2A Ch.7x Map
+0x2B Ch.7x Map Changes
+0x2C Ch.7x Events 
+0x2D Ch.8 Map
+0x2E Ch.8 Map Changes
+0x2F Ch.8 Events 
+0x30 Ch.9 Map
+0x31 Ch.9 Map Changes
+0x32 Ch.9 Events 
+0x33 Fields: Darker; suitable for rain Palette
+0x34 Ch.10 Map
+0x35 Ch.10 Map Changes
+0x36 Ch.10 Events 
+0x37 Ch.11E Map
+0x38 Ch.11E Map Changes
+0x39 Ch.11E Events 
+0x3A Plains&Castle: Castle Ostia/Laus Palette
+0x3B Ch.11H Map
+0x3C Ch.11H Map Changes
+0x3D Ch.11H Events 
+0x3E Ch.12 Map
+0x3F Ch.12 Map Changes
+0x40 Ch.12 Events 
+0x41 Ch.13 Map
+0x42 Ch.13 Map Changes
+0x43 Ch.13 Events 
+0x44 Fields: Night Palette
+0x45 Ch.13x Map
+0x46 Ch.13x Map Changes
+0x47 Ch.13x Events 
+0x48 Fields: Darker; suitable for rain Palette
+0x49 Ch.14 Map
+0x4A Ch.14 Map Changes
+0x4B Ch.14 Events 
+0x4C Ch.15H Map
+0x4D Ch.15H Map Changes
+0x4E Ch.15H Events 
+0x4F Ch.15/16 Map
+0x50 Ch.15/16 Map Changes
+0x51 Ch.15/16 Events 
+0x52 Plains&Castle: Castle Caelin Palette
+0x53 Ch.16/17 Map
+0x54 Ch.16/17 Map Changes
+0x55 Ch.16/17 Events 
+0x56 Town: Ship&stone road unusable Palette
+0x57 Ch.16x/17x Map
+0x58 Water (Town&Docks) Tile Anim
+0x59 Ch.16x/17x Map Changes
+0x5A Ch.16x/17x Events 
+0x5B Ship
+0x5C Ship Palette
+0x5D Ship Config
+0x5E Ch.17/18 Map
+0x5F Water (Ship) Tile Anim
+0x60 Ch.17/18 Map Changes
+0x61 Ch.17/18 Events 
+0x62 Fields: Dull; suitable for fog Palette
+0x63 Ch.18/19 Map
+0x64 Ch.18/19 Map Changes
+0x65 Ch.18/19 Events 
+0x66 Fields: Sunny weather Palette
+0x67 Ch.18x/19x Map
+0x68 Ch.18x/19x Map Changes
+0x69 Ch.18x/19x Events 
+0x6A Mountains&Shrine
+0x6B Mountains&Shrine: Neutral Palette
+0x6C Mountains&Shrine Config
+0x6D Ch.19x pt2 Map
+0x6E Ch.19x pt2 Map Changes
+0x6F Ch.19x pt2 Events 
+0x70 Ch.19/20 Map
+0x71 Ch.19/20 Map Changes
+0x72 Ch.19/20 Events 
+0x73 Town: Night Palette
+0x74 Ch.20/21 Map
+0x75 Ch.20/21 Map Changes
+0x76 Ch.20/21 Events 
+0x77 Fortress&Fields: Daytime Palette
+0x78 Ch.21/22 Map
+0x79 Ch.21/22 Map Changes
+0x7A Ch.21/22 Events 
+0x7B Desert
+0x7C Desert Palette
+0x7D Desert Config
+0x7E Ch.22/23 Map
+0x7F Ch.22/23 Events 
+0x80 Plains&Castle: Green&blue Palette
+0x81 Ch.22x/23x Map
+0x82 Ch.22x/23x Map Changes
+0x83 Ch.22x/23x Events 
+0x84 Ch.23/24 Map (Lloyd)
+0x85 Ch.23/24 Map Changes (Lloyd)
+0x86 Ch.23/24 (Lloyd) Events 
+0x87 Ch.23/24 Map (Linus)
+0x88 Ch.23/24 Map Changes (Linus)
+0x89 Ch.23/24 (Linus) Events 
+0x8A Fields: Neutral Palette
+0x8B Ch.25H Map
+0x8C Ch.25H Map Changes
+0x8D Ch.25H Events 
+0x8E Ch.24/26 Map
+0x8F Ch.24/26 Map Changes
+0x90 Ch.24/26 Events 
+0x91 Snow
+0x92 Snow Palette
+0x93 Snow Config
+0x94 Ch.25/27 Map (Kenneth)
+0x95 Ch.25/27 Map Changes (Kenneth)
+0x96 Ch.25/27 (Kenneth) Events 
+0x97 Ch.25/27 Map (Jerme)
+0x98 Shimmering ice (Snow) Tile Anim
+0x99 Ch.25/27 Map Changes (Jerme)
+0x9A Ch.25/27 (Jerme) Events 
+0x9B Plains&Castle: Night Palette
+0x9C Ch.26/28 Map
+0x9D Ch.26/28 Map Changes
+0x9E Ch.26/28 Events 
+0x9F Plains&Castle: Purple Palette
+0xA0 Ch.26x/28x Map
+0xA1 Water (Plains&Castle) Tile Anim
+0xA2 Ch.26x/28x Map Changes
+0xA3 Ch.26x/28x Events 
+0xA4 Ch.27/29 Map
+0xA5 Ch.27/29 Map Changes
+0xA6 Ch.27/29 Events 
+0xA7 Lava Cave
+0xA8 Lava Cave Palette
+0xA9 Lava Cave Config
+0xAA Ch.28E Map
+0xAB Lava (Lava Cave) Tile Anim
+0xAC Ch.28E Map Changes
+0xAD Ch.28E Events 
+0xAE Sand Cave
+0xAF Sand Cave Palette
+0xB0 Sand Cave Config
+0xB1 Ch.30H Map
+0xB2 Ch.30H Map Changes
+0xB3 Ch.30H Events 
+0xB4 Ch.29/31 Map
+0xB5 Ch.29/31 Map Changes
+0xB6 Ch.29/31 Events 
+0xB7 Town: Ship&stone road unusable Palette
+0xB8 Ch.29x/31x Map
+0xB9 Ch.29x/31x Events 
+0xBA Ch.30/32 Map
+0xBB Ch.30/32 Map Changes
+0xBC Ch.30/32 Events 
+0xBD Mountains&Shrine: No plains Palette
+0xBE Ch.32x Map
+0xBF Ch.32x Map Changes
+0xC0 Ch.32x Events 
+0xC1 Dragon's Gate
+0xC2 Dragon's Gate Palette
+0xC3 Dragon's Gate Config
+0xC4 Final Ch. pt1 Map
+0xC5 Gate and flames (Dragon's Gate) Tile Anim
+0xC6 Final Ch. pt1 Map Changes
+0xC7 Final Ch. pt1 Events 
+0xC8 Final Ch. pt2 Map
+0xC9 Final Ch. pt2 Map Changes
+0xCA Final Ch. pt2 Events

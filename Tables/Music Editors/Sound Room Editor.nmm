@@ -1,0 +1,34 @@
+#FE7 Sound Room Editor by Blazer
+
+1
+FE7 Sound Room Editor by Blazer
+0xCE4D28
+64
+16
+NULL
+NULL
+
+Song
+0
+1
+NDHU
+Music.txt
+
+Song Length (0x30=~1 Second)
+4
+4
+NEHU
+NULL
+
+ASM Pointer
+
+8
+4
+NEHU
+NULL
+
+Text Pointer
+12
+4
+NEHU
+NULL

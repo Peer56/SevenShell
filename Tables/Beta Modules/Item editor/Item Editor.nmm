@@ -1,0 +1,167 @@
+#FE7 Item Editor by SpyroDi
+#
+
+1
+FE7 Beta Item Editor by Arch and Nintenlord
+0xB7D5B4
+159
+36
+FE7 Item Editor.txt
+NULL
+
+Item Name Pointer
+0
+2
+NEHU
+NULL
+
+
+Item Description Pointer
+2
+2
+NEHU
+NULL
+
+Use Item Description Pointer
+4
+2
+NEHU
+NULL
+
+Item Number
+6
+1
+NDHU
+Item List.txt
+
+Weapon Type
+7
+1
+NDDU
+Weapon Type.txt
+
+Weapon Ability 1
+8
+1
+NDHU
+Weapon Ability 1.txt
+
+Weapon Ability 2
+9
+1
+NDHU
+Weapon Ability 2.txt
+
+Weapon Ability 3
+10
+1
+NDHU
+Weapon Ability 3.txt
+
+Weapon Ability 4
+11
+1
+NDHU
+Weapon Ability 4.txt
+
+Stat Bonuses Pointer
+12
+4
+NDHU
+Stat Boost Pointers.txt
+
+Effectiveness
+16
+4
+NDHU
+Effectiveness Pointers.txt
+
+Durability
+20
+1
+NEDU
+NULL
+
+Power
+21
+1
+NEDU
+NULL
+
+Hit%
+22
+1
+NEDU
+NULL
+
+Weight
+23
+1
+NEDU
+NULL
+
+Critical%
+24
+1
+NEDU
+NULL
+
+Minimum - Maximum Range
+25
+1
+NEHU
+NULL
+
+Cost Per Use (0 = Unsellable)
+26
+2
+NEDU
+NULL
+
+Weapon Rank
+28
+1
+NDDU
+Weapon Rank.txt
+
+Item Icon #
+29
+1
+NDHU
+Item Icons.txt
+
+Staff/Use Effect
+30
+1
+NDHU
+Staff&use effect.txt
+
+Weapon Effect
+31
+1
+NDHU
+Weapon Effect.txt
+
+Weapon Experience
+32
+1
+NEDU
+NULL
+
+***UNKNOWN***
+33
+1
+NEDU
+NULL
+
+***UNKNOWN*** (Zero)
+34
+1
+NEDU
+NULL
+
+***UNKNOWN*** (Zero)
+35
+1
+NEDU
+NULL

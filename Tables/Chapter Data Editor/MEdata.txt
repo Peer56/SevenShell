@@ -1,0 +1,49 @@
+48
+0x06 Prologue Events 
+0x09 Ch.1 Events 
+0x0F Ch.2 Events 
+0x15 Ch.3 Events 
+0x1B Ch.4 Events 
+0x21 Ch.5 Events 
+0x25 Ch.6 Events 
+0x28 Ch.7 Events 
+0x2C Ch.7x Events 
+0x2F Ch.8 Events 
+0x32 Ch.9 Events 
+0x36 Ch.10 Events 
+0x39 Ch.11E Events 
+0x3D Ch.11H Events 
+0x40 Ch.12 Events 
+0x43 Ch.13 Events 
+0x47 Ch.13x Events 
+0x4B Ch.14 Events 
+0x4E Ch.15H Events 
+0x51 Ch.15/16 Events 
+0x55 Ch.16/17 Events 
+0x5A Ch.16x/17x Events 
+0x61 Ch.17/18 Events 
+0x65 Ch.18/19 Events 
+0x69 Ch.18x/19x Events 
+0x6F Ch.19x pt2 Events 
+0x72 Ch.19/20 Events 
+0x76 Ch.20/21 Events 
+0x7A Ch.21/22 Events 
+0x7F Ch.22/23 Events 
+0x83 Ch.22x/23x Events 
+0x86 Ch.23/24 (Lloyd) Events 
+0x89 Ch.23/24 (Linus) Events 
+0x8D Ch.25H Events 
+0x90 Ch.24/26 Events 
+0x96 Ch.25/27 (Kenneth) Events 
+0x9A Ch.25/27 (Jerme) Events 
+0x9E Ch.26/28 Events 
+0xA3 Ch.26x/28x Events 
+0xA6 Ch.27/29 Events 
+0xAD Ch.28E Events 
+0xB3 Ch.30H Events 
+0xB6 Ch.29/31 Events 
+0xB9 Ch.29x/31x Events 
+0xBC Ch.30/32 Events 
+0xC0 Ch.32x Events 
+0xC7 Final Ch. pt1 Events 
+0xCA Final Ch. pt2 Events 

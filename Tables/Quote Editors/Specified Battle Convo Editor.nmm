@@ -1,0 +1,46 @@
+#Specified Battle Convo Editor (FE7) - By Icy Toast
+#
+
+1
+Specified Battle Convo Editor (FE7) - By Icy Toast
+0xC9EDA0
+56
+16
+NULL
+NULL
+
+Character #1
+0
+1
+NDHU
+Characters.txt
+
+Character #2
+1
+1
+NDHU
+Characters.txt
+
+Chapter
+2
+1
+NDHU
+Chapters.txt
+
+Convo Text
+4
+2
+NEHU
+NULL
+
+Event Data Pointer
+8
+4
+NEHU
+NULL
+
+Trigger ID (See Readme)
+12
+1
+NEHU
+NULL

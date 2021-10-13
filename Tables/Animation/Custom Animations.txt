@@ -1,0 +1,37 @@
+The animations are as follows, starting from C99058:
+Byte 1: Weapon Type
+Byte 2: 01* or 00**
+Byte 3: Animation#
+*01 if using a normal weapon.
+
+To designate an animation:
+Look at the Battle Animation Pointer in the Class Editor.
+put in 0x8(six byte address) to point to the address where
+the animation is listed at.
+
+**To make a custom animation for a certain weapon, take Eliwood's:
+84 00 04
+If Eliwood uses the Durandal (item #84), he will use animation #04.
+You have to put a 00 in the middle instead of 01, so the game
+doesn't get confused.
+You can also do this for characters that can use the Ballistas.
+
+To make a chain of animations:
+Each set of an animation takes up three bytes, and to go to the
+next animation, you must separate them with 00.
+
+Example:
+00 01 0F 00 09 01 10
+Lyn uses her sword animation when a sword is equipped,
+and the next animation is Lyn when she's disarmed.
+
+To separate animation chains, you must add a set of five 00s.
+
+Example:
+00 01 01 00 09 01 02 00 00 00 00 00 00 01 0F 00 09 01 10
+Eliwood comes before Lyn does; but to make sure animations don't
+collide and screw up the game, they have to be separated.
+
+Using empty space near the end of the ROM, it is very possible
+to make something similar to the Master Knight class from the
+Jugdral saga! At the very least, you could make Mage Fighters. :3

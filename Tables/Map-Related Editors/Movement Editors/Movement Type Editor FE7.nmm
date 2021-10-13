@@ -1,0 +1,400 @@
+#Movement type editor (FE7) - Credit to Keriku
+#
+
+1
+Movement Type Editor (FE7) - Credit to Fire Blazer
+0xBE3888
+49
+65
+Movement Types.txt
+NULL
+
+Tile Movement Point Cost
+0
+1
+NEDU
+NULL
+
+Plain Tile Movement Point Cost
+1
+1
+NEDU
+NULL
+
+Road Tile Movement Point Cost
+2
+1
+NEDU
+NULL
+
+Village Tile Movement Point Cost
+3
+1
+NEDU
+NULL
+
+Village Tile Movement Point Cost
+4
+1
+NEDU
+NULL
+
+House Tile Movement Point Cost
+5
+1
+NEDU
+NULL
+
+Armory Tile Movement Point Cost
+6
+1
+NEDU
+NULL
+
+Vendor Tile Movement Point Cost
+7
+1
+NEDU
+NULL
+
+Arena Tile Movement Point Cost
+8
+1
+NEDU
+NULL
+
+C. Room Tile Movement Point Cost
+9
+1
+NEDU
+NULL
+
+Fort Tile Movement Point Cost
+10
+1
+NEDU
+NULL
+
+Gate Tile Movement Point Cost
+11
+1
+NEDU
+NULL
+
+Forest Tile Movement Point Cost
+12
+1
+NEDU
+NULL
+
+Thicket Tile Movement Point Cost
+13
+1
+NEDU
+NULL
+
+Sand Tile Movement Point Cost
+14
+1
+NEDU
+NULL
+
+Desert Tile Movement Point Cost
+15
+1
+NEDU
+NULL
+
+River Tile Movement Point Cost
+16
+1
+NEDU
+NULL
+
+Mntn Tile Movement Point Cost
+17
+1
+NEDU
+NULL
+
+Peak Tile Movement Point Cost
+18
+1
+NEDU
+NULL
+
+Bridge Tile Movement Point Cost
+19
+1
+NEDU
+NULL
+
+Bridge Tile Movement Point Cost
+20
+1
+NEDU
+NULL
+
+Sea Tile Movement Point Cost
+21
+1
+NEDU
+NULL
+
+Lake Tile Movement Point Cost
+22
+1
+NEDU
+NULL
+
+Floor Tile Movement Point Cost
+23
+1
+NEDU
+NULL
+
+Floor Tile Movement Point Cost
+24
+1
+NEDU
+NULL
+
+Fence Tile Movement Point Cost
+25
+1
+NEDU
+NULL
+
+Wall Tile Movement Point Cost
+26
+1
+NEDU
+NULL
+
+Wall Tile Movement Point Cost
+27
+1
+NEDU
+NULL
+
+Rubble Tile Movement Point Cost
+28
+1
+NEDU
+NULL
+
+Pillar Tile Movement Point Cost
+29
+1
+NEDU
+NULL
+
+Door Tile Movement Point Cost
+30
+1
+NEDU
+NULL
+
+Throne Tile Movement Point Cost
+31
+1
+NEDU
+NULL
+
+Chest Tile Movement Point Cost
+32
+1
+NEDU
+NULL
+
+Chest Tile Movement Point Cost
+33
+1
+NEDU
+NULL
+
+Roof Tile Movement Point Cost
+34
+1
+NEDU
+NULL
+
+Gate Tile Movement Point Cost
+35
+1
+NEDU
+NULL
+
+Church Tile Movement Point Cost
+36
+1
+NEDU
+NULL
+
+Ruins Tile Movement Point Cost
+37
+1
+NEDU
+NULL
+
+Cliff Tile Movement Point Cost
+38
+1
+NEDU
+NULL
+
+Ballista Tile Movement Point Cost
+39
+1
+NEDU
+NULL
+
+Long B Tile Movement Point Cost
+40
+1
+NEDU
+NULL
+
+Killer B Tile Movement Point Cost
+41
+1
+NEDU
+NULL
+
+Flat Tile Movement Point Cost
+42
+1
+NEDU
+NULL
+
+Wreck Tile Movement Point Cost
+43
+1
+NEDU
+NULL
+
+Tile Movement Point Cost
+44
+1
+NEDU
+NULL
+
+Stairs Tile Movement Point Cost
+45
+1
+NEDU
+NULL
+
+Tile Movement Point Cost
+46
+1
+NEDU
+NULL
+
+Glacier Tile Movement Point Cost
+47
+1
+NEDU
+NULL
+
+Arena Tile Movement Point Cost
+48
+1
+NEDU
+NULL
+
+Valley Tile Movement Point Cost
+49
+1
+NEDU
+NULL
+
+Fence Tile Movement Point Cost
+50
+1
+NEDU
+NULL
+
+Snag Tile Movement Point Cost
+51
+1
+NEDU
+NULL
+
+Bridge Tile Movement Point Cost
+52
+1
+NEDU
+NULL
+
+Sky Tile Movement Point Cost
+53
+1
+NEDU
+NULL
+
+Deeps Tile Movement Point Cost
+54
+1
+NEDU
+NULL
+
+Ruins Tile Movement Point Cost
+55
+1
+NEDU
+NULL
+
+Inn Tile Movement Point Cost
+56
+1
+NEDU
+NULL
+
+Barrel Tile Movement Point Cost
+57
+1
+NEDU
+NULL
+
+Bone Tile Movement Point Cost
+58
+1
+NEDU
+NULL
+
+Dark Tile Movement Point Cost
+59
+1
+NEDU
+NULL
+
+Water Tile Movement Point Cost
+60
+1
+NEDU
+NULL
+
+Gunnel Tile Movement Point Cost
+61
+1
+NEDU
+NULL
+
+Deck Tile Movement Point Cost
+62
+1
+NEDU
+NULL
+
+Brace Tile Movement Point Cost
+63
+1
+NEDU
+NULL
+
+Mast Tile Movement Point Cost
+64
+1
+NEDU
+NULL

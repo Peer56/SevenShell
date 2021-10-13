@@ -1,0 +1,22 @@
+#include "EAstdlib.event"
+#include "CustomDefinitions.event"
+
+ORG FreeSpace
+
+//Text
+#include "Text/InstallTextData.event"
+MESSAGE Used text space ends at currentOffset
+
+//Tables
+#include "Tables/TableInstaller.event"
+MESSAGE Used table space ends at currentOffset
+
+//Engine Hacks
+//#include "Engine Hacks/_MasterHackInstaller.event"
+//MESSAGE Used hax space ends at currentOffset
+	
+//Events
+//#include "Events/_MasterEventInstaller.event"
+
+//Maps
+//#include "Maps/MasterMapInstaller.event"

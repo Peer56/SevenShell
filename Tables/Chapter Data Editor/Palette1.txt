@@ -1,0 +1,32 @@
+31
+0x02 Sacae Plains: Light Sand
+0x07 Sacae Plains: Dark Sand
+0x0B Plains&Castle: Bright
+0x3A Plains&Castle: Castle Ostia/Laus
+0x9B Plains&Castle: Night
+0x9F Plains&Castle: Purple
+0x29 Plains&Castle: Neutral
+0x52 Plains&Castle: Castle Caelin
+0x80 Plains&Castle: Green&blue
+0x1E Fields: Sunny weather
+0x33 Fields: Darker; suitable for rain
+0x44 Fields: Night
+0x48 Fields: Darker; suitable for rain
+0x62 Fields: Dull; suitable for fog
+0x66 Fields: Sunny weather
+0x8A Fields: Neutral
+0x11 Town: Cliffs&stone road unusable
+0x22 Town: Cliffs&ship unusable
+0x56 Town: Ship&stone road unusable
+0x73 Town: Night
+0xB7 Town: Ship&stone road unusable
+0x17 Fortress&Fields: Dawn
+0x77 Fortress&Fields: Daytime
+0x5C Ship
+0x6B Mountains&Shrine: Neutral
+0xBD Mountains&Shrine: No plains
+0x7C Desert
+0x92 Snow
+0xA8 Lava Cave
+0xAF Sand Cave
+0xC2 Dragon's Gate

@@ -1,0 +1,20 @@
+#FE7 Shop Editor
+#Change 0xCA0102 to the offset where you want to make the shop list.
+#Original shop editor by Raydonn.
+#Custom shop editor by FireBlazer/Keriku (still Raydonn's work, small edit).
+#Copy and paste for each custom shop, and don't forget to change the address!
+#Enjoy!
+
+1
+Custom Shop Editor by Fire Blazer (Originally by Raydonn)
+0xCA0102
+4
+2
+NULL
+NULL
+
+Item
+0
+1
+NDHU
+Item List.txt

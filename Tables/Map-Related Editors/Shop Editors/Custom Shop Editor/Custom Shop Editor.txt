@@ -1,0 +1,13 @@
+Custom Shop Editor by FireBlazer/Keriku
+
+Thank you to Icy Toast for some haxing knowledge.
+
+-------------------
+
+In order to make a custom shop, simply double-click the custom shop editor, and change
+the address (for example, 0xCA0102) to wherever your new shop is. Then open 
+in nightmare, and wala! Start editing. You don't have to use all the slots, of course.
+
+Remember that to make use of the shop you'll need to use events and have knowledge of them so if you don't, this custom editor (like most custom editors) probably isn't for you.
+
+-------------------

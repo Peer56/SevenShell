@@ -1,0 +1,228 @@
+0x01 Question mark circle on a shadowed box 
+0x02 Eliwood
+0x03 Angry Eliwood 
+0x04 Sad Eliwood 
+0x05 Eliwood dressed as a commoner
+0x06 Eliwood (Looking at you)
+0x07 Eliwood dressed as a commoner (Looking at you)
+0x08 Eliwood in noble clothing
+0x09 Happy Eliwood in noble clothing
+0x0A Happy Eliwood
+0x0B Old Eliwood
+0x0C Hector
+0x0D Angry Hector
+0x0E Sad Hector
+0x0F Hector dressed as a commoner
+0x10 Hector dressed as a commoner (Looking at you)
+0x11 Angry Hector dressed as a commoner
+0x12 Hector in noble clothing
+0x13 Hector in noble clothing (Looking at you)
+0x14 Hector (Looking at you)
+0x15 Old Hector (beard included)
+0x16 Lyn
+0x17 Lyn in deep thought
+0x18 Sad Lyn
+0x19 Lyn dressed as a commoner
+0x1A Lyn (Looking at you)
+0x1B Athos
+0x1C Ninian
+0x1D Possessed Ninian
+0x1E Sad Ninian
+0x1F Hawkeye
+0x20 Matthew
+0x21 Jaffar
+0x22 Angry Jaffar
+0x23 Raven
+0x24 Geitz
+0x25 Legault
+0x26 Karel
+0x27 Dorcas
+0x28 Bartre
+0x29 Oswin
+0x2A Dart
+0x2B Wil
+0x2C Guy
+0x2D Karla
+0x2E Rath
+0x2F Kent 
+0x30 Sain
+0x31 Lowen
+0x32 Marcus
+0x33 Florina
+0x34 Shy Florina
+0x35 Fiora
+0x36 Heath
+0x37 Vaida
+0x38 Erk
+0x39 Nino
+0x3A Pent
+0x3B Louise
+0x3C Canas
+0x3D Lucius
+0x3E Serra
+0x3F Priscilla
+0x40 Farina
+0x41 Nils
+0x42 Sad Nils
+0x43 Possessed Nils
+0x44 Nils deep in thought
+0x45 Renault
+0x46 Isadora
+0x47 Harken
+0x48 Rebecca
+0x49 Wallace
+0x4A Merlinus
+0x4B Hannah (Old fortune teller)
+0x4C Elenora
+0x4D Serious Elenora
+0x4E Uther
+0x4F Elbert
+0x50 Fargus
+0x51 Zephiel
+0x52 Guinevere
+0x53 Desmond
+0x54 Hellene
+0x55 Happy Hellene
+0x56 Murdock
+0x57 Leila
+0x58 Leila looking down with her eyes closed
+0x59 Hausen (Lyn's grandfather)
+0x5A Jan
+0x5B Natalie
+0x5C Bramimond
+0x5D Roland
+0x5E Durban
+0x5F Evil-faced Nergal (masked)
+0x60 Evil-faced Nergal #2 (masked)
+0x61 Nergal (Generic/unmasked)
+0x62 Eil Nergal (unmasked)
+0x63 Sonia
+0x64 Brendan
+0x65 Lloyd 
+0x66 Linus
+0x67 Limstella
+0x68 Ephidel
+0x69 Ephidel (hooded)
+0x6A Darin
+0x6B Erik
+0x6C Helman
+0x6D Marquess Araphen
+0x6E Groznyi
+0x6F Wire
+0x70 Zagan
+0x71 Boies
+0x72 Sealen
+0x73 Bauker
+0x74 Bernard
+0x75 Damian
+0x76 Zoldam
+0x77 Uhai
+0x78 Aion
+0x79 Georg
+0x7A Cameron
+0x7B Oleg
+0x7C Eubans
+0x7D Kishuna
+0x7E Paul
+0x7F Jasmine
+0x80 Pascal
+0x81 Kenneth
+0x82 Jerme
+0x83 Maxime
+0x84 Ursula
+0x85 Teodor
+0x86 Denning
+0x87 Kaim
+0x88 Batta
+0x89 Zugu
+0x8A Glass
+0x8B Migal
+0x8C Carjiga
+0x8D Bug
+0x8E Puzon
+0x8F Bool
+0x90 Heintz
+0x91 Beyard
+0x92 Yogi
+0x93 Eagler
+0x94 Lundgren
+0x95 Unlisted (Looks like a blue haired generic mercenary boss)
+0x96 Lloyd (Morph)
+0x97 Linus (Morph)
+0x98 Brendan (Morph)
+0x99 Uhai (Morph)
+0x9A Ursula (Morph)
+0x9B Kenneth (Morph)
+0x9C Darin (Morph)
+0x9D Jerme (Morph)
+0x9E Roy (Young)
+0x9F Lilina (Young)
+0xA0 Fa
+0xA1 Sophia
+0xA2 Bishop that gives Lyn the Mani Katti
+0xA3 Caelin servant that talks to you at the end of chapter 10
+0xA4 Caelin servant that talks to you at the end of chapter 10 looking relieved
+0xA5 Generic Blue Soldier
+0xA6 Generic Red Soldier
+0xA7 Generic Gray Soldier
+0xA8 Generic Bronze Soldier
+0xA9 Random male citizen (Balding man with moustache)
+0xAA Random male citizen (Green hair and moustache)
+0xAB Random male citizen (The above, recolored with brown hair)
+0xAC Random male citizen (Scrawny, older man with a moustache) 
+0xAD Random female citizen (Older lady with her hair in a bun)
+0xAE Random female citizen (Younger lady with freckles)
+0xAF Random female citizen (Younger lady with long hair)
+0xB0 Random male citizen (Younger man with short hair)
+0xB1 Random male citizen (Younger man with freckles)
+0xB2 Random male citizen (Boy with short blond hair)
+0xB3 Random male citizen (Boy with short ruddy [Reddish orange] hair)
+0xB4 Random female citizen (Little girl with brown pigtails)
+0xB5 Random female citizen (Younger lady with long orange hair)
+0xB6 Random male citizen (Old man with a short beard)
+0xB7 Random female citizen (Old lady with a hood and grey hair)
+0xB8 Random female citizen (same as above, only recolored, and with brown hair)
+0xB9 Random male citizen (Younger with orange hair)
+0xBA Random enemy assassin/Black fang member
+0xBB Random enemy hero/thug (looks like it could be a boss, but no name was attached to it)
+0xBC Random enemy brigand (headband and buckteeth)
+0xBD Random enemy brigand (Sideburns)
+0xBE Enemy Swordfighter card
+0xBF Enemy Swordmaster card
+0xC0 Enemy Fighter card
+0xC1 Enemy Warrior card
+0xC2 Enemy Knight card
+0xC3 Enemy General card
+0xC4 Enemy Archer card
+0xC5 Enemy Sniper card
+0xC6 Enemy Cleric card
+0xC7 Enemy Bishop card
+0xC8 Enemy Mage card
+0xC9 Enemy Sage card
+0xCA Enemy Shaman card
+0xCB Enemy Druid card
+0xCC Enemy Cavalier card
+0xCD Enemy Paladin card
+0xCE Enemy Troubadour card
+0xCF Enemy Valkyrie card
+0xD0 Enemy Nomad card
+0xD1 Enemy Nomadic Trooper card
+0xD2 Enemy Pegasus card
+0xD3 Enemy Falcon Knight card
+0xD4 Enemy Dragon Knight card
+0xD5 Enemy Dragon Master card
+0xD6 Enemy Soldier card
+0xD7 Enemy Brigand card
+0xD8 Enemy Pirate card
+0xD9 Enemy Berserker card
+0xDA Enemy Thief card
+0xDB Enemy Mamkute card
+0xDC Enemy Mercenary card
+0xDD Enemy Hero card
+0xDE Enemy Fire Dragon card
+0xDF Anna
+0xE0 Jake
+0xE1 Armory man (not a full sized portrait)
+0xE2 Arena man (not a full sized portrait)
+0xE3 Shop girl (not a full sized portrait)
+0xE4 Anna (Secret shop)

@@ -1,0 +1,109 @@
+#This is a blank chapter unit editor.
+#Change the title "Chapter Unit Editor" to include the name or # of your chapter or whatever.
+#"0xD00000" should be changed to wherever your units are going to be. You have to change this before you start making the units.
+#"100" should be changed to the amount of slots (units) you want.
+#Remember to do all that and then you have a module ready to make custom units.
+
+1
+Chapter Unit Editor
+0xD00000
+100
+16
+NULL
+NULL
+
+Character Reference Number
+0
+1
+NDHU
+Character List.txt
+
+Starting Class
+1
+1
+NDHU
+Class List.txt
+
+Character's Leader
+2
+1
+NDHU
+Character List.txt
+
+Starting Level
+3
+1
+NDHU
+Starting Level.txt
+
+Loading X Co-ordinate
+4
+1
+NEDU
+NULL
+
+Loading Y Co-ordinate
+5
+1
+NEDU
+NULL
+
+Start X Co-Ordinate
+6
+1
+NEHU
+NULL
+
+Start Y Co-Ordinate
+7
+1
+NEHU
+NULL
+
+Slot Item 1
+8
+1
+NDHU
+Item List.txt
+
+Slot Item 2
+9
+1
+NDHU
+Item List.txt
+
+Slot Item 3
+10
+1
+NDHU
+Item List.txt
+
+Slot Item 4
+11
+1
+NDHU
+Item List.txt
+
+AI 1
+12
+1
+NDHU
+NPCAI1.txt
+
+AI 2
+13
+1
+NDHU
+NPCAI2.txt
+
+AI 3
+14
+1
+NDHU
+NPCAI3.txt
+
+AI 4
+15
+1
+NDHU
+NPCAI4.txt

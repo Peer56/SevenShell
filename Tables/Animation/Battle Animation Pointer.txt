@@ -1,0 +1,68 @@
+67
+0x00 - No amimation
+0x8C99058 - Eliwood Lord
+0x8C99064 - Lyn Lord
+0x8C99070 - Hector Lord
+0x8C990B0 - Knight Lord
+0x8C990C4 - Blade Lord
+0x8C990D8 - Great Lord
+0x8C990F4 - Mercenary
+0x8C99100 - Hero
+0x8C99118 - Hero (F)
+0x8C99130 - Myrmidon
+0x8C9913C - Myrmidon (F)
+0x8C99148 - Swordmaster
+0x8C99154 - Swordmaster (F)
+0x8C99160 - Fighter
+0x8C99174 - Warrior
+0x8C9918C - Knight
+0x8C99198 - Knight (F)
+0x8C991A4 - General
+0x8C991BC - General (F)
+0x8C991D4 - Archer
+0x8C991EC - Archer (F)
+0x8C99204 - Sniper
+0x8C9921C - Sniper (F)
+0x8C99234 - Monk
+0x8C99248 - Cleric
+0x8C99254 - Bishop
+0x8C9926C - Bishop (F)
+0x8C99284 - Mage
+0x8C99298 - Mage (F)
+0x8C992AC - Sage
+0x8C992C4 - Sage (F)
+0x8C992DC - Shaman
+0x8C992F0 - Shaman (F)
+0x8C99304 - Druid
+0x8C9931C - Druid (F)
+0x8C99334 - Cavalier
+0x8C99344 - Cavalier (F)
+0x8C99354 - Paladin
+0x8C99370 - Paladin (F)
+0x8C9938C - Troubador
+0x8C99398 - Valkyrie
+0x8C993B0 - Nomad
+0x8C993BC - Nomad (F)
+0x8C993C8 - Nomad Trooper
+0x8C993D8 - Nomad Trooper (F)
+0x8C993E8 - Pegasus Knight
+0x8C993F4 - Falco Knight
+0x8C99404 - Wyvern Rider
+0x8C99410 - Wyvern Rider (F)
+0x8C9941C - Wyvern Lord
+0x8C9942C - Wyvern Lord (F)
+0x8C9943C - Soldier
+0x8C99448 - Brigand
+0x8C9945C - Pirate
+0x8C99470 - Berserker
+0x8C99484 - Thief
+0x8C99490 - Thief (F)
+0x8C9949C - Assassin
+0x8C994A8 - Dancer
+0x8C994CC - Bard
+0x8C994F0 - Archsage
+0x8C99508 - Tent
+0x8C99510 - Dark Druid
+0x8C99528 - Fire Dragon
+0x8C99534 - Corsair
+0x8C99554 - Transporter

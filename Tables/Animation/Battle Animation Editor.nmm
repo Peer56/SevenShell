@@ -1,0 +1,34 @@
+#Battle Animation Editor by Fire Blazer
+#
+
+1
+FE7 Battle Animation Editor by Fire Blazer
+0xC99058
+412
+4
+NULL
+NULL
+
++00 Weapon Type
+0
+1
+NDHU
+Animation Types.txt
+
++01 All weapons or a certain one?
+1
+1
+NDDU
+Weapon Animation Type.txt
+
++02 Animation Played
+2
+1
+NDHU
+Animation List.txt
+
++03 Separator (always zero)
+3
+1
+NDDU
+Always Zero.txt

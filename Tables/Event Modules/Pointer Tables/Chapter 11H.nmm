@@ -1,0 +1,106 @@
+#FE 7 Pointer Table Editor
+#Hacking info credit to Icy Toast
+
+1
+Chapter 11H Table Editor by Fire Blazer/Keriku- Credit to Icy Toast
+0xca1a34
+1
+64
+NULL
+NULL
+
+Turn Count Events
+0
+4
+NEHU
+NULL
+
+Character-Related Events
+4
+4
+NEHU
+NULL
+
+Location-Based Events
+8
+4
+NEHU
+NULL
+
+Other (Unknown) Events
+12
+4
+NEHU
+NULL
+
+Ballista Data (Eliwood)
+16
+4
+NEHU
+NULL
+
+Ballista Data (Hector)
+20
+4
+NEHU
+NULL
+
+Enemy Unit Data (Eliwood Normal)
+24
+4
+NEHU
+NULL
+
+Enemy Unit Data (Eliwood Hard)
+28
+4
+NEHU
+NULL
+
+Enemy Unit Data (Hector Normal)
+32
+4
+NEHU
+NULL
+
+Enemy Unit Data (Hector Hard)
+36
+4
+NEHU
+NULL
+
+Player Unit Data (Eliwood Normal)
+40
+4
+NEHU
+NULL
+
+Player Unit Data (Eliwood Hard)
+44
+4
+NEHU
+NULL
+
+Player Unit Data (Hector Normal)
+48
+4
+NEHU
+NULL
+
+Player Unit Data (Hector Hard)
+52
+4
+NEHU
+NULL
+
+Chapter Beginning Scene
+56
+4
+NEHU
+NULL
+
+Chapter End Scene
+60
+4
+NEHU
+NULL

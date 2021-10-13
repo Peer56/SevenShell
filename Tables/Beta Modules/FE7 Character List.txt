@@ -1,0 +1,254 @@
+None
+Eliwood
+Hector
+Lyn (tutorial)
+Raven
+Geitz
+Guy
+Karel
+Dorcas
+Bartre
+Citizen
+Oswin
+Fargus
+Wil (tutorial)
+Rebecca
+Louise
+Lucius
+Serra
+Renault
+Erk
+Nino
+Pent
+Canas
+Kent (tutorial)
+Sain (tutorial)
+Lowen
+Marcus
+Priscilla
+Rath (tutorial)
+Florina (tutorial)
+Fiora
+Farina
+Heath
+Vaida
+Hawkeye
+Matthew
+Jaffar
+Ninian
+Nils
+Athos
+Merlinus
+Nils (Final Chapter)
+Uther
+Vaida (Boss)
+Wallace
+Lyn (Not tutorial)
+Wil (Not tutorial)
+Kent (Not tutorial)
+Sain (Not tutorial)
+Florina (Not tutorial)
+Rath (Not tutorial)
+Dart
+Isadora
+Elenora
+Legault
+Karla
+Harken
+Leila
+Bramimond
+Kishuna
+Groznyi
+Wire
+Bandit
+Zagan
+Boies
+Puzon
+Bandit
+Santals
+Nergal
+Erik
+Sealen
+Bauker
+Bernard
+Damian
+Zoldam
+Uhai
+Aion
+Darin
+Cameron
+Oleg
+Eubans
+Ursula
+Black Fang
+Paul
+Jasmine
+Black Fang
+Jerme (Morph)
+Pascal
+Kenneth
+Jerme
+Maxime
+Sonia
+Teodor
+Georg
+Kaim
+Merc
+Denning
+Bern
+Morph
+Lloyd (1)
+Linus (1)
+Lloyd (2)
+Linus (2)
+Bandit
+Bandit
+Bandit
+Laus
+Laus
+Pirate
+Black Fang
+Black Fang
+Ostia
+Black Fang
+Guardian
+Morph
+Morph
+Morph
+Caelin
+Caelin
+Caelin
+Laus
+Laus
+Zephiel
+Elbert
+Black Fang
+Black Fang
+Black Fang
+Morph
+Morph
+Morph
+Morph
+Black Fang
+Brendan
+Limstella
+Dragon
+Batta
+Bandit
+Zugu
+Bandit
+Bandit
+Bandit
+Glass
+Migal
+Bandit
+Bandit
+Bandit
+Bandit
+Bandit
+Carjiga
+Bandit
+Bandit
+Bandit
+Bandit
+Bug
+Bandit
+Bandit
+Bandit
+Bandit
+Natalie
+Bool
+Bandit
+Bandit
+Bandit
+Bandit
+Bandit
+Bandit
+Heintz
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Beyard
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Black Fang
+Yogi
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Eagler
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Lundgren
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Caelin
+Tactician
+Citizen
+Citizen
+Citizen
+Citizen
+Citizen
+Citizen
+Citizen
+Citizen
+Citizen
+Merc
+Pirate
+Bandit
+Citizen
+Citizen
+Citizen
+Black Fang
+Black Fang
+Bandit
+Black Fang
+Morph
+Black Fang
+Black Fang
+Bandit
+Ostia
+Rath's unit
+Bandit
+Bandit
+Bern
+Guardian
+Morph
+Laus
+Bandit
+Bandit
+Bern
+Guardian
+Morph
+Guardian
+Black Fang
+Lloyd (Morph)
+Linus (Morph)
+Brendan (Morph)
+Uhai (Morph)
+Ursula (Morph)
+Kenneth (Morph)
+Darin (Morph)
+Enemy
+Wall
+Snag

@@ -1,0 +1,47 @@
+43
+0x00 - No Stat boost
+0x8C98FA4 - Angelic Robe (+7 HP)
+0x8C98FB0 - Energy Ring (+2 Str)
+0x8C98FBC - Skill Book (+2 Skill)
+0x8C98FC8 - Speedwings (+2 Spd)
+0x8C98FD4 - Goddess Icon (+2 Luck)
+0x8C98FE0 - Dragonshield (+2 Def)
+0x8C98FEC - Talisman (+2 Res)
+0x8C98FF8 - Move bonus
+0x8C99004 - Constitution Bonus
+0x8C99010 - Vaida's Spear
+0x8C9901C - Durandal
+0x8C99028 - Armads
+0x8C99034 - Aureola
+0x8C9904C - Dragon Stone
+0x8C98F98 - Forblaze (+5 Luck)
+0x8FFF2A0 - +10 Luck
+0x8FFF2A8 - Custom
+0x8FFF2B0 - Custom
+0x8FFF2B8 - Custom
+0x8FFF2C0 - Custom
+0x8FFF2C8 - Custom
+0x8FFF2D0 - Custom
+0x8FFF2D8 - Custom
+0x8FFF2E0 - Custom
+0x8FFF2E8 - Custom
+0x8FFF2F0 - Custom
+0x8FFF2F8 - Custom
+0x8FFF300 - Custom
+0x8FFF308 - Custom
+0x8FFF310 - Custom
+0x8FFF318 - Custom
+0x8FFF320 - Custom
+0x8FFF328 - Custom
+0x8FFF330 - Custom
+0x8FFF338 - Custom
+0x8FFF340 - Custom
+0x8FFF348 - Custom
+0x8FFF350 - Custom
+0x8FFF358 - Custom
+0x8FFF360 - Custom
+0x8FFF368 - Custom
+0x8FFF370 - Custom
+0x8FFF378 - Custom
+0x8FFF380 - Custom
+0x8FFF388 - Custom

@@ -1,0 +1,14 @@
+By Fire Blazer/Keriku
+
+Event data information credit to Icy Toast.
+
+----------------
+
+In order to use this, simply change the pointer to wherever your new, custom shop
+is/will be. This way the game will know where your new shop list is. ^_^
+
+In order to make a custom shop, simply double-click the custom shop editor, and change
+the address (for example, 0xCA0102) to wherever your new shop is. Then open 
+in nightmare, and wala! Start editing. You don't have to use all the slots, of course.
+
+----------------

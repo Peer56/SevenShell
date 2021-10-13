@@ -1,0 +1,8 @@
+7
+0x00 None
+0x8BE44F9 Avoid bonus
+0x8BE453A Defence bonus
+0x8BE457B Resistance bonus
+0x8BE45BC Avoid bonus (flyers)
+0x8BE45FD Defence bonus (flyers)
+0x8BE463E Resistance bonus (flyers)

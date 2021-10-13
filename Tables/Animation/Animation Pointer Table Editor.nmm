@@ -1,0 +1,43 @@
+1
+FE 7 Animation Pointer Table Editor by Keriku, updated by Nintenlord
+0xE00008
+256
+32
+Animation Pointer Table Editor.txt
+NULL
+
+Header
+0
+12
+TEXT
+NULL
+
+Mode divider
+12
+4
+NEHU
+NULL
+
+Frame data.
+16
+4
+NEHU
+NULL
+
+Right X Y Position
+20
+4
+NEHU
+NULL
+
+Left X Y Position
+24
+4
+NEHU
+NULL
+
+Palette
+28
+4
+NEHU
+NULL

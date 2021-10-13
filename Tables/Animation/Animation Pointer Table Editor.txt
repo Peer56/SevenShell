@@ -1,0 +1,162 @@
+Eliwood
+Eliwood Disarmed
+Lord Knight Eliwood w/ Sword
+Lord Knight Eliwood w/ Durandal
+Lord Knight Eliwood w/ Spear
+Lord Knight Eliwood Disarmed
+Hector
+Hector w/ Hand Axe
+Hector Disarmed
+Great Lord Hector w/ Axe
+Great Lord Hector w/ Hand Axe
+Great Lord Hector w/ Armads
+Great Lord Hector w/ Sword
+Great Lord Hector Disarmed
+Lyn
+Lyn Disarmed
+Blade Lord Lyn w/ Sword
+Blade Lord Lyn w/ Sol Katti
+Blade Lord Lyn w/ Bow
+Blade Lord Lyn Disarmed
+Mountain Thief
+Mountain Thief w/ Hand Axe
+Mountain Thief Disarmed
+Pirate
+Pirate w/ Hand Axe
+Pirate Disarmed
+Hawkeye
+Hawkeye w/ Hand Axe
+Hawkeye Disarmed
+Fighter
+Fighter w/ Hand Axe
+Fighter Disarmed
+Warrior w/ Axe
+Warrior w/ Hand Axe
+Warrior w/ Bow
+Warrior Disarmed
+Archer
+Archer Disarmed
+Archer (F)
+Archer (F) Disarmed
+Sniper
+Sniper Disarmed
+Sniper (F)
+Sniper (F) Disarmed
+Mercenary
+Mercenary Disarmed
+Hero w/ Sword
+Hero w/ Axe
+Hero w/ Hand Axe
+Hero Disarmed
+Swordfighter
+Swordfighter Disarmed
+Swordmaster
+Swordmaster Disarmed
+Lloyd
+Lloyd Disarmed
+Swordmaster (F)
+Swordmaster (F) Disarmed
+Socialknight w/ Spear
+Socialknight w/ Sword
+Socialknight Disarmed
+Socialknight w/ Spear (again?)
+Assassin Legault
+Assassin Legault Disarmed
+Paladin w/ Axe
+Paladin w/ Hand Axe
+Paladin w/ Sword
+Paladin w/ Spear
+Paladin Disarmed
+Paladin w/ Axe
+Paladin w/ Hand Axe
+Paladin w/ Sword
+Paladin w/ Spear
+Paladin Disarmed
+Isadora w/ Axe
+Isadora w/ Hand Axe
+Isadora w/ Sword
+Isadora w/ Spear
+Isadora Disarmed
+Soldier
+Soldier Disarmed
+Armour Knight
+Armour Knight Disarmed
+General w/ Spear
+General w/ Axe
+General w/ Hand Axe
+General Disarmed
+Mage
+Nino
+Sage
+Sage w/ Staff
+Sage (F)
+Sage (F) w/ Staff
+Sage Nino
+Sage Nino w/ Staff
+Priest
+Priest Disarmed
+Serra
+Serra Disarmed
+Monk
+Bishop
+Bishop w/ Staff
+Bishop Serra
+Bishop Serra w/ Staff
+Shaman
+Druid
+Druid w/ Staff
+Dark Druid
+Dark Druid w/ Staff (messed up)
+Troubadour
+Troubadour Disarmed
+Valkyrie
+Valkyrie w/ Staff
+Athos
+Athos w/ Staff
+Nomad
+Nomad Disarmed
+Nomad Trooper w/ Sword
+Nomad Trooper w/ Bow
+Nomad Trooper Disarmed
+Thief
+Thief Disarmed
+Legault
+Legault Disarmed
+Leila
+Leila Disarmed
+Assassin
+Assassin Disarmed
+Pegasus Knight
+Pegasus Knight Disarmed
+Falcon Knight w/ Sword
+Falcon Knight w/ Spear
+Falcon Knight Disarmed
+Dragon Knight
+Dragon Knight Disarmed
+Dragon Master w/ Spear
+Dragon Master w/ Sword
+Dragon Master Disarmed
+Fire Dragon
+Archer on Ballista (unused, but still here from FE6)
+Dancer
+Bard
+Lucius
+Hero w/ Coat w/ Sword
+Hero w/ Coat w/ Axe
+Hero w/ Coat w/ Hand Axe
+Hero w/ Coat Disarmed
+Bishop Lucius
+Bishop Lucius w/ Staff
+Bishop Lucius Disarmed
+Bishop Disarmed
+Serra Disarmed
+Guy
+Guy Disarmed
+Swordmaster Guy
+Guy Disarmed
+Berserker
+Berserker w/ Hand Axe
+Berserker Disarmed
+Magic Seal
+Tent
+Transporter

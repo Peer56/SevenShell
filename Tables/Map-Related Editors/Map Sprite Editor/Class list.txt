@@ -1,0 +1,100 @@
+Eliwood Lord
+Lyn Lord
+Hector Lord
+Eliwood Lord Knight (only by class name)
+Lyn Blade Lord (only by class name)
+Hector Great Lord (only by class name)
+Eliwood Lord Knight
+Lyn Blade Lord
+Hector Great Lord
+Mercenary
+Mercenary (F)
+Hero
+Hero (F)
+Swordfighter
+Swordfighter (F)
+Swordmaster
+Swordmaster (F)
+Fighter
+Warrior
+Armour Knight
+Armour Knight (F)
+General
+General (F)
+Archer
+Archer (F)
+Sniper
+Sniper (F)
+Monk
+Sister
+Bishop
+Bishop (F)
+Mage
+Mage (F)
+Sage
+Sage (F)
+Shaman
+Shaman (F)
+Druid
+Druid (F)
+Socialknight
+Socialknight (F)
+Paladin
+Paladin (F)
+Troubadour
+Valkyrie
+Nomad
+Nomad (F)
+Nomad Trooper
+Nomad Trooper (F)
+Pegasus Knight
+Falcon Knight
+Dragon Knight
+Dragon Knight (F)
+Dragon Master
+Dragon Master (F)
+Soldier
+Mountain Thief
+Pirate
+Berserker
+Thief
+Thief (F)
+Assassin
+Civilian
+Dancer
+Bard
+Archsage
+Magic Seal
+Transporter Tent
+Dark Druid
+Fire Dragon
+Civilian
+Civilian (F)
+Child
+Brammimond
+Peer
+Peer (F)
+Prince
+Queen
+Hung Leila
+Corsair
+Prince (Tactician)
+Fallen Prince
+Prince facing upward
+Fallen Ninian
+Fallen Ice Dragon
+Fallen Warrior
+Child
+Child (F)
+Transporter w/ Horse
+Uber Sage
+Archer in Ballista
+Archer in Iron Ballista
+Archer in Killer Ballista
+Empty Ballista
+Empty Iron Ballista
+Empty Killer Ballista
+Empty (Make a custom class!)
+Empty (Make a custom class!)
+Empty (Make a custom class!)
+Empty (Make a custom class!)

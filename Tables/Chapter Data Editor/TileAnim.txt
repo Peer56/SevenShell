@@ -1,0 +1,9 @@
+8
+0x0000 None
+0x0005 Water (Fields; Plains; M&S)
+0x0058 Water (Town&Docks)
+0x005F Water (Ship)
+0x9800 Shimmering ice (Snow)
+0x00A1 Water (Plains&Castle)
+0xAB00 Lava (Lava Cave)
+0x00C5 Gate and flames (Dragon's Gate)

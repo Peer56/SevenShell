@@ -1,0 +1,8 @@
+Custom Support Pointer Editor by Keriku
+
+Ok, so I got bored, and I made this. Basically just put in your data, and the number on the right
+(NOT LEFT) is your pointer for that. Be aware of all of the custom pointers you are using, or you
+might right over other data! (Like Custom Battle Animation stuff.)
+
+Any problems e-mail me at fireblazerwyvern@hotmail.com or post at FESS in the Coding and Hacking
+section, in the FE 7 Editor post.

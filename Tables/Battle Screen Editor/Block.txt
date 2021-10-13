@@ -1,0 +1,85 @@
+84
+0x00 weapon box corner
+0x01 weapon box upper edge
+0x02 weapon box vertical edge
+0x03 weapon HP transition
+0x04 HP box transition
+0x05 HP box corner
+0x06 weapon box middle
+0x07 HP box middle
+0x08 HP box lower edge
+0x09 hit box vertical edge
+0x0A hit box vertical edge
+0x0B hit box vertical edge
+0x0C hit box vertical edge 
+0x0D hit box vertical edge
+0x0E hit box upper edge
+0x0F hit box middle
+0x10 hit HP transition
+0x11 hit HP transition edge
+0x12 HP box vertical edge
+0x13 HP box corner
+0x14 name box corner
+0x15 name box vertical edge
+0x16 name box vertical edge
+0x17 name box corner
+0x18 name box middle
+0x19 name box upper edge
+0x1A name lower box
+0x1B weapon&HP transition
+0x1C hit box middle
+0x1D empty
+0x1E empty
+0x1F empty
+0x20 enemy name 1,1
+0x21 enemy name 1,2
+0x22 enemy name 2,1
+0x23 enemy name 2,2
+0x24 enemy name 3,1
+0x25 enemy name 3,2
+0x26 enemy name 4,1
+0x27 enemy name 4,2
+0x28 enemy name 5,1
+0x29 enemy name 5,2
+0x2A enemy name 6,1
+0x2B enemy name 6,2
+0x2C enemy weapon name 1,1
+0x2D enemy weapon name 1,2
+0x2E enemy weapon name 2,1
+0x2F enemy weapon name 2,2
+0x30 enemy weapon name 3,1
+0x31 enemy weapon name 3,2
+0x32 enemy weapon name 4,1
+0x33 enemy weapon name 4,2
+0x34 enemy weapon name 5,1
+0x35 enemy weapon name 5,2
+0x36 enemy weapon name 6,1
+0x37 enemy weapon name 6,2
+0x38 enemy weapon name 7,1
+0x39 enemy weapon name 7,2
+0x3A player name 1,1
+0x3B player name 1,2
+0x3C player name 2,1
+0x3D player name 2,2
+0x3E player name 3,1
+0x3F player name 3,2
+0x40 player name 4,1
+0x41 player name 4,2
+0x42 player name 5,1
+0x43 player name 5,2
+0x44 player name 6,1
+0x45 player name 6,2
+0x46 player weapon name 1,1
+0x47 player weapon name 1,2
+0x48 player weapon name 2,1
+0x49 player weapon name 2,2
+0x4A player weapon name 3,1
+0x4B player weapon name 3,2
+0x4C player weapon name 4,1
+0x4D player weapon name 4,2
+0x4E player weapon name 5,1
+0x4F player weapon name 5,2
+0x50 player weapon name 6,1
+0x51 player weapon name 6,2
+0x52 player weapon name 7,1
+0x53 player weapon name 7,2

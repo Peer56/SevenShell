@@ -1,0 +1,34 @@
+#Death quote editor part 1 by Nintenlord
+#
+
+1
+Death quote editor part 1 by Nintenlord
+0xC9F16C
+30
+12
+NULL
+NULL
+
+Character
+0
+1
+NDHU
+Characters.txt
+
+Chapter
+1
+1
+NDHU
+Chapters.txt
+
+Pointer to death event
+4
+4
+NEHU
+NULL
+
+Trigger ID
+8
+1
+NEHU
+NULL

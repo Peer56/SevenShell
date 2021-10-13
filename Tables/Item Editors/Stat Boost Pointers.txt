@@ -1,0 +1,17 @@
+43
+0x00 - No Stat boost
+0x8C98FA4 - Angelic Robe (+7 HP)
+0x8C98FB0 - Energy Ring (+2 Str)
+0x8C98FBC - Skill Book (+2 Skill)
+0x8C98FC8 - Speedwings (+2 Spd)
+0x8C98FD4 - Goddess Icon (+2 Luck)
+0x8C98FE0 - Dragonshield (+2 Def)
+0x8C98FEC - Talisman (+2 Res)
+0x8C98FF8 - Move bonus
+0x8C99004 - Constitution Bonus
+0x8C99010 - Vaida's Spear
+0x8C9901C - Durandal
+0x8C99028 - Armads
+0x8C99034 - Aureola
+0x8C9904C - Dragon Stone
+0x8C98F98 - Forblaze (+5 Luck)

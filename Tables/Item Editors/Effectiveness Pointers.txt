@@ -1,0 +1,9 @@
+24
+0x00 - No effectiveness
+0x8C97E9C - Knight/Cavalry
+0x8C97E96 - Knights
+0x8C97EC5 - Dragons
+0x8C97EB7 - Cavalry
+0x8C97EAD - Myrmidons
+0x8C97ED2 - All fliers
+0x8C97EC5 - Dragons

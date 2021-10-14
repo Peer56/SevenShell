@@ -11,9 +11,9 @@ MESSAGE Used text space ends at currentOffset
 #include "Tables/TableInstaller.event"
 MESSAGE Used table space ends at currentOffset
 
-//Engine Hacks
-//#include "Engine Hacks/_MasterHackInstaller.event"
-//MESSAGE Used hax space ends at currentOffset
+//ASM
+#include "Assembly/HackInstaller.event"
+MESSAGE Used hax space ends at currentOffset
 	
 //Events
 //#include "Events/_MasterEventInstaller.event"

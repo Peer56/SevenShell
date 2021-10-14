@@ -16,11 +16,11 @@
 0x0E Dance/Play (Regular)
 0x0F Dance/Play (Regular)
 0x10 Ballista Arrow
-0x11 Exaccus Wave (BGM-kill)
+0x11 Eckesachs Wave (BGM-kill)
 0x12 Sword of Seals Fire (BGM-kill)
 0x13 Flametongue
-0x14 Fa's Holy Dragon Stone
-0x15 Idun's Dark Dragon Stone (Mirrored)
+0x14 Fae's Divine Dragon Stone
+0x15 Idunn's Demon Dragon Stone (Mirrored)
 0x16 Fire
 0x17 Elfire
 0x18 Forblaze
@@ -56,9 +56,9 @@
 0x36 Gespenst
 0x37 Aura
 0x38 Luce
-0x39 Erishkigal
+0x39 Ereshkigal
 0x3A Filla's Might
-0x3B Nini's Grace 
+0x3B Ninis's Grace 
 0x3C Thor's Ire
 0x3D Set's Litany
 0xFFFE Map Only

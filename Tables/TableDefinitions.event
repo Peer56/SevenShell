@@ -1,10 +1,10 @@
 //ifndef guards
 #ifndef TABLE_DEFINITIONS
-
 #define TABLE_DEFINITIONS
+#endif
 
 #ifndef CharacterTable
-    #define CharacterTable 0xBDCE18
+  #define CharacterTable 0xBDCE18
 #endif
 #ifndef ClassTable
   #define ClassTable 0xBE015C
@@ -25,7 +25,7 @@
 
 //Item Ability 2 definitions
 #define ReverseTriangle 0x1
-#define CannotRepair 0x2
+#define Unrepairable 0x2
 #define MonsterWeapon 0x4
 #define WeaponLock1 0x8
 #define SwordmasterLock 0x10

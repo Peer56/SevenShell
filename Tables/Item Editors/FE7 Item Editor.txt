@@ -1,6 +1,6 @@
 None
 Iron Sword
-Thin Sword
+Slim Sword
 Steel Sword
 Silver Sword
 Iron Blade
@@ -9,45 +9,45 @@ Silver Blade
 Poison Sword
 Rapier
 Mani Katti
-Hero Sword
+Brave Sword
 Wo Dao
-Killer Sword
-Armour Killer
-Dragon Killer
+Killing Edge
+Armorslayer
+Wyrmslayer
 Light Sword
-Rune Sword
-Lancebuster
-Long Sword
-Iron Spear
-Thin Spear
-Steel Spear
-Silver Spear
-Poison Spear
-Hero Spear
+Runesword
+Lancereaver
+Longsword
+Iron Lance
+Slim Lance
+Steel Lance
+Silver Lance
+Poison Lance
+Brave Lance
 Killer Lance
-Horse Killer
+Horseslayer
 Javelin
-Slender Spear
-Axebuster
+Spear
+Axereaver
 Iron Axe
 Steel Axe
 Silver Axe
 Poison Axe
-Hero Axe
+Brave Axe
 Killer Axe
 Halberd
 Hammer
 Devil Axe
 Hand Axe
 Tomahawk
-Swordbuster
-Sword Killer
+Swordreaver
+Swordslayer
 Iron Bow
 Steel Bow
 Silver Bow
 Poison Bow
 Killer Bow
-Hero Bow
+Brave Bow
 Short Bow
 Longbow
 Ballista
@@ -56,7 +56,7 @@ Killer Ballista
 Fire
 Thunder
 Elfire
-Thunderstorm
+Bolting
 Fimbulvetr
 Forblaze
 Excalibur
@@ -72,11 +72,11 @@ Nosferatu
 Eclipse
 Fenrir
 Gespenst
-Live
-Relive
+Heal
+Mend
 Recover
-Libro
-Reserve
+Physic
+Fortify
 Restore
 Silence
 Sleep
@@ -97,8 +97,8 @@ Dragon Shield
 Talisman
 Boots
 Body Ring
-Hero's Crest
-Knight's Crest
+Hero Crest
+Knight Crest
 Orion's Bolt
 Elysian Whip
 Guiding Ring
@@ -127,7 +127,7 @@ Ninis's Grace
 Thor's Ire
 Set's Litany
 Emblem Sword
-Emblem Spear
+Emblem Lance
 Emblem Axe
 Emblem Bow
 Durandal
@@ -141,14 +141,19 @@ Fell Contract
 Sol Katti
 Wolf Beil
 Ereshkigal
-Fire Dragon Stone
+Flametongue
 Regal Blade
 Rex Hasta
 Basilikos
-Rienfleche
+Reinfleche
 Heavy Spear
 Short Spear
 Ocean Seal
 3000 G
 5000 G
 Wind Sword
+Vulnerary 2
+Green Note
+Red Note
+Dance
+Play

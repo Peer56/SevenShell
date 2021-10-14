@@ -1,0 +1,7 @@
+#define _C2EA_Heaven_Seal_Promotion_Editor(arg000) "WORD arg000 "
+
+PUSH
+ORG 0x27540
+_C2EA_Heaven_Seal_Promotion_Editor(0x8c97f16)
+_C2EA_Heaven_Seal_Promotion_Editor(0x8c97f21)
+POP

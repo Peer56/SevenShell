@@ -1,3 +1,0 @@
-2
-0x00 - 
-0xFF - End of Weapon Animation List

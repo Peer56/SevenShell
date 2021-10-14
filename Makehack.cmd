@@ -11,11 +11,11 @@ set "target_ups=%~dp0FE7_hack.ups"
 
 @rem defining tools
 
-set "c2ea=%~dp0Tools\c2ea\c2ea"
-set "textprocess=%~dp0Tools\textprocess\text-process-classic"
-set "ups=%~dp0Tools\ups\ups"
-set "parsefile=%~dp0EventAssembler\Tools\ParseFile.exe"
-@rem set "tmx2ea=%~dp0Tools\tmx2ea\tmx2ea"
+set "c2ea=%~dp0_Tools\c2ea\c2ea"
+set "textprocess=%~dp0_Tools\textprocess\text-process-classic"
+set "ups=%~dp0_Tools\ups\ups"
+set "parsefile=%~dp0_EventAssembler\Tools\ParseFile.exe"
+@rem set "tmx2ea=%~dp0_Tools\tmx2ea\tmx2ea"
 
 set "base_dir=%~dp0"
 
@@ -46,7 +46,7 @@ copy "%source_rom%" "%target_rom%"
 echo:
 echo Assembling
 
-cd "%base_dir%EventAssembler"
+cd "%base_dir%_EventAssembler"
 ColorzCore A FE7 "-output:%target_rom%" "-input:%main_event%"
 
 echo:

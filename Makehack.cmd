@@ -15,7 +15,7 @@ set "c2ea=%~dp0_Tools\c2ea\c2ea"
 set "textprocess=%~dp0_Tools\textprocess\text-process-classic"
 set "ups=%~dp0_Tools\ups\ups"
 set "parsefile=%~dp0_EventAssembler\Tools\ParseFile.exe"
-@rem set "tmx2ea=%~dp0_Tools\tmx2ea\tmx2ea"
+set "tmx2ea=%~dp0_Tools\tmx2ea\tmx2ea"
 
 set "base_dir=%~dp0"
 
@@ -37,11 +37,11 @@ copy "%source_rom%" "%target_rom%"
   cd "%base_dir%Text"
   echo: | ("%textprocess%" TextBuildfile.event --parser-exe "%parsefile%" --installer "InstallTextData.event" --definitions "TextDefinitions.event")
 
-  @rem echo:
-  @rem echo Processing maps
+  echo:
+  echo Processing maps
 
-  @rem cd "%base_dir%Maps"
-  @rem echo: | ("%tmx2ea%" -s -O "MasterMapInstaller.event")
+  cd "%base_dir%Maps"
+  echo: | ("%tmx2ea%" -s -O "MasterMapInstaller.event")
 
 echo:
 echo Assembling

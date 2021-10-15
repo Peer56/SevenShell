@@ -16,7 +16,7 @@ MESSAGE Used table space ends at currentOffset
 MESSAGE Used hax space ends at currentOffset
 	
 //Events
-//#include "Events/_MasterEventInstaller.event"
+#include "Events/_MasterEventInstaller.event"
 
 //Maps
 #include "Maps/MasterMapInstaller.event"

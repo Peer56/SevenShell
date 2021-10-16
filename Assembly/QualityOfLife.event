@@ -20,6 +20,13 @@ PUSH
   BYTE 0xe0
 POP
 
+//Remove Requirements for A-Button Speedup
+//by Gryz
+PUSH
+  ORG $6D45E
+  SHORT $0000
+POP
+
 //Show -- Mov if Unit Has GuardTileAI
 //by Tequila
 ALIGN 4
@@ -42,9 +49,18 @@ PUSH
   callHack_r3(NullifyMov_DZ)
 POP
 
-//Remove Requirements for A-Button Speedup
-//by Gryz
+//Unlock Sound Room by Default
+//by Camtech075
 PUSH
-  ORG $6D45E
+  ORG $A60EA
   SHORT $0000
+  ORG $A60EE
+  SHORT $0220
+POP
+
+//Unlock All Sound Room Songs
+//by Blazer
+PUSH
+  ORG $AAEBC
+  BYTE $FF
 POP

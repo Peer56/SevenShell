@@ -29,22 +29,22 @@ MapData:
 SetChapterData(0, 0x1C, 0x1D, 0x1E, 0x1F, 0x4, MapData, 5, 0, 0xE)
 
 ALIGN 4
-SnagFall:
-  SHORT $208 $0 $0 $110 $90 $194
+VillageDestroyed:
+  SHORT $E1C $E20 $E24 $E9C $EA0 $EA4 $F1C $F20 $F24
 
 ALIGN 4
 VillageGate:
   SHORT $80
 
 ALIGN 4
-VillageDestroyed:
-  SHORT $E1C $E20 $E24 $E9C $EA0 $EA4 $F1C $F20 $F24
+SnagFall:
+  SHORT $208 $0 $0 $110 $90 $194
 
 ALIGN 4
 MapChangesData:
-  TileMap(2, 4, 2, 3, 2, SnagFall)
-  TileMap(1, 7, 2, 1, 1, VillageGate)
   TileMap(0, 6, 0, 3, 3, VillageDestroyed)
+  TileMap(1, 7, 2, 1, 1, VillageGate)
+  TileMap(2, 4, 2, 3, 2, SnagFall)
   TileMapEnd
 
 EventPointerTable(0xE, MapChangesData)

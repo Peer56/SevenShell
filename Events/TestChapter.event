@@ -7,18 +7,17 @@ POIN TalkEvents
 POIN LocaEvents 
 POIN MiscEvents
 POIN TrapDataEM TrapDataHM
-POIN BadENM BadEHM BadHNM BadHHM
+POIN Bad Bad Bad Bad
 POIN Good Good Good Good
 POIN OpeningScene EndingScene
 
-BadENM:
-BadEHM:
-BadHNM:
-BadHHM:
+Bad:
+UNIT Jaffar Assassin 0 Level(10,Enemy,0) [2,9] [2,9] [SteelSword] GuardTileAI
+UNIT Maxime Paladin 0 Level(10,Enemy,0) [3,8] [3,8] [IronAxe] GuardTileAI
 UNIT
 
 Good:
-UNIT Lyn_t LynLord 0 Level(1,Ally,0) [2,1] [2,2] [ManiKatti,Vulnerary] NoAI
+UNIT Vaida WyvernLord_F 0 Level(20,Ally,1) [2,1] [2,2] [Spear,Horseslayer,DelphiShield,Elixir] NoAI
 UNIT
 
 TurnEvents:
@@ -49,6 +48,8 @@ ALIGN 4
 OpeningScene:
 OOBB
 LOU1 Good
+ENUN
+LOU1 Bad
 ENUN
 ENDA
 

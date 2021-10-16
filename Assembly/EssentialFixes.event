@@ -20,7 +20,27 @@ PUSH
   WORD 0x03003940
 POP
 
-//C01 Animation Hack
+//Autocursor and Stat Screen Fixes
+//by Vennobennu
+ALIGN 4
+AutocursorFix:
+#incbin "AutocursorFixes/Cursor.dmp"
+PUSH
+  ORG $1D64C
+  SHORT $4A00 $4710
+  POIN AutocursorFix|1
+POP
+
+ALIGN 4
+StatScreenFix:
+#incbin "AutocursorFixes/StatusScreen.dmp"
+PUSH
+  ORG $8681C
+  SHORT $4A00 $4710
+  POIN StatScreenFix|1
+POP
+
+//C01 Animation Command Hack
 //by Hextator
 PUSH
   ORG $CB550
@@ -32,7 +52,7 @@ PUSH
   WORD 0x0E1B041B 0xF782009B 0x2801F819 0x2300D100 0x6A103304 0x62101AC0 0xBD301C20
 POP
 
-//C48 Animation Hack
+//C48 Animation Command Hack
 //by Hextator
 PUSH
   ORG $67920
@@ -41,14 +61,32 @@ PUSH
   WORD 0x9C00B007 0x6A24B087 0x68243C04 0x0C240224 0x47004800 0x08067AED
 POP
 
-//Fix Enemy Control Glitch
+//Change Effectiveness Multiplier to 3x
+//by Stan
+PUSH
+  ORG 0x028B48
+  SHORT $215A // movs r1, #0x5A
+  SHORT $5A68 // ldrh r0, [r5, r1]
+  SHORT $2203 // movs r2, #3
+  SHORT $4350 // muls r0, r2
+  SHORT $5268 // strh r0, [r5, r1]
+POP
+
+//Enable Augury in Hard Mode
+//by Crazycolorz5
+PUSH
+  ORG $992FC
+  SHORT $2000
+POP
+
+//Enemy Control Glitch Fix
 //by Brendor
 PUSH
   ORG $3454C
   SHORT $E007
 POP
 
-//Fix Rankings in Hector Mode
+//Hector Mode Rankings Fix
 //by Stan
 ALIGN 4
 NuggetRankingRefId:
@@ -59,27 +97,13 @@ PUSH
   jumpToHack(NuggetRankingRefId)
 POP
 
-//Change Effectiveness Multiplier to 3x
-//by Crazycolorz5
-PUSH
-  ORG $28B4E
-  BYTE $03 $20 $50 $43 $08 $80 $C0 $46
-POP
-
-//Enable Augury in Hard Mode
-//by Crazycolorz5
-PUSH
-  ORG $992FC
-  SHORT $2000
-POP
-
 //Unlock Sound Room
 //by Camtech075
 PUSH
   ORG $A60EA
   SHORT $0000
-  ORG $A60EF
-  BYTE $02
+  ORG $A60EE
+  SHORT $0220
 POP
 
 //Unlock All Sound Room Songs  

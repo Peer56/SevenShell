@@ -181,13 +181,13 @@
    <tile gid="784"/>
   </data>
  </layer>
- <layer name="SnagFall" width="15" height="10">
+ <layer name="VillageDestroyed" width="15" height="10">
   <properties>
-   <property name="Height" value="2"/>
-   <property name="ID" value="2"/>
+   <property name="Height" value="3"/>
+   <property name="ID" value="0"/>
    <property name="Width" value="3"/>
-   <property name="X" value="4"/>
-   <property name="Y" value="2"/>
+   <property name="X" value="6"/>
+   <property name="Y" value="0"/>
   </properties>
   <data>
    <tile/>
@@ -196,6 +196,39 @@
    <tile/>
    <tile/>
    <tile/>
+   <tile gid="904"/>
+   <tile gid="905"/>
+   <tile gid="906"/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile gid="936"/>
+   <tile gid="937"/>
+   <tile gid="938"/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile gid="968"/>
+   <tile gid="969"/>
+   <tile gid="970"/>
    <tile/>
    <tile/>
    <tile/>
@@ -209,39 +242,6 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile gid="131"/>
-   <tile gid="1"/>
-   <tile gid="1"/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile gid="69"/>
-   <tile gid="37"/>
-   <tile gid="102"/>
    <tile/>
    <tile/>
    <tile/>
@@ -503,13 +503,13 @@
    <tile/>
   </data>
  </layer>
- <layer name="VillageDestroyed" width="15" height="10">
+ <layer name="SnagFall" width="15" height="10">
   <properties>
-   <property name="Height" value="3"/>
-   <property name="ID" value="0"/>
+   <property name="Height" value="2"/>
+   <property name="ID" value="2"/>
    <property name="Width" value="3"/>
-   <property name="X" value="6"/>
-   <property name="Y" value="0"/>
+   <property name="X" value="4"/>
+   <property name="Y" value="2"/>
   </properties>
   <data>
    <tile/>
@@ -518,39 +518,6 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile gid="904"/>
-   <tile gid="905"/>
-   <tile gid="906"/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile gid="936"/>
-   <tile gid="937"/>
-   <tile gid="938"/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile/>
-   <tile gid="968"/>
-   <tile gid="969"/>
-   <tile gid="970"/>
    <tile/>
    <tile/>
    <tile/>
@@ -564,6 +531,39 @@
    <tile/>
    <tile/>
    <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile gid="131"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile gid="69"/>
+   <tile gid="37"/>
+   <tile gid="102"/>
    <tile/>
    <tile/>
    <tile/>

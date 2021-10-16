@@ -24,15 +24,15 @@
 17
 18 TEXT_IFGENDER textID1 textID2
 19 MORETEXT_IFGENDER textID1 textID2
-1A TEXT_IFFLAG textID1 textID2
-1B MORETEXT_IFFLAG textID1 textID2
-1C TEXT_IFASM textID1 textID2
-1D MORETEXT_IFASM textID1 textID2
+1A TEXT_IFFLAG eventFlag textID1 textID2
+1B MORETEXT_IFFLAG eventFlag textID1 textID2
+1C TEXT_IFASM routinePointer textID1 textID2
+1D MORETEXT_IFASM routinePointer textID1 textID2
 1E CLEARSPEECH
-1F CAMERA_UNK [X,Y]
+1F CAMERA [X,Y]
 20 CAMERA characterID
-21
-22 CAMERA [X,Y]
+21 CAMERA_PROTAG
+22 CAMERA_CENTERED [X,Y]
 23 MOVE [Xorg,Yorg] [Xdest,Ydest]
 24 MOVE [Xorg,Yorg] [Xdest,Ydest] speed
 25 MOVE_SCRIPTED [X,Y] scriptPointer
@@ -43,7 +43,7 @@
 2A MOVE_PROTAG [X,Y]
 2B MOVE_SCRIPTED_UNK
 2C
-2D
+2D MOVE_ONESTEP unk1 unk2
 2E MOVE_INSTANT [Xorg,Yorg] [Xdest,Ydest]
 2F MOVE_INSTANT characterID [X,Y]
 30
@@ -72,14 +72,14 @@
 47
 48 GOTO_IFASMTRUE eventLabel routinePointer
 49 GOTO_IFASMFALSE eventLabel routinePointer
-4A
-4B
+4A GOTO_IFSCENESKIP eventLabel
+4B GOTO_IFCONVOSKIP eventLabel
 4C GOTO_IFFLAGTRUE eventLabel eventFlag
 4D GOTO_IFFLAGFALSE eventLabel eventFlag
 4E GOTO_IFNOTACTIVE unk eventLabel characterID
 4F GOTO_IFNOTHM eventLabel
 50 GOTO_IFNOTEM eventLabel
-51
+51 GOTO_IFHARD eventLabel
 52 GOTO_IFCHOICENO eventLabel
 53 GOTO_IFCHOICEYES eventLabel
 54 GOTO_IFNOTTUTORIAL eventLabel
@@ -146,7 +146,7 @@
 91 FADE_OUTOFWHITE frameDuration
 92 HIDEMAP
 93 SHOWMAP
-94
+94 FADE_LYNDEATH
 95
 96
 97 BATTLE attackerID defenderID scriptPointer unk

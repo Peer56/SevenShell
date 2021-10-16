@@ -1,6 +1,6 @@
 #include "EAstdlib.event"
-#include "CustomDefinitions.event"
 
+#define FreeSpace 0xDA0000
 ORG FreeSpace
 
 //Text
@@ -12,7 +12,7 @@ MESSAGE Used text space ends at currentOffset
 MESSAGE Used table space ends at currentOffset
 
 //ASM
-#include "Assembly/HackInstaller.event"
+#include "Assembly/_HackInstaller.event"
 MESSAGE Used hax space ends at currentOffset
 	
 //Events

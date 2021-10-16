@@ -1,0 +1,10 @@
+#define Arrow_Text_ID 0x12B1 //currently just a hyphen; make a text id with '->' and put it here (DON'T CHANGE THE VANILLA ONE)
+
+PUSH
+  ORG $232A0
+  jumpToHack(FE7_Show_Heal_Amount)
+POP
+
+FE7_Show_Heal_Amount:
+#incbin "ShowHealAmount.dmp"
+WORD Arrow_Text_ID

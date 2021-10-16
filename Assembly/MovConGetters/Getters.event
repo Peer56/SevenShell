@@ -1,0 +1,31 @@
+//Mov and Con Getters & Display -- Mov for GuardTileAI
+//by Tequila
+#include "MovGetter.event"
+#include "ConGetter.event"
+
+PUSH
+  //I'm not entirely sure what this function is for, but it's compiled very inefficiently, so I rewrote it, which gives me room to put 2 trampolines
+  ORG $1C1C 
+  SHORT 0x2100 0x8081 0x80C1 0x8101 0x4770 0
+  
+  ALIGN 4
+  Jump_To_Mov_Getter:
+  jumpToHack(Mov_Getter)
+  
+  ALIGN 4
+  Jump_To_Con_Getter:
+  jumpToHack(Con_Getter)
+POP
+
+ALIGN 4
+Mov_Getter:
+#incbin "Mov_Getter.dmp"
+
+ALIGN 4
+Con_Getter:
+#incbin "Con_Getter.dmp"
+
+ALIGN 4
+Stat_Screen_Mov:
+#incbin "Stat_Screen_Mov.dmp"
+POIN Jump_To_Mov_Getter

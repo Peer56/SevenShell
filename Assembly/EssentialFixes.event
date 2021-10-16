@@ -1,5 +1,4 @@
-//12 Tracks/16 Sounds Patch
-//by Agro and Brendor
+//12 Tracks/16 Sounds Patch (by Agro and Brendor)
 PUSH
   ORG 0x3fcd
   BYTE 0xe0
@@ -15,8 +14,7 @@ PUSH
   BYTE 0xc
 POP
 
-//Anti-Huffman Patch
-//by Hextator and Nintenlord
+//Anti-Huffman Patch (by Hextator and Nintenlord)
 PUSH
   ORG 0x12C6C
   BYTE 0x02 0x49 0x28 0x1C 
@@ -37,8 +35,7 @@ PUSH
   WORD 0x03003940
 POP
 
-//Autocursor and Stat Screen Fixes
-//by Vennobennu
+//Autocursor and Stat Screen Fixes (by Vennobennu)
 ALIGN 4
 AutocursorFix:
 #incbin "AutocursorFixes/Cursor.dmp"
@@ -57,8 +54,7 @@ PUSH
   POIN StatScreenFix|1
 POP
 
-//C01 Animation Command Hack
-//by Hextator
+//C01 Animation Command Hack (by Hextator)
 PUSH
   ORG $CB550
   WORD 0xBD301C20
@@ -69,8 +65,7 @@ PUSH
   WORD 0x0E1B041B 0xF782009B 0x2801F819 0x2300D100 0x6A103304 0x62101AC0 0xBD301C20
 POP
 
-//C48 Animation Command Hack
-//by Hextator
+//C48 Animation Command Hack (by Hextator)
 PUSH
   ORG $67920
   WORD 0x080CB554
@@ -78,8 +73,15 @@ PUSH
   WORD 0x9C00B007 0x6A24B087 0x68243C04 0x0C240224 0x47004800 0x08067AED
 POP
 
-//Change Effectiveness Multiplier to 3x
-//by Stan
+//Centered Camera Fix (by Stan and 7743)
+PUSH
+  ORG $15C26
+  BYTE $E
+  ORG $15C3A
+  BYTE $9
+POP
+
+//Change Effectiveness Multiplier to 3x (by Stan)
 PUSH
   ORG 0x028B48
   SHORT $215A // movs r1, #0x5A
@@ -89,22 +91,19 @@ PUSH
   SHORT $5268 // strh r0, [r5, r1]
 POP
 
-//Enable Augury in Hard Mode
-//by Crazycolorz5
+//Enable Augury in Hard Mode (by Crazycolorz5)
 PUSH
   ORG $992FC
   SHORT $2000
 POP
 
-//Enemy Control Glitch Fix
-//by Brendor
+//Enemy Control Glitch Fix (by Brendor)
 PUSH
   ORG $3454C
   SHORT $E007
 POP
 
-//Hector Mode Rankings Fix
-//by Stan
+//Hector Mode Rankings Fix (by Stan)
 ALIGN 4
 NuggetRankingRefId:
 WORD $201B4B06 $28015C18 $2002D100 $403802 $5C592114 $FC90649 $47701840 $202BBF8
@@ -114,9 +113,8 @@ PUSH
   jumpToHack(NuggetRankingRefId)
 POP
 
-//Skip Intro Cutscene
-//by Gryz
+//Melee/Magic Animation Fix (by Hextator and Tequila)
 PUSH
-  ORG $BC58E
-  SHORT $0000
+  ORG $184DC
+  BYTE 0x00 0xB5 0xFE 0xF7 0x41 0xF9 0x00 0x06 0x00 0x0E 0x05 0x49 0x09 0x68 0x24 0x22 0x50 0x43 0x40 0x18 0x80 0x68 0x02 0x21 0x08 0x40 0x40 0x08 0x02 0xBC 0x08 0x47 0x60 0x60 0x01 0x08
 POP

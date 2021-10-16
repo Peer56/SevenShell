@@ -1,0 +1,158 @@
+#ifndef Usability_Table
+	#define Usability_Table 0x26D10
+#endif
+
+#define Staff_Usability_Macro(item_id, target_check_index) "PUSH; ORG Usability_Table+4*(item_id-0x4A); POIN Staff_Usability+(target_check_index*4); POP"
+#define Staff_Target_Macro(offset, target_check_index) "PUSH; ORG offset; POIN Staff_Targeting+(target_check_index*4)+1; POP"
+	
+PUSH
+
+//Range display on staff's R-button text (also affects weapons)
+ORG $168AC
+#incbin "R_Button_Range_Display.dmp"
+
+//##### Green Squares stuff #####
+
+//Fill in green squares when selecting a unit
+ORG $1AE10
+#incbin "Func_1AE10.dmp"
+POIN Fill_Range_Map
+
+//Free space in BL range for the trampolines and functions I'll need later
+
+ALIGN 4
+Fill_Range_Map:
+#incbin "Fill_Range_Map.dmp"
+
+ALIGN 4
+Call_Fill_Range_Map:
+#incbin "Call_Fill_Range_Map.dmp"
+POIN Fill_Range_Map
+
+ALIGN 4
+Warp_Target_Trampoline:
+jumpToHack(Staff_Targeting+20)
+
+ALIGN 4
+Hammerne_Target_Trampoline:
+jumpToHack(Staff_Targeting+28)
+
+ALIGN 4
+Barrier_Target_Trampoline:
+jumpToHack(Staff_Targeting+36)
+
+ALIGN 4
+Fortify_Target_Trampoline:
+jumpToHack(Fortify_Target)
+
+//Back to inline stuff
+
+//Returns max range of either all staffs that are currently usable (ie, targets in range), or one in a specific inventory slot
+ORG $16F10
+#incbin "Func_16F10.dmp"
+
+ORG $22A1A //all staves
+BL(Call_Fill_Range_Map)
+ORG $22AFE //when selecting a staff
+BL(Call_Fill_Range_Map)
+
+POP
+
+//##### Staff usability/targeting stuff #####
+
+//Heal
+Staff_Usability_Macro(Heal, 0)
+Staff_Target_Macro(0x27204, 0) //also handles Mend and Recover
+
+//Mend
+Staff_Usability_Macro(Mend, 0)
+
+//Recover
+Staff_Usability_Macro(Recover, 0)
+
+//Physic
+Staff_Usability_Macro(Physic, 0)
+Staff_Target_Macro(0x2724, 0)
+
+//Fortify
+Staff_Usability_Macro(Fortify, 0)
+PUSH; ORG $2C834; BL(Fortify_Target_Trampoline); POP
+
+//Restore
+Staff_Usability_Macro(Restore, 1)
+Staff_Target_Macro(0x27234, 1)
+
+//Silence
+Staff_Usability_Macro(Silence, 2)
+Staff_Target_Macro(0x2723C, 2)
+
+//Sleep
+Staff_Usability_Macro(Sleep, 3)
+Staff_Target_Macro(0x27244, 3)
+
+//Berserk
+Staff_Usability_Macro(Berserk, 4)
+Staff_Target_Macro(0x27254, 4)
+
+//Warp
+Staff_Usability_Macro(Warp, 5)
+PUSH; ORG $279BA; BL(Warp_Target_Trampoline); POP
+
+//Rescue
+Staff_Usability_Macro(Rescue, 6)
+Staff_Target_Macro(0x27224, 6)
+
+//Torch
+//Don't actually need to do anything! The usability routine merely checks if fog is enabled, and the green squares for targeting are the same as those displayed when choosing from the staff selection menu; they don't get redrawn. That *does* mean that a "total" range torch staff won't work, however.
+
+//Hammerne
+Staff_Usability_Macro(Hammerne, 7)
+PUSH; ORG $27AEA; BL(Hammerne_Target_Trampoline); POP
+
+//Unlock
+Staff_Usability_Macro(Unlock, 8)
+Staff_Target_Macro(0x27268, 8)
+
+//Barrier
+Staff_Usability_Macro(Barrier, 9)
+PUSH; ORG $27D66; BL(Barrier_Target_Trampoline); POP
+
+ALIGN 4
+Staff_Usability:
+#incbin "Staff_Usability.dmp"
+POIN Create_Target_List
+
+ALIGN 4
+Staff_Targeting:
+#incbin "Staff_Targeting.dmp"
+POIN Create_Target_List
+
+ALIGN 4
+Create_Target_List:
+#incbin "Create_Target_List.dmp"
+POIN Get_Staff_Max_Range
+POIN Target_Functions_Table
+
+ALIGN 4
+Get_Staff_Max_Range:
+#incbin "Get_Staff_Max_Range.dmp"
+
+//the number in the usability macro is the appropriate index for the pointers in this table
+//Torch is intentionally omitted, since it's a special case
+ALIGN 4
+Target_Functions_Table:
+POIN 0x24539	//Heal, Mend, Recover, Physic, Fortify
+POIN 0x2460D	//Restore
+POIN 0x24775	//Silence
+POIN 0x247C1	//Sleep
+POIN 0x2480D	//Berserker
+POIN 0x248D1	//Warp
+POIN 0x24715	//Rescue
+POIN 0x24971	//Hammerne
+POIN 0x24219	//Unlock
+POIN 0x24691	//Barrier
+
+ALIGN 4
+Fortify_Target:
+#incbin "Fortify_Target.dmp"
+POIN Create_Target_List

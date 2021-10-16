@@ -46,12 +46,12 @@
 2D MOVE_ONESTEP unk1 unk2
 2E MOVE_INSTANT [Xorg,Yorg] [Xdest,Ydest]
 2F MOVE_INSTANT characterID [X,Y]
-30
-31
+30 MOVE_SETDEST
+31 MOVE_TODEST
 32 LOAD unitsPointer
-33
-34
-35 LOAD_IFMODE unitsPointerENM unitsPointerEHM unitsPointer HNM unitsPointeeHHM
+33 LOAD_ALIVE unitsPointer
+34 LOAD_IFHARD unitsPointer
+35 LOAD_IFMODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
 36
 37
 38
@@ -61,15 +61,15 @@
 3C CAMERA_FOLLOW
 3D CAMERA_UNFOLLOW
 3E ASMC routinePointer
-3F
-40
-41
-42
-43
+3F ASMC_UNK1
+40 ASMC_UNK2
+41 ASMC_UNK3
+42 ASMC_UNK4
+43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
-46
-47
+46 GOTO_IFNOTALIVE eventLabel characterID
+47 GOTO_IFNOTRECRUITED eventLabel characterID
 48 GOTO_IFASMTRUE eventLabel routinePointer
 49 GOTO_IFASMFALSE eventLabel routinePointer
 4A GOTO_IFSCENESKIP eventLabel
@@ -95,10 +95,10 @@
 5E GIVE_MONEY specification moneyAmount
 5F TILECHANGE changeID specification
 60 TILECHANGE [X,Y] specification
-61
+61 TILECHANGE_INSTANT
 62 TILECHANGE_UNK1 changeID unk
 63 TILECHANGE_UNK2 unk
-64 TILECHANGE_UNK3 changeID unk
+64 TILECHANGE_AUTOWATER changeID unk
 65 JOIN characterID affiliation
 66 CURSOR_FLASH [X,Y]
 67 CURSOR_FLASH characterID
@@ -110,8 +110,8 @@
 6D KILL characterID
 6E
 6F UNHIDE characterID
-70 UNHIDE [X,Y]
-71
+70 DISABLE characterID
+71 ENABLE characterID
 72 CONDITION_SET characterID condition
 73 CONDITION_UNSET characterID condition
 74 CHANGEAI characterID [AI1,AI2,AI3,AI4]
@@ -127,11 +127,11 @@
 7E MUSIC_UNQUIET
 7F SOUND soundID
 80 SOUND_UNK soundID unk
-81 CHAPTER_PROGRESS chapterID
-82 CHAPTER_FIN
-83 CHAPTER_ENDLYNMODE
-84 CHAPTER_SWAP chapterID
-85
+81 CHAPTER_END chapterID
+82 ENDGAME
+83 ENDLYNMODE
+84 CHAPTER_LOAD chapterID
+85 CHAPTER_SETID chapterID
 86
 87 LOCK_B
 88

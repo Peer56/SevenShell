@@ -1,3 +1,14 @@
 #include "BattleAnimations/_AnimationInstaller.event"
 #include "BattlePalettes/defs.event"
 #include "BattlePalettes/Palette Setup.event"
+
+PUSH
+ORG $C5EA4
+#incext Png2Dmp "ItemIcons.png"
+ORG $CBEA4
+#incext Png2Dmp "ItemIcons.png" --palette-only
+ORG $C9BA4
+#incext Png2Dmp "AffinityTypeIcons.png"
+ORG $CBEC4
+#incext Png2Dmp "AffinityTypeIcons.png" --palette-only
+POP

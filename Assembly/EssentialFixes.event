@@ -121,3 +121,21 @@ POP
 
 //Staff and Range Fix (by Tequila)
 #include "StaffRangeFix/StaffRangeFix.event"
+
+//Weather Graphics Priority Fixes (by Zane)
+PUSH
+  ORG $2D596 //snow
+  BYTE $E0
+  ORG $2D76D //sandstorm
+  BYTE $1C
+  ORG $2D89D //snowstorm
+  BYTE $1C
+  ORG $2DBDE //fire
+  BYTE $AC
+  ORG $2DD5D //clouds
+  BYTE $AC
+  ORG $B961FF //rain
+  BYTE $1C
+  ORG $B96207 //rain 2
+  BYTE $1C
+POP

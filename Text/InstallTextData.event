@@ -9,6 +9,18 @@
 
 {
 
+__TEXTPROCESS4D9:
+#incbin ".TextEntries\TextBuildfile4D9.fetxt.dmp"
+setText($4D9, __TEXTPROCESS4D9)
+
+__TEXTPROCESS4DC:
+#incbin ".TextEntries\TextBuildfile4DC.fetxt.dmp"
+setText($4DC, __TEXTPROCESS4DC)
+
+__TEXTPROCESS58C:
+#incbin ".TextEntries\TextBuildfile58C.fetxt.dmp"
+setText($58C, __TEXTPROCESS58C)
+
 }
 
 #endif // TEXT_INSTALLER_TEXTBUILDFILE_EVENT

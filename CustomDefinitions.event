@@ -1,0 +1,20 @@
+#define Adventurer 0x51
+
+#define Ezra 0x1
+#define Bahar 0x2
+#define Robert 0x3
+#define Carmen 0x4
+#define Ollie 0x5
+#define Apollo 0x6
+#define Alph 0x7
+#define Xander 0x8
+#define Saige 0x9
+#define Destiad 0xA
+#define Hal 0xB
+#define Lorimae 0xC
+#define Mercy 0xD
+#define Willaker 0xE
+#define Regin 0xF
+#define Lyana 0x10
+#define Akira 0x11
+#define Arthus 0x12

@@ -1,0 +1,53 @@
+#include EAstdlib.event
+EventPointerTable(0x6,TestChapterEvents)
+
+TestChapterEvents:
+POIN TurnEvents 
+POIN TalkEvents 
+POIN LocaEvents 
+POIN MiscEvents
+POIN TrapData TrapData
+POIN Bad Bad Bad Bad
+POIN Good Good Good Good
+POIN OpeningScene EndingScene
+
+Bad:
+UNIT 0x88 Thief Batta Level(1,Enemy,0) [11,7] [9,7] [SteelSword] GuardTileAI
+UNIT
+
+Good:
+UNIT Ezra Adventurer 0 Level(1,Ally,0) [7,6] [7,6] [Fire] NoAI
+UNIT
+
+TurnEvents:
+OpeningTurnEvent(OpeningScene) //Do not include this event if the chapter has a prep screen
+END_MAIN
+
+TalkEvents:
+END_MAIN
+
+LocaEvents:
+END_MAIN
+
+MiscEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+OpeningScene:
+WEA1 0x6
+VCBF 3
+OOBB
+LOU1 Bad
+ENUN
+LOU1 Good
+ENUN
+ENDA
+
+EndingScene:
+MoveToChapter(2)
+ENDA

@@ -1,4 +1,5 @@
 #include "EAstdlib.event"
+#include "CustomDefinitions.event"
 
 #define FreeSpace 0xDA0000
 ORG FreeSpace
@@ -6,6 +7,9 @@ ORG FreeSpace
 //Text
 #include "Text/InstallTextData.event"
 MESSAGE Used text space ends at currentOffset
+
+//Graphics
+#include "Graphics/_GraphicsInstaller.event"
 
 //Tables
 #include "Tables/TableInstaller.event"

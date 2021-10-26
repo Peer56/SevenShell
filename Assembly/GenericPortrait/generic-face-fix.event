@@ -1,0 +1,12 @@
+// fixes bad face being displayed for generic units in the item review menu
+// hack by stan
+
+PUSH
+
+    ORG $021AF0
+        jumpToHack(GenericFaceFixHook)
+        ASSERT $021AF8 - CURRENTOFFSET
+
+POP
+
+#include "src/generic-face-fix.lyn.event"

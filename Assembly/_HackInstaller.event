@@ -1,5 +1,4 @@
 #include "Extensions/Hack Installation.txt"
 
-#include "TutorialKiller.event"
 #include "EssentialFixes.event"
 #include "QualityOfLife.event"

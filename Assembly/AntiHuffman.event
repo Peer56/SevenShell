@@ -1,0 +1,49 @@
+PUSH
+
+    // replace DecodeString wrapper
+    ORG $004364
+
+    // this function should only ever be called from GetMsgTo, so we don't need to worry about potential ARM callers
+    // this means that we can safely do pop {pc} for returns
+    SHORT $B500      // push  {lr}
+    SHORT $0FC2      // lsr   r2, r0, #31
+    SHORT $D002      // beq   decode_string
+    BL(CopyString)   // bl    CopyString
+    SHORT $BD00      // pop   {pc}
+    BL(DecodeString) // bl    DecodeString @ decode_string
+    SHORT $BD00      // pop   {pc}
+
+    // replace GetMsg
+    ORG $012C60
+
+    SHORT $4A04 // ldr   r2, =gCurrentMsgId
+    SHORT $6811 // ldr   r1, [r2]
+    SHORT $4288 // cmp   r0, r1
+    SHORT $D002 // beq   already_loaded
+    SHORT $4903 // ldr   r1, =gCurrentMsgStr
+    SHORT $6010 // str   r0, [r2]
+    B($012C9C)  // b     GetMsgTo
+    SHORT $4802 // ldr   r0, =gCurrentMsgStr @ already_loaded
+    SHORT $4770 // bx    lr
+    SHORT $46C0 // nop
+    WORD 0x0202B5B4 0x0202A5B4
+
+CopyString:
+    SHORT $0102 // lsl   r2, r0, #4
+    SHORT $1C08 // mov   r0, r1
+    SHORT $0911 // lsr   r1, r2, #4
+    SHORT $4B01 // ldr   r3, =strcpy
+    SHORT $4718 // bx    r3
+    SHORT $46C0 // nop
+    WORD 0x080C00C9
+
+DecodeString:
+    SHORT $4B01 // ldr   r3, =DecodeStringFunc
+    SHORT $681B // ldr   r3, [r3]
+    SHORT $4718 // bx    r3
+    SHORT $46C0 // nop
+    WORD 0x03003940
+
+    ASSERT $012C9C - CURRENTOFFSET
+
+POP

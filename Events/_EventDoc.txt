@@ -60,11 +60,11 @@
 3B AWAIT
 3C CAMERA_ON
 3D CAMERA_OFF
-3E FUNCTION routinePointer
-3F ASMC_UNK1
-40 ASMC_UNK2
-41 ASMC_UNK3
-42 ASMC_UNK4
+3E FUNCTION asmPointer
+3F FUNCTION_UNK1 asmPointer
+40 FUNCTION_UNK2 asmPointer
+41 FUNCTION_UNK3 asmPointer
+42 FUNCTION_UNK4 asmPointer
 43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
@@ -151,7 +151,7 @@
 96
 97 BATTLE attackerID defenderID scriptPointer unk
 98
-99 WM_FUNCTION routinePointer
+99 WM_FUNCTION asmPointer
 9A
 9B WEATHER weatherID
 9C WEATHER_UNK weatherID
@@ -181,8 +181,8 @@ B3 WM_TEXT textID
 B4 WM_BOTTOMTEXTBOX
 B5 WM_TOPTEXTBOX
 B6 WM_UNK3
-B7 WM_LOADMAPSPRITE spriteID [X,Y] classID properties identifier unk1 unk2
-B8 WM_CLEARMAPSPRITE spriteID unk
+B7 WM_LOADMS spriteID [X,Y] classID properties identifier unk1 unk2
+B8 WM_CLEARMS spriteID unk
 B9 WM_HIGHLIGHT area
 BA
 BB
@@ -211,13 +211,13 @@ D1 MORETEXT_CG textID cutsceneID
 D2
 D3 SHOWCG cutsceneID
 D4
-D5 FADE_OUTOFCG frameDuration
-D6 FADE_INTOCG frameDuration
+D5 FADEOUT_CG frameDuration
+D6 FADEIN_CG frameDuration
 D7 TEXTBOX textID [X,Y]
 D8 CLEARBOX
-D9 FADE_FROMCGTOBG backgroundID unk
-DA FADE_FROMBGTOCG cutsceneID unk
-DB FADE_FROMCGTOMAP [X,Y]
+D9 FADE_CGTOBG backgroundID unk
+DA FADE_BGTOCG cutsceneID unk
+DB FADE_CGTOMAP [X,Y]
 DC
 DD LIGHTNING
 DE

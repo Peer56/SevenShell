@@ -63,14 +63,14 @@
 3E FUNCTION asmPointer
 3F FUNCTION_UNK1 asmPointer
 40 FUNCTION_UNK2 asmPointer
-41 FUNCTION_UNK3 asmPointer
-42 FUNCTION_UNK4 asmPointer
+41 FUNCTION_UNTIL asmPointer
+42 FUNCTION_WHILE asmPointer
 43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
 46 GOTO_DEAD eventLabel characterID
 47 GOTO_NOTRECRUITED eventLabel characterID
-48 GOTO_FUNCTRUE eventLabel routinePointer
+48 GOTO_FUNCTRUE eventLabel asmPointer
 49 GOTO_FUNCFALSE eventLabel routinePointer
 4A GOTO_SCENESKIP eventLabel
 4B GOTO_CONVOSKIP eventLabel
@@ -102,14 +102,14 @@
 65 JOIN characterID affiliation
 66 CURSOR_FLASH [X,Y]
 67 CURSOR_FLASH characterID
-68 CURSOR_PUT [X,Y]
+68 CURSOR_PLACE [X,Y]
 69 CURSOR_END
-6A HIDE [X,Y]
-6B HIDE characterID
+6A DELETE [X,Y]
+6B DELETE characterID
 6C KILL [X,Y]
 6D KILL characterID
-6E
-6F UNHIDE characterID
+6E HIDE [X,Y]
+6F HIDE characterID
 70 DISABLE characterID
 71 ENABLE characterID
 72 STATE_SET characterID condition
@@ -118,7 +118,7 @@
 75 CHANGEAI [X,Y] [AI1,AI2,AI3,AI4]
 76 FLAG_ON eventFlag
 77 FLAG_OFF eventFlag
-78 MUSIC_CHANGE songID
+78 MUSIC songID
 79 MUSIC_OVERRIDE songID
 7A MUSIC_RESTORE speed
 7B MUSIC_FADETOBGM songID speed unk

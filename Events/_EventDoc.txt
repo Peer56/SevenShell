@@ -13,21 +13,21 @@
 0C OPEN
 0D TEXT textID
 0E TEXT_OPAQUE textID
-0F TEXT_IFMODE textID1 textID2
+0F TEXT_GAMEMODE textID1 textID2
 10
 11 MORETEXT textID
-12 MORETEXT_IFMODE textID1 textID2
+12 MORETEXT_GAMEMODE textID1 textID2
 13 TEXT_SUPPORT
 14 TEXT_RESUME
 15 TEXT_GENERIC list
 16 MORETEXT_GENERIC list
 17
-18 TEXT_IFGENDER textID1 textID2
-19 MORETEXT_IFGENDER textID1 textID2
-1A TEXT_IFFLAG eventFlag textID1 textID2
-1B MORETEXT_IFFLAG eventFlag textID1 textID2
-1C TEXT_IFASM routinePointer textID1 textID2
-1D MORETEXT_IFASM routinePointer textID1 textID2
+18 TEXT_GENDER textID1 textID2
+19 MORETEXT_GENDER textID1 textID2
+1A TEXT_FLAG eventFlag textID1 textID2
+1B MORETEXT_FLAG eventFlag textID1 textID2
+1C TEXT_FUNCTION asmPointer textID1 textID2
+1D MORETEXT_FUNCTION asmPointer textID1 textID2
 1E CLEAR_SPEECH
 1F CAMERA [X,Y]
 20 CAMERA characterID
@@ -51,7 +51,7 @@
 32 LOAD unitsPointer
 33 LOAD_ALIVE unitsPointer
 34 LOAD_IFHARD unitsPointer
-35 LOAD_IFMODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
+35 LOAD_BYMODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
 36
 37
 38
@@ -68,24 +68,24 @@
 43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
-46 GOTO_IFNOTALIVE eventLabel characterID
-47 GOTO_IFNOTRECRUITED eventLabel characterID
-48 GOTO_IFASMTRUE eventLabel routinePointer
-49 GOTO_IFASMFALSE eventLabel routinePointer
-4A GOTO_IFSCENESKIP eventLabel
-4B GOTO_IFCONVOSKIP eventLabel
-4C GOTO_IFFLAGON eventLabel eventFlag
-4D GOTO_IFFLAGOFF eventLabel eventFlag
-4E GOTO_IFNOTACTIVE unk eventLabel characterID
-4F GOTO_IFNOTHM eventLabel
-50 GOTO_IFNOTEM eventLabel
-51 GOTO_IFHARD eventLabel
+46 GOTO_DEAD eventLabel characterID
+47 GOTO_NOTRECRUITED eventLabel characterID
+48 GOTO_FUNCTRUE eventLabel routinePointer
+49 GOTO_FUNCFALSE eventLabel routinePointer
+4A GOTO_SCENESKIP eventLabel
+4B GOTO_CONVOSKIP eventLabel
+4C GOTO_FLAGON eventLabel eventFlag
+4D GOTO_FLAGOFF eventLabel eventFlag
+4E GOTO_NOTACTIVE unk eventLabel characterID
+4F GOTO_NOTHM eventLabel
+50 GOTO_NOTEM eventLabel
+51 GOTO_HARD eventLabel
 52 GOTO_IFNO eventLabel
 53 GOTO_IFYES eventLabel //in vanilla, this is broken and has identical functionality to 52
-54 GOTO_IFNOTTUTORIAL eventLabel
-55 GOTO_IFNOTDEAD eventLabel characterID unk
-56 GOTO_IFTURN eventLabel turnNumber
-57 GOTO_IFNOTDEPLOYED eventLabel characterID unk
+54 GOTO_NOTTUTORIAL eventLabel
+55 GOTO_ALIVE eventLabel characterID unk
+56 GOTO_MONEY eventLabel unk
+57 GOTO_NOTDEPLOYED eventLabel characterID unk
 58 JUMP scenePointer
 59 ASM_UNK1
 5A ASM_UNK2

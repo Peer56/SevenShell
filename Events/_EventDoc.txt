@@ -154,9 +154,9 @@
 99 WM_FUNCTION asmPointer
 9A
 9B WEATHER weatherID
-9C WEATHER_UNK weatherID
-9D FOG_WHITE tileDistance
-9E FOG_BLACK tileDistance
+9C WEATHER_SKIPPABLE weatherID
+9D FOG tileDistance
+9E FOG2 tileDistance
 9F UNSEAL itemID characterID eventFlag
 A0 QUEUE eventPointer
 A1 KEYMASK unk

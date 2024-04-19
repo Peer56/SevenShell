@@ -17,13 +17,13 @@ BACKGROUND, 0x05, 4, -game:FE7 -indexMode:8
 
 
 ##Ends the current scene. Moves to a queued scene if there is any (set via CALL or QUEUE), or returns to map if there isn't.
-ENDSCENE, 0x0A, 8, -game:FE7 -end -indexMode:8
+END, 0x0A, 8, -game:FE7 -end -indexMode:8
 
 ##Ends the chapter opening scene and goes to the Preparations menu.
-ENDSCENE_PREP, 0x0B, 8, -game:FE7 -end -indexMode:8
+PREPSCREEN, 0x0B, 8, -game:FE7 -end -indexMode:8
 
 ##Fades out of the opening darkness set in the Chapter Data Table.
-FADE_OPENING, 0x0C, 4, -game:FE7 -indexMode:8
+OPEN, 0x0C, 4, -game:FE7 -indexMode:8
 
 
 
@@ -35,7 +35,7 @@ CAMERA, 0x1F, 4, -game:FE7 -indexMode:8
 CAMERA, 0x20, 4, -game:FE7 -indexMode:8
 	characterID, 2, 2
 	
-##Moves the camera to the main character. The main character is Lyn, Eliwood or Hector depending on the game mode.
+##Moves the camera to the main character. The main character is Lyn_t, Eliwood or Hector depending on the game mode.
 CAMERA_PROTAG, 0x21, 4, -game:FE7, -indexMode:8
 	
 ##Moves the camera to specified position, such that the position is centered on the screen. Will cause issues if centering to the position displays out of bounds tiles.
@@ -50,7 +50,7 @@ MOVE, 0x23, 12, -game:FE7 -indexMode:8
 ##Moves character in the first specified position to the second specified position, with the specified speed.
 MOVE, 0x24, 16, -game:FE7 -indexMode:8
 	oldposition, 4, 4, -coordinate:2 -preferredBase:10 -signed
-	oldposition, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	newposition, 8, 4, -coordinate:2 -preferredBase:10 -signed
 	speed, 12, 4, -preferredBase:10
 
 ##Moves character in the specified position according to the provided movement script.
@@ -105,16 +105,16 @@ MOVE_INSTANT, 0x2F, 12, -game:FE7 -indexMode:8
 
 
 ##Makes the event engine wait for all unit-changing events to finish, including movement and loading.
-ENDMOVE, 0x3B, 4, -game:FE7 -indexMode:8
+AWAIT, 0x3B, 4, -game:FE7 -indexMode:8
 
-##Allows the camera to follow unit movement automatically during scenes. Reverted using CAMERA_UNFOLLOW.
-CAMERA_FOLLOW, 0x3C, 4, -game:FE7 -indexMode:8
+##Allows the camera to follow unit movement automatically during scenes. Reverted using CAMERA_OFF.
+CAMERA_ON, 0x3C, 4, -game:FE7 -indexMode:8
 
-##Prevents the camera from following unit movement automatically during scenes. Reverted using CAMERA_FOLLOW. This code is also used in the very beginning of some chapters before FADE_OPENING (needs investigation)
-CAMERA_UNFOLLOW, 0x3D, 4, -game:FE7 -indexMode:8
+##Prevents the camera from following unit movement automatically during scenes. Reverted using CAMERA_ON. This code is also used in the very beginning of some chapters before OPEN (needs investigation)
+CAMERA_OFF, 0x3D, 4, -game:FE7 -indexMode:8
 
 ##Calls ASM routine during a scene. Thumb routines need to be added 1.
-ASMC, 0x3E, 8, -language:FE7 -repeatable -indexMode:8
+FUNCTION, 0x3E, 8, -language:FE7 -repeatable -indexMode:8
 	offset, 4, 4, -pointer:ASM
 
 
@@ -126,20 +126,20 @@ JUMP, 0x58, 8, -game:FE7 -indexMode:8
 
 	
 ##Gives specified item to the active character.
-GIVE_TOACTIVE, 0x5B, 8, -game:FE7 -indexMode:8
+GIVE_ACTIVE, 0x5B, 8, -game:FE7 -indexMode:8
 	itemID, 4, 2
 
 ##Gives specified item to the specified character.
-GIVE_TOCHARACTER, 0x5C, 12, -game:FE7 -indexMode:8
+GIVE, 0x5C, 12, -game:FE7 -indexMode:8
 	characterID, 4, 2
 	itemID, 8, 2
 
 ##Gives specified item to the main character. The main character is Lyn, Eliwood or Hector depending on the game mode.
-GIVE_TOPROTAG, 0x5D, 8, -game:FE7 -indexMode:8
+GIVE_PROTAG, 0x5D, 8, -game:FE7 -indexMode:8
 	itemID, 4, 2
 
 ##Gives specified amount of money to the player. If the specification is 0, money will be given only if the active character is of the player faction. If it's not 0, money will be given unconditionally.
-GIVE_MONEY, 0x5E, 8, -game:FE7 -indexMode:8
+MONEY, 0x5E, 8, -game:FE7 -indexMode:8
 	specification, 2, 2, -preferredBase:2
 	amount, 4, 2, -preferredBase:10
 
@@ -154,7 +154,7 @@ CURSOR_FLASH, 0x67, 8, -game:FE7 -indexMode:8
 	characterID, 4, 2
 	
 ##Puts the cursor on the specified position.
-CURSOR_PUT, 0x68, 8, -game:FE7 -indexMode:8
+CURSOR_PLACE, 0x68, 8, -game:FE7 -indexMode:8
 	position, 4, 4, -coordinates:2 -preferredBase:10
 
 ##Removes the cursor.
@@ -163,17 +163,17 @@ CURSOR_END, 0x69, 4, -game:FE7 -indexMode:8
 
 
 ##Sets specified flag.
-FLAG_SET, 0x76, 4, -game:FE7 -indexMode:8
+FLAG_ON, 0x76, 4, -game:FE7 -indexMode:8
 	flagID, 2, 2
 
 ##Unsets specified flag.
-FLAG_UNSET, 0x77, 4, -game:FE7 -indexMode:8
+FLAG_OFF, 0x77, 4, -game:FE7 -indexMode:8
 	flagID, 2, 2
 
 
 
 ##Ends current chapter and moves to specified chapter through Save menu.
-CHAPTER_END, 0x81, 4, -game:FE7 -indexMode:8
+CHAPTER_GOTO, 0x81, 4, -game:FE7 -indexMode:8
 	chapterID, 2, 2
 	
 ##Ends the game.
@@ -187,7 +187,7 @@ CHAPTER_LOAD, 0x84, 16, -game:FE7 -indexMode:8
 	chapterID, 4, 2
 	position, 8, 8, -coordinate:2 -preferredBase:10
 
-##Replaces the chapter ID of the current chapter with the specified chapter. This code's use case is unknown.
+##Replaces the chapter ID of the current chapter with the specified chapter.
 CHAPTER_SETID 0x85, 8, -game:7 -indexMode:8
 	chapterID, 4, 2
 
@@ -209,12 +209,12 @@ WEATHER, 0x9B, 4, -game:FE7 -indexMode:8
 WEATHER_SKIPPABLE, 0x9C, 4, -game:FE7 -indexMode:8
 	weatherID, 2, 1
 
-##Changes the fog vision distance of the current chapter. Unknown if there's any mechanical difference from FOG_BLACK.
-FOG_WHITE, 0x9D, 4, -game:FE7 -indexMode:8
+##Changes the fog vision distance of the current chapter.
+FOG, 0x9D, 4, -game:FE7 -indexMode:8
 	distance, 2, 1, -preferredBase:10
 
-##Changes the fog vision distance of the current chapter. Unknown if there's any mechanical difference from FOG_WHITE.
-FOG_BLACK, 0x9E, 4, -game:FE7 -indexMode:8
+##Changes the fog vision distance of the current chapter. Unknown if there's any mechanical difference from FOG.
+FOG2, 0x9E, 4, -game:FE7 -indexMode:8
 	distance, 2, 1, -preferredBase:10
 
 

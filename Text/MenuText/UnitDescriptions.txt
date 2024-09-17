@@ -1,0 +1,179 @@
+#0x1AF TD_Eliwood
+Marquess Pherae's young[N]
+son. Just and honorable.[X]
+
+## TD_Hector
+Marquess Ostia's younger[N]
+brother. Reckless, but loyal.[X]
+
+## TD_Lyn
+A young girl from the Lorca[N]
+tribe. Stouthearted and kind.[X]
+
+## TD_Dorcas
+A man from a small village in[N]
+Bern. Fights for his wife.[X]
+
+## TD_Bartre
+One of Eliwood's guardsmen.[N]
+Duty is everything to him.[X]
+
+## TD_Raven
+A troubled mercenary with a[N]
+grudge against House Ostia.[X]
+
+## TD_Geitz
+The eldest son of a wealthy[N]
+merchant. Finding himself.[X]
+
+## TD_Guy
+A youth from Sacae. Yearns[N]
+to be a swordmaster.[X]
+
+## TD_Karel
+An eastern swordmaster.[N]
+Seeking worthy opponents.[X]
+
+## TD_Oswin
+A knight in service to House[N]
+Ostia. Hector's sworn man.[X]
+
+## TD_Fargus
+The captain of a band of[N]
+corsairs. A generous man.[X]
+
+## TD_Wil
+A youth from Pherae, in the[N]
+Lycian League. Very social.[X]
+
+## TD_Rebecca
+A youth from Pherae. Very[N]
+helpful and bright.[X]
+
+## TD_Louise
+The wife of Marquess[N]
+Reglay. A lethal beauty.[X]
+
+## TD_Lucius
+A traveling acolyte.[N]
+Gentle and serene.[X]
+
+## TD_Serra
+A cleric in service to House[N]
+Ostia. Headstrong and bold.[X]
+
+## TD_Renault
+A cleric wandering Valor.[N]
+Shrouded in mystery.[X]
+
+## TD_Erk
+A young mage from Etruria.[N]
+Charming, but uptight.[X]
+
+## TD_Nino
+One of the Black Fang.[N]
+True and innocent.[X]
+
+## TD_Pent
+Marquess of Reglay. Sole[N]
+student of Archsage Athos.[X]
+
+## TD_Canas
+A scholar, and a novice[N]
+student of ancient magics.[X]
+
+## TD_Kent
+A knight in service to house[N]
+Caelin. Virtuous to a fault.[X]
+
+## TD_Sain
+A knight in service to house[N]
+Caelin. A bit of a scoundrel.[X]
+
+## TD_Lowen
+A knight in service to House[N]
+Pherae. A fresh recruit.[X]
+
+## TD_Marcus
+A paladin serving House[N]
+Pherae. A skilled veteran.[X]
+
+## TD_Priscilla
+A vassal in service to Count[N]
+Caerleon of Etruria.[X]
+
+## TD_Rath
+A young hired sword from[N]
+the Kutolah tribe.[X]
+
+## TD_Florina
+A pegasus knight earning[N]
+her title. A friend of Lyn's.[X]
+
+## TD_Fiora
+Commander of the 5th wing[N]
+of Ilia's pegasus knights.[X]
+
+## TD_Farina
+A member of the 3rd wing[N]
+of Ilia's pegasus knights.[X]
+
+## TD_Heath
+A deserter from Bern's[N]
+wyvern riders. Prideful.[X]
+
+## TD_Vaida
+A deserter from Bern's[N]
+wyvern riders. Brutal.[X]
+
+## TD_Hawkeye
+The protector of Nabata. A[N]
+mysterious air surrounds him.[X]
+
+## TD_Matthew
+A cheery thief. His casual[N]
+demeanor belies his skill.[X]
+
+## TD_Jaffar
+The Black Fang's Angel of[N]
+Death. Once served Nergal.[X]
+
+## TD_Ninian
+A somber girl. Quiet, but[N]
+filled with a solemn energy.[X]
+
+## TD_Nils
+A bard possessing arcane[N]
+powers. Brother of Ninian.
+
+## TD_Athos
+An archsage. One of the[N]
+eight legendary heroes.[X]
+
+## TD_Merlinus
+A traveling merchant. Timid[N]
+and easily frightened.[X]
+
+## TD_Dart
+One of Fargus's corsairs.[N]
+Foulmouthed, but kind.[X]
+
+## TD_Wallace
+A retired knight of Caelin.[N]
+Constantly testing himself.[X]
+
+## TD_Isadora
+A paladin in service to House[N]
+Pherae. Modest and polite.[X]
+
+## TD_Legault
+A former Black Fang once[N]
+known as Hurricane.[X]
+
+## TD_Harken
+The sole survivor of the[N]
+Knights of Pherae.[X]
+
+## TD_Karla
+A dedicated swordfighter.[N]
+Cool and detached.[X]

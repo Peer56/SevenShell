@@ -1,0 +1,42 @@
+// icon graphics allocation rewritten to allow for more than 160 icons
+// hack by nat/stan for fe7(us)
+
+// NOTE: this frees up a bunch of ewram space from 0x02026A90 onwards
+
+#include "Extensions/Hack Installation.txt"
+
+#include "src/many_icons.lyn.event"
+
+PUSH
+
+    ORG 0x004DD8
+ActiveIconUsageTable:
+    // replacing a vanilla pointer here because we don't need to waste the space
+    WORD 0x02026A50
+
+    ORG 0x004E20
+IconSheet:
+    // linking to vanilla pointer here, in case of repointing! (not overwriting)
+
+    ORG 0x004CF4
+    jumpToHack(NuClearIcons)
+    PROTECT 0x004CF4 0x004D2C
+
+    ORG 0x004D5C
+    // this function is unused to my knowledge, but replace it anyway just in case
+    jumpToHack(NuCountActiveIcons)
+    PROTECT 0x004D5C 0x004D7C
+
+    ORG 0x004D90
+    jumpToHack(NuggetNewIconSlot)
+    PROTECT 0x004D90 0x004DBC
+
+    ORG 0x004DBC
+    jumpToHack(NuggetIconChr)
+    PROTECT 0x004DBC 0x004E28
+
+    ORG 0x004E78
+    jumpToHack(NuClearIcon)
+    PROTECT 0x004DBC 0x004E98
+
+POP

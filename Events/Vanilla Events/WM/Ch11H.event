@@ -1,0 +1,54 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.1.0.0                              //
+// Game: FE7                                      //
+// File: FE7_clean.gba                            //
+// Offset: $CECDD8                                //
+// Size: 0x134                                    //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $CECDD8
+_0x87
+ASMWORLDMAP 0xB5631
+LOADWM 0x1 [0,200] 0x5C
+STAL 16
+_0x89
+STAL 136
+TEXTBOXTOBOTTOM
+TEXTWM 0x6EE
+SHOWPORTRAIT 0x0 0x4F 52 0x5 0
+STAL 6
+SCRO
+REMOVEPORTRAIT 0x0 0x1 0
+PLACEDOT 0x0 [37,227] 0x1
+SHOWPORTRAIT 0x1 0x4E 188 0x2 16
+SCRO
+REMOVEPORTRAIT 0x1 0x2 0
+PUTSPRITE 0x0 [37,227] 0x3 0x0 0x0 0x0 0x0
+STAL 0
+SCRO
+SHOWPORTRAIT 0x0 0x2 52 0x5 0
+STAL 6
+SCRO
+REMOVEPORTRAIT 0x0 0x1 0
+SHOWPORTRAIT 0x1 0xC 188 0x2 16
+SCRO
+PUTSPRITE 0x0 [37,227] 0x0 0x2 0x0 0x0 0x0
+STAL 0
+SCRO
+STAL 60
+_0xCA
+MUEN 4
+_0xAD
+_0xAE
+STAL 60
+WORD 0x0
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CECF0C - currentOffset

@@ -1,0 +1,45 @@
+# full unit
+UNIT, 0, 16, -game:FE7:FE7J -priority:unit -indexMode:8
+	CharId, 0, 1
+	ClassId, 1, 1
+	LeaderId, 2, 1
+	LevelAllAuto, 3, 1
+	LoadPosition, 4, 2, -coordinate:2 -preferredBase:10
+	StartPosition, 6, 2, -coordinate:2 -preferredBase:10
+	Items, 8, 4, -coordinate:1-4
+	AI, 12, 4, -coordinate:1-4
+
+# no leader
+UNIT, 0, 16, -game:FE7:FE7J -priority:unit -indexMode:8
+	CharId, 0, 1
+	ClassId, 1, 1
+	LevelAllAuto, 3, 1
+	LoadPosition, 4, 2, -coordinate:2 -preferredBase:10
+	StartPosition, 6, 2, -coordinate:2 -preferredBase:10
+	Items, 8, 4, -coordinate:1-4
+	AI, 12, 4, -coordinate:1-4
+
+# no ai
+UNIT, 0, 16, -game:FE7:FE7J -priority:unit -indexMode:8
+	CharId, 0, 1
+	ClassId, 1, 1
+	LeaderId, 2, 1
+	LevelAllAuto, 3, 1
+	LoadPosition, 4, 2, -coordinate:2 -preferredBase:10
+	StartPosition, 6, 2, -coordinate:2 -preferredBase:10
+	Items, 8, 4, -coordinate:1-4
+
+# no leader, no ai
+UNIT, 0, 16, -game:FE7:FE7J -priority:unit -indexMode:8
+	CharId, 0, 1
+	ClassId, 1, 1
+	LevelAllAuto, 3, 1
+	LoadPosition, 4, 2, -coordinate:2 -preferredBase:10
+	StartPosition, 6, 2, -coordinate:2 -preferredBase:10
+	Items, 8, 4, -coordinate:1-4
+
+# UNIT list terminator
+UNIT, 0, 16, -game:FE7:FE7J -priority:unit -end -indexMode:8
+
+# UNIT list terminator
+END_UNIT, 0, 16, -game:FE7:FE7J -priority:unit -end -indexMode:8

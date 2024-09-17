@@ -1,0 +1,54 @@
+# Removes character at specified position from the map.
+REMOVE, 0x6A, 8, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinate:2 -preferredBase:10
+
+# Removes specified character from the map.
+REMOVE, 0x6B, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+
+# Kills character at specified position, playing the death effect on character's map sprite and setting the "dead" bitflag.
+KILL, 0x6C, 8, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinate:2 -preferredBase:10
+
+# Kills specified character, playing the death effect on character's map sprite and setting the "dead" bitflag.
+KILL, 0x6D, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+
+# NEEDS RESEARCH
+HIDE, 0x6E, 8, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinate:2 -preferredBase:10
+
+# NEEDS RESEARCH
+HIDE, 0x6F, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+
+# NEEDS RESEARCH
+DISABLE, 0x70, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+
+# NEEDS RESEARCH
+ENABLE, 0x71, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+
+# Sets bits in the unit state bitfield.
+STATE_SET, 0x72, 12, -game:FE7 -indexMode:8
+	character, 4, 2
+	state, 8, 4, -preferredBase:2
+
+# Unsets bits in the unit state bitfield.
+STATE_UNSET, 0x73, 12, -game:FE7 -indexMode:8
+	character, 4, 2
+	state, 8, 4, -preferredBase:2
+
+# Changes specified AI bytes for specified character.
+CHANGEAI, 0x74, 12, -game:FE7 -indexMode:8
+	character, 4, 2
+	AI, 8, 4, -coordinate:4
+
+# Changes specified AI bytes for character at specified position.
+CHANGEAI, 0x75, 12, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinate:2 -preferredBase:10
+	AI, 8, 4, -coordinate:4
+
+# Allows a character to use a weapon-locked weapon if a flag is set. NEEDS RESEARCH
+UNSEAL, 0x9F, 16, -game:FE7 -indexMode:8

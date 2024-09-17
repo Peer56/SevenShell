@@ -1,0 +1,8 @@
+//Move script helpers
+#define Left 0
+#define Right 1
+#define Down 2
+#define Up 3
+#define Highlight(time) "9 time"
+#define Notice 10
+#define Speed(newSpeed) "12 newSpeed"

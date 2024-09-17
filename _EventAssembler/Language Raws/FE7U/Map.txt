@@ -1,0 +1,22 @@
+# Triggers specified tile change.
+TILECHANGE, 0x5F, 4, -game:FE7 -indexMode:8
+    change, 2, 2
+
+# Triggers tile change at specified position.
+TILECHANGE, 0x60, 4, -game:FE7 -indexMode:8
+    position, 2, 2, -coordinates:2 -preferredBase:10
+
+# NEEDS RESEARCH
+TILECHANGE_INSTANT, 0x61, 4, -game:FE7 -indexMode:8
+    change, 2, 2
+
+# NEEDS RESEARCH
+TILECHANGE_UNK1, 0x62, 4, -game:FE7 -indexMode:8
+    change, 2, 2
+
+# NEEDS RESEARCH
+TILECHANGE_UNK2, 0x63, 4, -game:FE7 -indexMode:8
+
+# NEEDS RESEARCH
+TILECHANGE_AUTO, 0x64, 4, -game:FE7 -indexMode:8
+    change, 2, 2

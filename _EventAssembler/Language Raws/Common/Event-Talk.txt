@@ -1,0 +1,46 @@
+# Event that happens when two characters land next to each other and Talk command is selected.
+TALK, 3, 16, -game:FE7:FE7J -priority:main -indexMode:8
+	Flag, 2, 2
+	Scene, 4, 4, -pointer
+	Characters, 8, 2, -coordinates:2
+	Extra, 12, 4
+
+TALK, 3, 16, -game:FE7:FE7J -priority:main -indexMode:8
+	Flag, 2, 2
+	Scene, 4, 4, -pointer
+	Characters, 8, 2, -coordinates:2
+	Extra1, 12, 1
+	Extra2, 13, 1
+	Extra3, 14, 1
+	Extra4, 15, 1
+
+TALK, 3, 16, -game:FE7:FE7J -priority:main -indexMode:8
+	Flag, 2, 2
+	Scene, 4, 4, -pointer
+	Character 1, 8, 1
+	Character 2, 9, 1
+	Extra, 12, 4
+
+TALK, 3, 16, -game:FE7:FE7J -priority:main -indexMode:8
+	Flag, 2, 2
+	Scene, 4, 4, -pointer
+	Character 2, 8, 1
+	Character 2, 9, 1
+	Extra1, 12, 1
+	Extra2, 13, 1
+	Extra3, 14, 1
+	Extra4, 15, 1
+
+# Like normal TALK, except the ASM routine must return true for the Talk option to appear.
+TALK_ASM, 4, 16, -game:FE7:FE7J -indexMode:8 -priority:main
+	Flag, 2, 2
+	Scene, 4, 4, -pointer:none
+	Characters, 8, 2, -coordinates:2
+	ASM pointer, 12, 4, -pointer:ASM
+
+TALK_ASM, 4, 16, -game:FE7:FE7J -indexMode:8 -priority:main
+	Flag, 2, 2
+	Scene, 4, 4, -pointer:none
+	Character 1, 8, 1
+	Character 2, 9, 1
+	ASM pointer, 12, 4, -pointer:ASM

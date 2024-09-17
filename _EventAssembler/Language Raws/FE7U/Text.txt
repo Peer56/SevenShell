@@ -1,0 +1,93 @@
+# Clears background and text and returns to map.
+CLEAR, 0x09, 4, -game:FE7 -indexMode:8
+
+# Starts conversation using specified text ID.
+TEXT, 0x0D, 8, -game:FE7 -indexMode:8
+	text, 4, 2
+
+# Starts conversation using specified text ID.
+# Used alongside screen effects that need hardware color blending.
+TEXT_OPAQUE, 0x0E, 8, -game:FE7 -indexMode:8
+	text, 4, 2
+
+# Starts conversation using text ID depending on game mode.
+TEXT_GAMEMODE, 0x0F, 12, -game:FE7 -indexMode:8
+	textEM, 4, 4
+	textHM, 8, 4
+
+# Broken. Do not use.
+TEXT_BROKEN, 0x10, 8, -game:FE7 -indexMode:8
+    	function, 4, 4, -pointer:unknown
+
+# Continues conversation without clearing portraits and speech bubbles using specified text ID.
+MORETEXT, 0x11, 8, -game:FE7 -indexMode:8
+	text, 4, 2
+
+# Continues conversation without clearing portraits and speech bubbles using text ID depending on game mode.
+MORETEXT_GAMEMODE, 0x12, 12, -game:FE7 -indexMode:8
+	textEM, 4, 4
+	textHM, 8, 4
+
+# Starts conversation using context-dependant text ID, used within support events.
+TEXT_SUPPORT, 0x13, 4, -game:FE7 -indexMode:8
+
+# Resumes conversation that was interrupted by the [Events] text control code.
+TEXT_RESUME, 0x14, 4, -game:FE7 -indexMode:8
+
+# Starts conversation using text ID from specified text ID list.
+# The entry is determined by active character's generic talk group in the Character Table.
+TEXT_GENERIC, 0x15, 8, -game:FE7 -indexMode:8
+    list, 4, 4, -pointer:unknown
+
+# Continues conversation without clearing portraits and speech bubbles using text ID from specified text ID list.
+# The entry is determined by active character's generic talk group in the Character Table.
+MORETEXT_GENERIC, 0x15, 8, -game:FE7 -indexMode:8
+    list, 4, 4, -pointer:unknown
+
+# Starts conversation using text ID from given text ID list. Entry is defined by the tactician rank in the given category. NEEDS RESEARCH
+TEXT_RANK, 0x17, 8, -game:FE7 -indexMode:8
+    category, 2, 2, -preferredBase:10
+    list, 4, 4, -pointer:unknown
+
+# Starts conversation using text ID depending on tactician's gender.
+TEXT_GENDER, 0x18, 12, -game:FE7 -indexMode:8
+    textM, 4, 4
+    textF, 8, 4
+
+# Continues conversation without clearing portraits and speech bubbles using text ID depending on depending on tactician's gender.
+MORETEXT_GENDER, 0x19, 12, -game:FE7 -indexMode:8
+    textM, 4, 4
+    textF, 8, 4
+
+# Starts conversation using text ID depending on flag.
+# Uses first text ID if flag is set, second otherwise.
+TEXT_FLAG, 0x1A, 16, -game:FE7 -indexMode:8
+    flag, 4, 2
+    text1, 8, 2
+    text2, 12, 2
+
+# Continues conversation without clearing portraits and speech bubbles using text ID depending on flag.
+# Uses first text ID if flag is set, second otherwise.
+MORETEXT_FLAG, 0x1B, 16, -game:FE7 -indexMode:8
+    flag, 4, 2
+    text1, 8, 2
+    text2, 12, 2
+
+# Starts conversation using text ID depending on ASM function.
+# Uses first text ID if function returns non-zero, second otherwise.
+TEXT_ASM, 0x1C, 16, -game:FE7 -indexMode:8
+    function, 4, 4, -pointer:unknown
+    text1, 8, 2
+    text2, 12, 2
+
+# Continues conversation without clearing portraits and speech bubbles using text ID depending on ASM function.
+# Uses first text ID if function returns non-zero, second otherwise.
+MORETEXT_ASM, 0x1D, 16, -game:FE7 -indexMode:8
+    function, 4, 4, -pointer:unknown
+    text1, 8, 2
+    text2, 12, 2
+
+# Clears speech bubbles.
+CLEARSPEECH, 0x1E, 4, -game:FE7 -indexMode:8
+
+# TEX8, ...

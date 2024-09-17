@@ -1,0 +1,230 @@
+#0x48F TN_Lord
+Lord[X]
+
+## TN_KnightLord
+Knight Lord[X]
+
+## TN_GreatLord
+Great Lord[X]
+
+## TN_BladeLord
+Blade Lord[X]
+
+## TN_Mercenary
+Mercenary[X]
+
+## TN_Hero
+Hero[X]
+
+## TN_Myrmidon
+Myrmidon[X]
+
+## TN_Swordmaster
+Swordmaster[X]
+
+## TN_Fighter
+Fighter[X]
+
+## TN_Warrior
+Warrior[X]
+
+## TN_Knight
+Knight[X]
+
+## TN_General
+General[X]
+
+## TN_Archer
+Archer[X]
+
+## TN_Sniper
+Sniper[X]
+
+## TN_Monk
+Monk[X]
+
+## TN_Cleric
+Cleric[X]
+
+## TN_Bishop
+Bishop[X]
+
+## TN_Mage
+Mage[X]
+
+## TN_Sage
+Sage[X]
+
+## TN_Shaman
+Shaman[X]
+
+## TN_Druid
+Druid[X]
+
+## TN_DarkDruid
+Dark Druid[X]
+
+## TN_Cavalier
+Cavalier[X]
+
+## TN_Paladin
+Paladin[X]
+
+## TN_Troubadour
+Troubadour[X]
+
+## TN_Valkyrie
+Valkyrie[X]
+
+## TN_Nomad
+Nomad[X]
+
+## TN_NomadicTrooper
+Nmd Trooper[X]
+
+## TN_PegasusKnight
+Peg Knight[X]
+
+## TN_Falcoknight
+Falcoknight[X]
+
+## TN_WyvernRider
+Wyvern Rider[X]
+
+## TN_WyvernLord
+Wyvern Lord[X]
+
+## TN_Soldier
+Soldier[X]
+
+## TN_Brigand
+Brigand[X]
+
+## TN_Pirate
+Pirate[X]
+
+## TN_Corsair
+Corsair[X]
+
+## TN_Berserker
+Berserker[X]
+
+## TN_Thief
+Thief[X]
+
+## TN_Assassin
+Assassin[X]
+
+## TN_Dancer
+Dancer[X]
+
+## TN_Bard
+Bard[X]
+
+## TN_Archsage
+Archsage[X]
+
+## TN_MagicSeal
+Magic Seal[X]
+
+## TN_FireDragon
+Fire Dragon[X]
+
+## TN_Civilian
+Civilian[X]
+
+## TN_Child
+Child[X]
+
+## TN_Bramimond
+Bramimond[X]
+
+## TN_Peer
+Peer[X]
+
+## TN_Prince
+Prince[X]
+
+## TN_Queen
+Queen[X]
+
+## TN_Transporter
+Transporter[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]

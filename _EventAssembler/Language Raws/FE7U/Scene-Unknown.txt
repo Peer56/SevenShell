@@ -1,0 +1,115 @@
+#Chapters: 20, 31x, F1, F2
+#only calls routine if 3nd lowest bit of 02024e94[0x5E] is 0.
+_ASM0x3F, 0x3F, 8, -game:FE7 -indexMode:8
+	ASM pointer, 4, 4, -pointer:ASM
+
+#Chapters: Prologue, 1, 2...
+#Checks value returned by ASM routine.
+_ASM0x42, 0x42, 8, -game:FE7 -indexMode:8
+	Ptr, 4, 4, -pointer:ASM
+
+#Chapters: 29
+#Makes unit disappear until moved?
+_0x6E, 0x6E, 8, -game:FE7 -indexMode:8
+	Coordinates, 4, 4, -coordinates:2
+
+#Chapters: 3, 6, 9...
+_FADU2, 0x86, 4, -game:FE7 -indexMode:8
+
+#Chapters: Prologue, 1, 2...
+#SoC: Locks out start and skip scene functions
+_0x87, 0x87, 4, -game:FE7 -indexMode:8
+
+#Fade out of black world map style?
+#Chapters: 2, 5, 6...
+_0x89, 0x89, 4, -game:FE7 -indexMode:8
+
+#Chapters: Prologue, 1, 2...
+#SoC:Enables start button crap again?
+_0x8A, 0x8A, 4, -game:FE7 -indexMode:8
+
+#Chapters: 19, 20, 23, 23x, 29
+#Fade in?
+_0x95, 0x95, 16, -game:FE7 -indexMode:8
+	Value1, 4, 4
+	Value2, 8, 4
+	Value3, 12, 4
+
+#Chapters: 20, 28
+#Fade out?
+_0x96, 0x96, 16, -game:FE7 -indexMode:8
+	Value1, 4, 4
+	Value2, 8, 4
+	Value3, 12, 4
+
+#After every CALL code
+_0x9A, 0x9A, 4, -game:FE7 -indexMode:8
+
+#Chapters: Prologue, 4
+_0xA2, 0xA2, 8, -game:FE7 -indexMode:8
+	Value, 4, 4, -pointer:battleData
+
+#Chapters: 1
+#Conditional text
+_0xA8, 0xA8, 16, -game:FE7 -indexMode:8
+	Position, 4, 4, -coordinates:2
+	Text 1, 8, 4
+	Text 2, 12, 4
+
+#Chapters: Prologue
+_0xAA, 0xAA, 4, -game:FE7 -indexMode:8
+
+#Chapters: Prologue, 1
+#Pointer to arrow coordinates?
+_0xAB, 0xAB, 8, -game:FE7 -indexMode:8
+	Pointer, 4, 4, -pointer:coordList
+
+#World maps: 1, 2, 3...
+_0xAD, 0xAD, 4, -game:FE7 -indexMode:8
+
+#World maps: 1, 2, 3...
+_0xAE, 0xAE, 4, -game:FE7 -indexMode:8
+
+#World maps: 11E, 23, 24
+_0xB6, 0xB6, 4, -game:FE7 -indexMode:8
+#	Value, 4, 4, -coordinates:2
+
+#World maps: 3
+_0xBE, 0xBE, 8, -game:FE7 -indexMode:8
+	Value, 4, 4
+
+#World maps: 3, 6, 8...
+_0xC1, 0xC1, 16, -game:FE7 -indexMode:8
+	Value, 4, 4, -coordinates:2 -preferredBase:10
+	Value, 8, 4
+	Value, 12, 4
+
+#World maps: 7x, 9, 11E, 27, 28
+_0xC2, 0xC2, 12, -game:FE7 -indexMode:8
+	Value, 4, 4
+	Value, 8, 4
+
+#World maps: 7x, 11E, 17
+_0xC3, 0xC3, 12, -game:FE7 -indexMode:8
+	Value, 4, 4
+	Value, 8, 4
+
+#World maps: 1, 2, 3...
+_0xCA, 0xCA, 4, -game:FE7 -indexMode:8
+
+#Chapters: 20, 32
+_0xE2, 0xE2, 4, -game:FE7 -indexMode:8
+
+
+#Chapters: 11H, 20, 27, F2
+_0xE4, 0xE4, 4, -game:FE7 -indexMode:8
+
+#Chapters: 20
+#Palette pointers?
+_0xE5, 0xE5, 16, -game:FE7 -indexMode:8
+	Ptr1, 4, 4, -pointer:unknown
+	Ptr2, 8, 4, -pointer:unknown
+	Value, 12, 4
+
+#Chapters: 20
+_0xE6, 0xE6, 4, -game:FE7 -indexMode:8

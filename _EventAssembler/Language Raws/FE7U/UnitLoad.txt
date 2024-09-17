@@ -1,0 +1,50 @@
+# Loads specified unit group.
+LOAD, 0x32, 8, -game:FE7 -repeatable -indexMode:8
+	group, 4, 4, -pointer:unit
+
+# Loads specified unit group.
+# Individual units who are already dead are not loaded.
+LOAD_ALIVE, 0x33, 8, -game:FE7 -repeatable -indexMode:8
+	group, 4, 4, -pointer:unit
+
+# Loads specified unit group if requirements are met.
+# For first parameter, 1 is Lyn mode, 2 is Eliwood mode, 3 is Hector mode.
+# For second parameter, if it's anything besides 0, loading only happens on hard difficulty.
+LOAD_IF, 0x34, 12, -game:FE7 -indexMode:8
+   	mode, 4, 2, -preferredBase:10
+ 	hardonly, 6, 2, -preferredBase:10
+ 	group, 8, 4, -pointer:unit
+
+# Loads a different unit group based on what game mode it is.
+LOAD_MODE, 0x35, 20, -game:FE7 -indexMode:8
+	groupEN, 4, 4, -pointer:unit
+	groupEH, 8, 4, -pointer:unit
+	groupHN, 12, 4, -pointer:unit
+	groupHH, 16, 4, -pointer:unit
+
+# Loads specified unit group.
+# A unit's data is filled from RAM. Individual units who are already dead are not loaded.
+LOADPARTY, 0x36, 8, -game:FE7 -repeatable -indexMode:8
+	group, 4, 4, -pointer:unit
+
+# Loads specified unit group if requirements are met.
+# A unit's data is filled from RAM. Individual units who are already dead are not loaded.
+# For mode parameter, 1 is Lyn mode, 2 is Eliwood mode, 3 is Hector mode.
+LOADPARTY_IF, 0x37, 12, -game:FE7 -indexMode:8
+   	mode, 4, 4, -preferredBase:10
+ 	group, 8, 4, -pointer:unit
+
+# Loads a different unit group based on what game mode it is.
+# A unit's data is filled from RAM. Individual units who are already dead are not loaded.
+LOADPARTY_MODE, 0x38, 20, -game:FE7 -indexMode:8
+	groupEN, 4, 4, -pointer:unit
+	groupEH, 8, 4, -pointer:unit
+	groupHN, 12, 4, -pointer:unit
+	groupHH, 16, 4, -pointer:unit
+
+# Loads a single dummy unit of given character and class ID. This unit only exists in during the scene and its data doesn't persist.
+# Useful for not needing to bother with unit groups when a cutscene needs a single unit loaded.
+LOAD_DUMMY, 0x39, 12, -game:FE7 -indexMode:8
+	character, 4, 2
+	class, 6, 2
+	position, 8, 4, -coordinate:2 -preferredBase:10

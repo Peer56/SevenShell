@@ -1,0 +1,6 @@
+# Kills event execution and softlocks the game.
+HALT, 0x43, 4, -game:FE7 -indexMode:8
+
+# Sets a key ignore mask that prevents specified button inputs from doing anything.
+KEYMASK, 0xA1, 8, -game:FE7 -indexMode:8
+	mask, 4, 4, -preferredBase:2

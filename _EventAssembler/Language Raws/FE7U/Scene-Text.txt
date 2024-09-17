@@ -1,0 +1,59 @@
+
+##Removes brown text-boxes.
+RETB, 0xD8, 4, -game:FE7 -indexMode:8
+
+##Shows text with specific bubble type and position.
+TEX6, 0xA7, 12, -game:FE7 -indexMode:8
+##Bubble type to use
+	Bubble type, 2, 2
+##Position of the text. [0,0] is the center of the screen.
+	Text position, 4, 4, -coordinates:2 -preferredBase:10
+##Text to show.
+	Text ID, 8, 2
+
+##Shows text.
+TEXTCG, 0xCF, 12, -game:FE7 -indexMode:8 -noDisassembly
+##Text to show.
+	Text ID, 4, 2
+	1, 8, 1, -fixed
+
+TEXTCG, 0xCF, 12, -game:FE7 -indexMode:8
+	Text ID, 4, 2
+##Unknown, usually 1.
+	CG Value, 8, 1
+
+#Only after other cutscene texts
+#Chapters: 2, 6, 16...
+MORETEXTCG, 0xD1, 12, -game:FE7 -indexMode:8
+	Text ID, 4, 4
+#Usually 1
+	CG Value, 8, 4
+
+##Shows large cut-scene picture.
+SHCG, 0xD3, 4, -game:FE7 -indexMode:8
+##Cutscene picture to show.
+	Cutscene, 2, 2
+
+##Shows text.
+TEX8, 0xD7, 12, -game:FE7 -indexMode:8
+##Text to show.
+	Text ID, 4, 2
+##Position of the text.
+	Text position, 8, 4, -coordinates:2 -preferredBase:10
+
+#Chapters: 1, 7, 10, F1
+##Fade out of cutscene to background
+FROMCGTOBG, 0xD9, 12, -game:FE7 -indexMode:8
+	Background, 4, 4
+	Value2, 8, 4
+
+#Chapters: 1, 2, 6...
+##Fade in to cutscene from background
+FROMBGTOCG, 0xDA, 12, -game:FE7 -indexMode:8
+	Cutscene, 4, 4
+	Value2, 8, 4
+
+#Chapters: 19xx, 23x, 29, 31, 32, 32x
+##Fade out of cutscene to map
+FROMCGTOMAP, 0xDB, 8, -game:FE7 -indexMode:8
+	Map position, 4, 2, -coordinates:2  -preferredBase:10

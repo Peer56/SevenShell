@@ -1,0 +1,20 @@
+FIGH, 0x97, 20, -game:FE7 -indexMode:8
+	Attacker, 4, 2
+	Defender, 8, 2
+	Battle data pointer, 12, 4, -pointer:battleData
+	Battle parameter 1, 16, 1
+	Battle parameter 2, 17, 1
+	Battle parameter 3, 18, 1
+	Battle parameter 4, 19, 1
+
+FIGH, 0x97, 20, -game:FE7 -indexMode:8
+	Attacker, 4, 2
+	Defender, 8, 2
+	Battle data pointer, 12, 4, -pointer:battleData
+	Battle parameter, 16, 4, -coordinate:4
+
+FIGH, 0x97, 20, -game:FE7 -indexMode:8
+	Attacker, 4, 2
+	Defender, 8, 2
+	Battle data pointer, 12, 4, -pointer:battleData
+	Battle parameter, 16, 4

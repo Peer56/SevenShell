@@ -1,0 +1,14 @@
+# Clears all unitmenu command overrides set by the other COMMAND instructions.
+COMMAND_RESET, 0xA3, 4, -game:FE7 -indexMode:8
+
+# Removes specified command from the unitmenu command list.
+COMMAND_HIDE, 0xA4, 8, -game:FE7 -indexMode:8
+	command, 4, 4
+
+# Grays out specified command in the unitmenu command list, rendering it unusable.
+COMMAND_DISABLE, 0xA5, 8, -game:FE7 -indexMode:8
+	command, 4, 4
+
+# Reverses the effect of COMMAND_DISABLE on the specified unitmenu command.
+COMMAND_ENABLE, 0xA6, 8, -game:FE7 -indexMode:8
+	command, 4, 4

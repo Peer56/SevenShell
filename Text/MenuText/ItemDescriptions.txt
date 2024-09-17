@@ -1,0 +1,728 @@
+#0x279 TD_PoisonWeapon
+Coated in lethal poison.[X]
+
+## TD_ArmorEffective
+Effective 3x against [Armor].[X]
+
+## TD_HorseEffective
+Effective 3x against [Horse].[X]
+
+## TD_PrfEffective
+Effective 3x against [Armor] and [Horse].[X]
+
+## TD_FlierEffective
+Effective 3x against [Flier].[X]
+
+## TD_DragonEffective
+Effective 3x against [Dragon].[X]
+
+## TD_SwordEffective
+Effective 3x against [Sword].[X]
+
+## TD_BraveWeapon
+Can strike consecutively.[X]
+
+## TD_CritWeapon
+Improves critical hit rate.[X]
+
+## TD_SRankWeapon
+For experienced units only.[X]
+
+## TD_RangedWeapon
+Doubles as ranged attack.[X]
+
+## TD_DevilWeapon
+Might injure its wielder.[X]
+
+## TD_LightBrand
+Suffused with light magic.[X]
+
+## TD_Runesword
+Imbued with dark magic.[X]
+
+## TD_Lancereaver
+Strong against lances.[X]
+
+## TD_Axereaver
+Strong against axes.[X]
+
+## TD_Swordreaver
+Strong against swords.[X]
+
+## TD_Ballista
+Long-range weapon.[X]
+
+## TD_IronBallista
+Super long-range weapon.[X]
+
+## TD_Bolting
+Long-range lightning strike.[X]
+
+## TD_Forblaze
+Boosts luck by 5 pts.[X]
+
+## TD_Purge
+Long-range magic attack.[X]
+
+## TD_Luna
+Negates enemy resistance.[X]
+
+## TD_Nosferatu
+Drains enemy HP into caster.[X]
+
+## TD_Eclipse
+Reduces enemy HP by half.[X]
+
+## TD_EmblemBlade
+A tactician's sword.[X]
+
+## TD_EmblemLance
+A tactician's lance.[X]
+
+## TD_EmblemAxe
+A tactician's axe.[X]
+
+## TD_EmblemBow
+A tactician's bow.[X]
+
+## TD_Durandal
+Increases strength by 5 pts.[X]
+
+## TD_Armads
+Lightning-charged axe.[X]
+
+## TD_Aureola
+Boosts resistance by 5 pts.[X]
+
+## TD_Flametongue
+Dragon's breath, which burns all[N]
+it touches. There is no protection.[X]
+
+## TD_WindSword
+A magic sword capable of[N]
+striking at a distance.[X]
+
+## TD_Heal
+Restores HP to allies in[N]
+adjacent spaces.[X]
+
+## TD_Mend
+Restores many HP to allies[N]
+in adjacent spaces.[X]
+
+## TD_Recover
+Restores all HP to allies[N]
+in adjacent spaces.[X]
+
+## TD_Physic
+Restores HP to allies[N]
+at a distance.[X]
+
+## TD_Fortify
+Restores all HP to allies[N]
+nearby.[X]
+
+## TD_Restore
+Returns allies to normal[N]
+condition. (Cures sleep, etc.)[X]
+
+## TD_Silence
+Halts all enemy magic[N]
+for several turns.[X]
+
+## TD_Sleep
+Puts enemies to sleep for[N]
+several turns.[X]
+
+## TD_Berserk
+Sends enemies into a[N]
+berserker rage.[X]
+
+## TD_Warp
+Moves allies in adjacent[N]
+spaces instantly elsewhere.[X]
+
+## TD_Rescue
+Moves allies from distant[N]
+spaces to adjacent ones.[X]
+
+## TD_TorchStaff
+Lights an area. The light[N]
+grows weaker each turn.[X]
+
+## TD_Hammerne
+Restores an adjacent ally's[N]
+weapons to new condition.[X]
+
+## TD_Unlock
+Unlocks doors, even from[N]
+a distance.[X]
+
+## TD_Barrier
+Increases magic resistance[N]
+of adjacent allies briefly.[X]
+
+## TD_AngelicRobe
+Increases HP by a max of[N]
+7 points. Vanishes after use.[X]
+
+## TD_EnergyRing
+Increases Mag or Str by[N]
+2 points. Vanishes after use.[X]
+
+## TD_SecretBook
+Increases Skill by 2 points.[N]
+Vanishes after use.[X]
+
+## TD_Speedwings
+Increases speed by[N]
+2 points. Vanishes after use.[X]
+
+## TD_GoddessIcon
+Increases luck by[N]
+2 points. Vanishes after use.[X]
+
+## TD_Dragonshield
+Increases defense by[N]
+2 points. Vanishes after use.[X]
+
+## TD_Talisman
+Increases resistance by[N]
+2 points. Vanishes after use.[X]
+
+## TD_Boots
+Increases movement by[N]
+2 points. Vanishes after use.[X]
+
+## TD_BodyRing
+Increases constitution by[N]
+2 points. Vanishes after use.[X]
+
+## TD_AfasDrops
+Gives a little treat to the[N]
+unit that uses it.[X]
+
+## TD_HeroCrest
+For mercenaries, myrmidons,[N]
+and fighters Lv. 10 and up.[X]
+
+## TD_KnightCrest
+For knights and cavaliers[N]
+Lv. 10 and up.[X]
+
+## TD_OrionsBolt
+For archers and nomads[N]
+Lv. 10 and up.[X]
+
+## TD_ElysianWhip
+For pegasus knights and[N]
+wyvern riders Lv. 10 and up.[X]
+
+## TD_GuidingRing
+For magic wielders and[N]
+troubadors Lv. 10 and up.[X]
+
+## TD_EarthSeal
+For some units above Lv. 10[N]
+who have not changed class.[X]
+
+## TD_HeavenSeal
+For lords above Lv. 10 who[N]
+have been deemed worthy.[X]
+
+## TD_EmblemSeal
+[Tact]'s scroll. Gives[N]
+its carrier an advantage.[X]
+
+## TD_FellContract
+Awaiting the signature of a[N]
+thief Lv. 10 or higher.[X]
+
+## TD_OceanSeal
+For seafighters Lv. 10[N]
+and up.[X]
+
+## TD_ChestKey
+Opens chests.[X]
+
+## TD_DoorKey
+Opens doors in[N]
+adjacent spaces.[X]
+
+## TD_Lockpick
+Opens doors and chests.[N]
+Usable only by thieves.[X]
+
+## TD_Vulnerary
+A medicinal solution used[N]
+for healing minor wounds.[X]
+
+## TD_Elixir
+A powerful solution that[N]
+restores all HP.[X]
+
+## TD_PureWater
+A draught that boosts Res.[N]
+Grows weaker each turn.[X]
+
+## TD_Antitoxin
+A medicinal solution that[N]
+cures poison.[X]
+
+## TD_Torch
+A staff with burning pitch.[N]
+Grows dimmer each turn.[X]
+
+## TD_DelphiShield
+An amulet of the god Delphi.[N]
+Protects fliers from arrows.[X]
+
+## TD_MemberCard
+If someone with this card[N]
+stops in a suspicious space...[X]
+
+## TD_SilverCard
+A special card that reduces[N]
+the cost of all items by half.[X]
+
+## TD_WhiteGem
+A valuable gemstone worth[N]
+10,000 gold.[X]
+
+## TD_BlueGem
+A rare gemstone worth[N]
+5,000 gold.[X]
+
+## TD_RedGem
+An uncommon gemstone[N]
+worth 2,500 gold.[X]
+
+## TD_Mine
+A trap that damages units[N]
+that step on it.[X]
+
+## TD_LightRune
+A device that blocks units[N]
+from entering spaces.[X]
+
+## TD_IronRune
+A device that negates[N]
+enemy critical attacks.[X]
+
+## TD_FillasMight
+A dance that increases[N]
+allies' attack for a turn.[X]
+
+## TD_NinissGrace
+A dance that increases[N]
+allies' defenses for a turn.[X]
+
+## TD_ThorsIre
+A dance that increases[N]
+critical hit % for a turn.[X]
+
+## TD_SetsLitany
+A dance that increases[N]
+allies' dodge for a turn.[X]
+
+## TD_Dance
+A dance that allows[N]
+allies to move again.[X]
+
+## TD_Play
+A song that allows[N]
+allies to move again.[X]
+
+## TU_Heal
+Restores HP.[X]
+
+## TU_Mend
+Restores many HP.[X]
+
+## TU_Recover
+Restores all HP.[X]
+
+## TU_Physic
+Restores HP to
+distant allies.[X]
+
+## TU_Fortify
+Restores HP to all[N]
+allies in one area.[X]
+
+## TU_Restore
+Restores allies to[N]
+normal status.[X]
+
+## TU_Silence
+Blocks all enemy[N]
+magic.[X]
+
+## TU_Sleep
+Puts enemies to[N]
+sleep.[X]
+
+## TU_Berserk
+Drives enemies to[N]
+attack wildly in a[N]
+frenzy of rage.[X]
+
+## TU_Warp
+Warps allies to[N]
+other spaces.[X]
+
+## TU_Rescue
+Warps allies to a[N]
+space adjacent to[N]
+the staff wielder.[X]
+
+## TU_TorchStaff
+Lights up an[N]
+area.[X]
+
+## TU_Hammerne
+Restores items to[N]
+new condition.[X]
+
+## TU_Unlock
+Opens doors.[X]
+
+## TU_Barrier
+Increases resistance.[X]
+
+## TU_AngelicRobe
+Increases max HP.[X]
+
+## TU_EnergyRing
+Increases either[N]
+strength or magic.[X]
+
+## TU_SecretBook
+Increases skill.[X]
+
+## TU_Speedwings
+Increases speed.[X]
+
+## TU_GoddessIcon
+Increases luck.[X]
+
+## TU_Dragonshield
+Increases defense.[X]
+
+## TU_Talisman
+Increases resistance.[X]
+
+## TU_Boots
+Increases movement.[X]
+
+## TU_BodyRing
+Increases[N]
+constitution.[X]
+
+## TU_AfasDrops
+Give this to a[N]
+unit you like.[X]
+
+## TU_HeroCrest
+Use this on a worthy[N]
+mercenary, fighter,[N]
+or myrmidon.[X]
+
+## TU_KnightCrest
+Use this on a worthy[N]
+cavalier or knight.[X]
+
+## TU_OrionsBolt
+Use this on a worthy[N]
+archer or nomad.[X]
+
+## TU_ElysianWhip
+Use this on a worthy[N]
+master of a winged[N]
+mount.[X]
+
+## TU_GuidingRing
+Use this on a worthy[N]
+wielder of magic[N]
+power and staves.[X]
+
+## TU_EarthSeal
+Use this on a unit[N]
+over Lv. 10 who has[N]
+yet to change class.[X]
+
+## TU_HeavenSeal
+Use this on a worthy[N]
+lord to bring great[N]
+power.[X]
+
+## TU_EmblemSeal
+Gives its carrier an[N]
+advantage in battle.[X]
+
+## TU_FellContract
+Just have a thief[N]
+sign on the dotted[N]
+line...[X]
+
+## TU_OceanSeal
+Use this on a worthy[N]
+sea fighter.[X]
+
+## TU_ChestKey
+Opens chests.[X]
+
+## TU_DoorKey
+Opens doors.[X]
+
+## TU_Lockpick
+Universal lockpicks[N]
+designed for thieves.[X]
+
+## TU_Vulnerary
+Restores some HP.[X]
+
+## TU_Elixir
+Restores all HP.[X]
+
+## TU_PureWater
+Reduces damage[N]
+from magic attacks.[X]
+
+## TU_Antitoxin
+Cures poison.[X]
+
+## TU_Torch
+Lights an area.[X]
+
+## TU_DelphiShield
+Protects airborne[N]
+units from bows.[X]
+
+## TU_MemberCard
+Grants access to[N]
+secret shops.[X]
+
+## TU_SilverCard
+Reduces the cost[N]
+of items.[X]
+
+## TU_Mine
+Units that enter[N]
+spaces where these[N]
+are take damage.[X]
+
+## TU_LightRune
+Units cannot enter[N]
+spaces where these[N]
+have been placed.[X]
+
+## TU_IronRune
+Negates enemies'[N]
+critical attacks.[X]
+
+## TU_FillasMight
+Increases allies'[N]
+attack power[N]
+for a turn.[X]
+
+## TU_NinissGrace
+Increases allies'[N]
+Def and Res for[N]
+a turn.[X]
+
+## TU_ThorsIre
+Increases allies'[N]
+Crit for a turn.[X]
+
+## TU_SetsLitany
+Increases allies'[N]
+evasion for a turn.[X]
+
+## TU_Dance
+Allows allies[N]
+to move again.[X]
+
+## TU_Play
+Allows allies[N]
+to move again.[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]
+
+##
+[X]

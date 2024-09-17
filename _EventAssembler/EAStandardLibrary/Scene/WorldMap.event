@@ -1,0 +1,53 @@
+#define EndWorldMap "_0xCA; MUEN 4; _0xAD; _0xAE; STAL 60; WORD $0"
+
+#ifndef _FE7J_
+#define WorldMapPointerTable(id,offset) "PUSH; ORG 0xC9CDA4+(4*id); POIN offset; POP"
+#define StartWorldMap(Map, X, Y, LoadWay) "_0x87; ASMWORLDMAP 0xB5631; LOADWM Map [X,Y] LoadWay; STAL 16; _0x89; STAL 136"
+#else
+#define StartWorldMap(Map, X, Y, LoadWay) "_0x87; ASMWORLDMAP 0xB6451; LOADWM Map [X,Y] LoadWay; STAL 16; _0x89; STAL 136"
+#endif
+
+//World maps
+#define FullWorldMap 0x0
+#define LyciaBernSacaeMap 0x1
+#define NabataDesertMap 0x2
+
+//Map loading ways
+#define LoadDunno 0x2
+#define LoadTheatrical 0xC //Two bits set, break to what?
+#define LoadPlayMusic 0x10
+#define LoadNormal 0x20
+#define LoadSlow 0x40
+
+//Portrait loading and removing
+#define PortraitFacesLeft 0
+#define PortraitMoveLeft 1
+#define PortraitMoveRight 2
+#define PortraitFacesRight 4
+#define PortraitDunno 8
+
+//Sprite properties
+#define AllySprite 0x00
+#define FastSprite 0x10
+#define EnemySprite 0x20
+#define NPCSprite 0x40
+#define GraySprite 0x60
+#define CameraFollowSprite 0x80
+
+//Dot properties
+#define RedDot 0x0
+#define BlueDot 0x1
+#define HoleDot 0x2
+#define DarkBlueDullDot 0x3
+#define DarkBlueNoBorderDot 0x4
+
+//Areas
+#define LyciaArea 0x0
+#define IliaArea 0x1
+#define EtruiaArea 0x2
+#define WesternIslesArea 0x3
+#define BernArea 0x4
+#define SacaeArea 0x5
+#define NabataDesertArea 0x6
+#define DreadIsleArea 0x7
+#define AreaNearPheraeArea 0x8

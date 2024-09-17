@@ -1,0 +1,14 @@
+# Flashes the cursor on the specified position.
+CURSOR_FLASH, 0x66, 8, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinates:2 -preferredBase:10
+
+# Flashes the cursor on the specified character.
+CURSOR_FLASH, 0x67, 8, -game:FE7 -indexMode:8
+	character, 4, 2
+	
+# Puts the cursor on the specified position.
+CURSOR_SET, 0x68, 8, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinates:2 -preferredBase:10
+
+# Removes the cursor.
+CURSOR_END, 0x69, 4, -game:FE7 -indexMode:8

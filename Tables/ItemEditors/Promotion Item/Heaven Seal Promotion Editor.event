@@ -1,0 +1,7 @@
+#define csvmacro008(arg000) "WORD arg000 "
+
+PUSH
+ORG 0x27540
+csvmacro008(0x8c97f16)
+csvmacro008(0x8c97f21)
+POP

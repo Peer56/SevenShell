@@ -1,0 +1,607 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.1.0.0                              //
+// Game: FE7                                      //
+// File: FE7_clean.gba                            //
+// Offset: $CA0B08                                //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $CA09B4
+TurnBasedEvents:
+TURN 0x0 BeginningScene [1,0] 0x0 0x0
+TURN 0x0 label12 [1,0] 0x0 0x0
+END_MAIN
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA09D8 - currentOffset
+
+ORG $CA09FC
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+LOCA 0x3 [11,1] 0xF
+LOCA 0x0 label13 [1,7] 0xE
+LOCA 0x0 label14 [0,9] 0xE
+LOCA 0x0 label15 [0,7] 0xE
+END_MAIN
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA0A34 - currentOffset
+
+ORG $CA0ABC
+MiscBasedEvents:
+AFEV 0x11 label16 0x7
+AFEV 0x12 label17 0x9
+AFEV 0x13 label18 0x9
+AFEV 0x14 label19 0xB
+AFEV 0x0 label20 0x65
+AFEV 0x15 label21 0x2
+END_MAIN
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN TrapsEliwoodMode TrapsHectorMode
+POIN EnemyUnitsENM EnemyUnitsENM EnemyUnitsENM EnemyUnitsENM
+POIN AllyUnitsENM AllyUnitsENM AllyUnitsENM AllyUnitsENM
+POIN BeginningScene EndingScene
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA0B48 - currentOffset
+
+ORG $CA71AA
+TrapsEliwoodMode:
+ENDTRAP
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA71AB - currentOffset
+
+ORG $CA730C
+TrapsHectorMode:
+ENDTRAP
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA730D - currentOffset
+
+ORG $CA749C
+label20:
+_0x87
+STAL 30
+ASMC 0x7A455
+STAL 10
+ASMC 0x13FA5
+STAL 80
+ASMC 0x6CCB9
+GOTO_IFAT 0x1 0x7A47D
+ASMC 0x20479
+LABEL 0x1
+ASMC 0xB2F95
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA74F0 - currentOffset
+
+ORG $CA9040
+label26:
+MOMA 0xC 0x18 0x0 0x3
+
+label27:
+MOMA 0xC 0x8 0x3 0x0 0xC 0x30 0x0 0x0 0x0 0x0
+
+label28:
+MOMA 0xC 0x20 0x0
+
+label29:
+MOMA 0xC 0x10 0x3
+
+label30:
+MOMA 0xC 0x10 0x0 0x3
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA905D - currentOffset
+
+ORG $CA9060
+BeginningScene:
+CMOF
+ASMC 0x18831
+LOU1 label22 label23
+ENUN
+OOBB
+STAL 64
+LOU1 AllyUnitsENM
+ENUN
+MOVE 0x3 [2,3]
+MOVE 0x18 [1,4]
+MOVE 0x17 [0,4]
+LOU1 label24
+ENUN
+FADI 16
+HIDEMAP
+BACG 0x22
+FADU 16
+SHOWMAP
+TEX1 0x881
+REMA
+LOU1 label25
+ENUN
+MOVE 0x8D label26
+ENUN
+MUSC 0x32
+FADI 16
+HIDEMAP
+BACG 0x4F
+STAL 32
+FADU 16
+SHOWMAP
+TEX1 0x882
+REMA
+MOVE 0xDA [13,1] 48
+ENUN
+STAL 32
+MOVE 0x8D [11,1]
+ENUN
+STAL 64
+FADI 16
+HIDEMAP
+BACG 0x4F
+FADU 16
+SHOWMAP
+TEX1 0x883
+REMA
+SOUN 0xB1
+MAC1 0x1 0x0
+MOVE 0x8D [12,1]
+ENUN
+MOVE 0xDA [13,-1] 48
+ENUN
+DISA 0xDA
+MOVE 0x8D [13,1]
+ENUN
+SOUN 0xB1
+MAC1 0x0 0x8
+STAL 60
+MOVE 0x8D [11,1]
+ENUN
+FADI 16
+HIDEMAP
+BACG 0x4F
+FADU 16
+SHOWMAP
+TEX1 0x884
+REMA
+STAL 64
+MOVE 0xDB label27
+ENUN
+FADI 16
+HIDEMAP
+BACG 0x22
+DISA 0xDB
+FADU 16
+SHOWMAP
+TEX1 0x885
+REMA
+ASMC 0x18889
+MOVE 0x3 [0,4]
+ENUN
+MOVE 0xCD label28
+ENUN
+DISA 0xCD
+MOVE 0x17 0x10 [1,5] label29
+MOVE 0x18 0x10 [1,3] label30
+ENUN
+ASMC 0x7A7D9 0x7CF69
+ENDA
+
+label12:
+_IFTT2 0x1 0x63
+MUSC 0x30
+GOTO_IFNTUTORIAL 0x32
+_0x8A
+STAL 8
+TEX6 0x5 [0,0] 0x886
+_ASM0x42 0x83181
+LABEL 0x32
+TEX1 0x887
+REMA
+ENUT 0x6
+_0xA3
+_0xA4 0x71
+LABEL 0x63
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA9300 - currentOffset
+
+ORG $CA9370
+label13:
+_0xA1 0x0
+MUSI
+FADI 16
+HIDEMAP
+BACG 0x1
+FADU 16
+SHOWMAP
+TEX1 0x89C
+REMA
+MUNO
+ENDA
+
+label14:
+_0xA1 0x0
+MUSI
+FADI 16
+HIDEMAP
+BACG 0x1
+FADU 16
+SHOWMAP
+TEX1 0x89D
+REMA
+MUNO
+ENDA
+
+label15:
+_0xA1 0x0
+MUSI
+FADI 16
+HIDEMAP
+BACG 0x1
+FADU 16
+SHOWMAP
+TEX1 0x89E
+REMA
+MUNO
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA9418 - currentOffset
+
+ORG $CA97A4
+label16:
+_0x8A
+ASMC 0x1CD51
+_0xA1 0x0
+_0xA3
+GOTO_IFET 0x5 0x77
+GOTO_IFNTUTORIAL 0x32
+CURF 0x18
+STAL 8
+TEX6 0x5 [0,0] 0x88B
+_ASM0x42 0x83181
+LABEL 0x32
+_IFTT2 0x1 0x63
+ENUT 0x8
+_0xA4 0x71
+GOTO 0x63
+LABEL 0x5
+GOTO_IFET 0x63 0x76
+GOTO_IFNTUTORIAL 0x33
+CURF 0x17
+STAL 8
+TEX6 0x5 [0,0] 0x88C
+_ASM0x42 0x83181
+LABEL 0x33
+_IFTT2 0x1 0x63
+ENUT 0xA
+_0xA4 0x71
+LABEL 0x63
+ENDA
+
+label17:
+_0x8A
+_0xA3
+GOTO_IFNTUTORIAL 0x32
+STAL 8
+TEX6 0x5 [0,0] 0x896
+_ASM0x42 0x83181
+ENUT 0x16
+LABEL 0x32
+ENDA
+
+label18:
+_0x8A
+ASMC 0x1CD51
+GOTO_IFET 0x63 0x76
+GOTO_IFNTUTORIAL 0x32
+CURF 0x17
+STAL 8
+TEX6 0x5 [0,0] 0x898
+_ASM0x42 0x83181
+LABEL 0x32
+ENUT 0xA
+_0xA4 0x71
+LABEL 0x63
+ENDA
+
+label19:
+_0x8A
+_0xA3
+GOTO_IFET 0x32 0x16
+GOTO_IFNTUTORIAL 0x32
+STAL 8
+TEX6 0x5 [0,0] 0x897
+_ASM0x42 0x83181
+LABEL 0x32
+ENDA
+
+label21:
+_0x8A
+GOTO_IFNTUTORIAL 0x32
+STAL 8
+TEX6 0x5 [0,0] 0x8A3
+_ASM0x42 0x83181
+LABEL 0x32
+ENDA
+
+EndingScene:
+_0xA3
+MUSC 0x38
+STAL 64
+FADI 16
+HIDEMAP
+ASMC 0x7A8B9
+LOU1 label22
+REPOS 0x3 [11,2]
+REPOS 0x17 [10,5]
+REPOS 0x18 [12,5]
+BACG 0x4F
+FADU 16
+SHOWMAP
+TEX1 0x8A4
+MUEN 4
+STAL 60 32
+SOUN 0x26C
+FAWI 16
+HIDEMAP
+REBU
+STAL 3
+FAWU 16
+SHOWMAP
+MORETEXT 0x8A5
+SOUN 0x2EB
+FAWI 4
+HIDEMAP
+REBU
+STAL 10
+FAWU 4
+SHOWMAP
+MORETEXT 0x8A6
+FAWI 16
+HIDEMAP
+ASMC 0xECFD
+SOUN 0x2DA
+STAL 32
+SHCG 0x2
+FAWU 16
+SHOWMAP
+STAL 60
+TEXTCG 0x8A7 0x1
+MURE 0x6
+MORETEXTCG 0x8A8 0x1
+MORETEXTCG 0x8A9 0x1
+CGSTAL 60
+FADI 16
+HIDEMAP
+ASMC 0x7A95D
+BACG 0x4F
+FADU 4
+SHOWMAP
+MUSC 0x3F
+TEX1 0x8AA
+REMA
+_FADU2
+SHOWMAP
+ITGC 0x3 0xA
+_0x89
+STAL 32
+FADI 4
+HIDEMAP
+STAL 64
+BACG 0x22
+FADU 4
+SHOWMAP
+TEX1 0x8AB
+MORETEXT 0x8AC
+MUEN 8
+CALL label31
+_0x9A
+FADI 4
+HIDEMAP
+ASMC 0x7A8B9
+LOMA 0xB [2,16]
+STAL 128
+MUSC 0x53
+FADU 2
+SHOWMAP
+TEX8 0x5DF [16,12]
+STAL 100
+RETB
+STAL 16
+CURF [2,16]
+STAL 32
+FADI 16
+HIDEMAP
+BACG 0x10
+FADU 16
+SHOWMAP
+TEX1 0x8AD
+FADI 4
+HIDEMAP
+BACG 0x5B
+_0x85 0x2
+MNCH 0x3
+STAL 1
+_0x1
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CA9BAC - currentOffset
+
+ORG $CC0928
+label31:
+ENUF 0x9D
+GOTO_IFCL 0x5 0x17 0x76
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7AA
+LABEL 0x5
+GOTO_IFCL 0x6 0x18 0x77
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7AC
+LABEL 0x6
+GOTO_IFCL 0x7 0x1D 0x79
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7AE
+LABEL 0x7
+GOTO_IFCL 0x8 0xD 0x72
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7B0
+LABEL 0x8
+GOTO_IFCL 0x9 0x23 0x7A
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7BB
+LABEL 0x9
+GOTO_IFCL 0xA 0x26 0x7B
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7BF
+LABEL 0xA
+GOTO_IFCL 0xB 0x8 0x71
+GOTO_IFAT 0xB 0x7EEAD
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7B2
+LABEL 0xB
+GOTO_IFCL 0x16 0x11 0x74
+GOTO_IFAT 0x16 0x7EEC1
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+GOTO_IFEF 0x15 0x75
+TEX1 0x7B4
+GOTO 0x16
+LABEL 0x15
+TEX1 0x7B5
+LABEL 0x16
+GOTO_IFCL 0xD 0x13 0x75
+GOTO_IFAT 0xD 0x7EEC1
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7B7
+LABEL 0xD
+GOTO_IFCL 0xE 0x1C 0x78
+GOTO_IFAT 0xE 0x7EED5
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7B9
+LABEL 0xE
+GOTO_IFCL 0xF 0x10 0x73
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7BD
+LABEL 0xF
+GOTO_IFCL 0x10 0x2C 0x7C
+_FADI2
+HIDEMAP
+_0x8
+FADU 4
+SHOWMAP
+TEX1 0x7C1
+LABEL 0x10
+GOTO_IFEF 0x63 0x9D
+MURE 0x6
+ENUF 0x9D
+LABEL 0x63
+ENDA
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CC0C14 - currentOffset
+
+ORG $CC5CE8
+AllyUnitsENM:
+UNIT 0x3 0x2 0x0 0x10 [2,0] [2,0] [0x1,0x6B,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x18 0x28 0x3 0x8 [1,0] [1,0] [0x1,0x14,0x6B,0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x17 0x28 0x3 0x8 [0,0] [0,0] [0x1,0x14,0x6B,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+label24:
+UNIT 0xCD 0x51 0x0 0xA [1,0] [1,3] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnitsENM:
+UNIT
+
+label25:
+UNIT 0x8D 0xA 0x0 0x1C [11,9] [11,2] [0x1,0x6B,0x0,0x0] [0x3,0x3,0x2,0x20]
+UNIT 0x8A 0x39 0x8D 0xD [7,0] [7,0] [0x1F,0x0,0x0,0x0] [0x8,0x0,0x1,0x0]
+UNIT 0x8B 0x39 0x8D 0x15 [11,9] [11,3] [0x1F,0x0,0x0,0x0] [0x8,0x3,0x1,0x0]
+UNIT 0x8A 0x39 0x8D 0xD [10,9] [7,9] [0x1F,0x0,0x0,0x0] [0x8,0x0,0x1,0x0]
+UNIT 0x8A 0x39 0x8D 0xD [11,9] [11,9] [0x1F,0x0,0x0,0x0] [0x8,0x0,0x1,0x0]
+UNIT 0x8B 0x39 0x8D 0x15 [12,9] [13,8] [0x1F,0x0,0x0,0x0] [0x8,0x3,0x1,0x0]
+UNIT
+
+label22:
+UNIT 0xDA 0x1E 0x0 0xA [11,1] [11,1] [0x0,0x0,0x0,0x0] [0x6,0x3,0x1,0x0]
+UNIT
+
+label23:
+UNIT 0xDB 0x48 0x0 0xA [7,5] [7,5] [0x0,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CC5E08 - currentOffset

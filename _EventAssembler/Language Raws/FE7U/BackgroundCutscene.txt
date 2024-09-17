@@ -1,0 +1,23 @@
+# Displays specified background.
+BACKGROUND, 0x05, 4, -game:FE7 -indexMode:8
+	background, 2, 2
+
+# Displays random background.
+BACKGROUND_RANDOM, 0x06, 4, -game:FE7 -indexMode:8
+
+# Displays specified background for talk. Does not clear talk.
+BACKGROUND_RESUME, 0x07, 4, -game:FE7 -indexMode:8
+	background, 2, 2
+
+# Displays default background for current chapter, starts sad song and sets flag 0x9D.
+BACKGROUND_DEATH, 0x08, 4, -game:FE7 -indexMode:8
+
+# Hides map sprites, weather effects and camera updates.
+HIDEMAP, 0x92, 4, -game:FE7 -indexMode:8
+
+# Stops hiding map sprites, weather effects and camera updates.
+SHOWMAP, 0x93, 4, -game:FE7 -indexMode:8
+
+# Displays specified CG.
+CUTSCENE, 0xD3, 4, -game:FE7 -indexMode:8
+	cutscene, 2, 2

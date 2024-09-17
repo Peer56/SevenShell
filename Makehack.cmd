@@ -11,7 +11,7 @@ set "target_ups=%~dp0FE7_hack.ups"
 
 @rem defining tools
 
-set "c2ea=%~dp0_Tools\c2ea\c2ea"
+set "c2ea=%~dp0_Tools\nmm2csv\c2ea.exe"
 set "textprocess=%~dp0_Tools\textprocess\text-process-classic"
 set "ups=%~dp0_Tools\ups\ups"
 set "parsefile=%~dp0_EventAssembler\Tools\ParseFile.exe"
@@ -29,7 +29,7 @@ copy "%source_rom%" "%target_rom%"
   echo Processing tables
 
   cd "%base_dir%Tables"
-  echo: | ("%c2ea%" "%source_rom%" -installer "%base_dir%Tables/TableInstaller.event")
+  echo: | ("%c2ea%" "%source_rom%" -installer "%base_dir%Tables/_TableInstaller.event")
 
   echo:
   echo Processing text

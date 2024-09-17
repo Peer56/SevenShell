@@ -1,0 +1,24 @@
+# Ends the current scene. Moves to a queued scene if there is one (set via QUEUE) or parent scene if there is one (set via CALL) or ends event execution.
+# Must be preceded by NOPREP or PREP.
+END, 0x00, 4, -game:FE7 -end -indexMode:8
+
+# Identical to END. GOTO codes don't stop checking for LABELs when running into END2.
+END2, 0x01, 4, -game:FE7 -end -indexMode:8
+
+# Allows scene to end without causing a black screen. Goes before END and END2.
+NOPREP, 0x0A, 4, -game:FE7 -indexMode:8
+
+# Allows scene to end without causing a black screen, and proceeds to the Preparations menu. Goes before END and END2.
+PREP, 0x0B, 4, -game:FE7 -indexMode:8
+
+# Jumps to specified scene without remembering the current scene.
+JUMP, 0x58, 8, -game:FE7 -end -indexMode:8
+	scene, 4, 4, -pointer
+
+# Queues the specified scene so it plays after the current scene ends.
+QUEUE, 0xA0, 8, -game:FE7 -indexMode:8
+	scene, 4, 4, -pointer
+
+# Calls subscene. When the subscene ends, the event execution will move to where the parent scene left off.
+CALL, 0xCB, 8, -game:FE7 -indexMode:8
+	scene, 4, 4, -pointer

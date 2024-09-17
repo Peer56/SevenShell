@@ -1,0 +1,24 @@
+//Scripted battle helpers
+#ifdef _FE7_
+#define ScriptedBattle 0
+#define MapBattle 0x100
+#define AttackerStatsZero 0x10000 
+#define Uncontrolled 0x1000000
+#endif
+
+//Battle data helpers
+#define AttackerHit(damage,lastAttack) 			"BLDT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 damage"
+#define DefenderHit(damage,lastAttack) 			"BLDT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 damage"
+#define AttackerPoison(damage,lastAttack) 		"BLDT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 damage"
+#define DefenderPoison(damage,lastAttack) 		"BLDT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 damage"
+#define AttackerHurtItself(damage,lastAttack) 	"BLDT 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 damage"
+#define DefenderHurtItself(damage,lastAttack) 	"BLDT 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 damage"
+#define AttackerMiss(lastAttack) 				"BLDT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 0"
+#define DefenderMiss(lastAttack) 				"BLDT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 0"
+#define AttackerCritical(damage,lastAttack) 	"BLDT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 damage"
+#define DefenderCritical(damage,lastAttack) 	"BLDT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 damage"
+#define AttackerNoDamage(lastAttack) 			"BLDT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 0 0 0 0 0 0"
+#define DefenderNoDamage(lastAttack) 			"BLDT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 lastAttack 0 0 1 0 0 0 0 0"
+#define AttackerSilencer(lastAttack,targetHP) 	"BLDT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 lastAttack 0 0 0 0 0 0 0 targetHP"
+#define DefenderSilencer(lastAttack,targetHP) 	"BLDT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 lastAttack 0 0 1 0 0 0 0 targetHP"
+#define EndOfBattle 							 BLDT

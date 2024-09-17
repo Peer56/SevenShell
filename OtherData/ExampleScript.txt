@@ -1,0 +1,19 @@
+
+#include TerrainDefs.txt
+ 
+TestMovegroup1 {
+	0 = 1
+	1 = 3
+	1 + 1
+	0 - 1
+	2 = 7
+	2 * 2
+	Empty = 255
+}
+
+TestMovegroup2 imports TestMovegroup1 {
+	1 + 1
+	2 / 2
+	Pillar = TestMovegroup1[2]
+	[3,4,5] = TestMovegroup1[0-2]
+}

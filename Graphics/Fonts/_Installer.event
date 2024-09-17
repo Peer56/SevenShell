@@ -1,0 +1,56 @@
+#ifndef menuGlyphTable //ASCII Pointer Table start point
+	#define menuGlyphTable 0xB896B0
+#endif
+#ifndef tGlyphTable
+	#define tGlyphTable 0xB8B5B0
+#endif
+
+#define mGlyphEntry(mGlyphEntry,mGlyphLoc) "PUSH; ORG menuGlyphTable+mGlyphEntry*0x04; POIN mGlyphLoc; POP"
+#define tGlyphEntry(tGlyphEntry,tGlyphLoc) "PUSH; ORG tGlyphTable+tGlyphEntry*0x04; POIN tGlyphLoc; POP"
+
+ALIGN 4
+Sglyph_armor:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xF //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "armor.img.bin"
+
+Sglyph_horse:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xE //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "horse.img.bin"
+
+Sglyph_flier:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x11 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "flier.img.bin"
+
+Sglyph_dragon:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x11 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "dragon.img.bin"
+
+Sglyph_sword:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xD //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "sword.img.bin"
+
+tGlyphEntry(0x81, Sglyph_armor)
+tGlyphEntry(0x82, Sglyph_horse)
+tGlyphEntry(0x83, Sglyph_flier)
+tGlyphEntry(0x84, Sglyph_dragon)
+tGlyphEntry(0x85, Sglyph_sword)

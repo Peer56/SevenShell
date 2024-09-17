@@ -1,0 +1,21 @@
+# Moves the camera to specified position. The position will be at least 2 tiles away from the screen border.
+CAMERA, 0x1F, 4, -game:FE7 -indexMode:8
+	position, 2, 2, -coordinates:2 -preferredBase:10
+
+# Moves the camera to specified character. The position will be at least 2 tiles away from the screen border.
+CAMERA, 0x20, 4, -game:FE7 -indexMode:8
+	character, 2, 2
+
+# Moves the camera to the main character. The main character is Lyn_t, Eliwood, or Hector depending on the game mode.
+CAMERA_PROTAG, 0x21, 4, -game:FE7 -indexMode:8
+
+# Moves the camera to specified position, such that the position is centered on screen.
+# Will cause issues if centering to the position would display out-of-bounds tiles. (Fixed by FE7 Essential Fixes.)
+CAMERA_CENTERED, 0x22, 4, -game:FE7 -indexMode:8
+	position, 2, 2, -coordinates:2 -preferredBase:10
+
+# Allows the camera to follow unit movement automatically during scenes. Reverted using CAMERA_OFF.
+CAMERA_ON, 0x3C, 4, -game:FE7 -indexMode:8
+
+# Prevents the camera from following unit movement automatically during scenes. Reverted using CAMERA_ON.
+CAMERA_OFF, 0x3D, 4, -game:FE7 -indexMode:8

@@ -1,0 +1,57 @@
+#include EAstdlib.event
+EventPointerTable(0x6,TestChapterEvents)
+
+TestChapterEvents:
+POIN TurnEvents 
+POIN TalkEvents 
+POIN LocaEvents 
+POIN MiscEvents
+POIN TrapData TrapData
+POIN Bad Bad Bad Bad
+POIN Good Good Good Good
+POIN OpeningScene EndingScene
+
+Bad:
+UNIT Jaffar Assassin 0 Level(20,Enemy,0) [9,7] [9,7] [KillingEdge] GuardTileAI
+END_UNIT
+
+Good:
+UNIT Lyn BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [SolKatti] NoAI
+END_UNIT
+
+TurnEvents:
+OpeningTurnEvent(OpeningScene) //Do not include this event if the chapter has a prep screen
+END_MAIN
+
+TalkEvents:
+END_MAIN
+
+LocaEvents:
+END_MAIN
+
+MiscEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+TrapData:
+END_TRAP
+
+ALIGN 4
+
+OpeningScene:
+OPEN
+LOAD Good
+AWAIT
+STALL 30
+EFFECT AssassinMapEffect ScreenCoords(9,7)
+STALL 30
+LOAD Bad
+AWAIT
+STALL 30
+LIGHTNINGBOLT ScreenCoords(7,5)
+END
+
+EndingScene:
+MoveToChapter(2)
+NOPREP
+END

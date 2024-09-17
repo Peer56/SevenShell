@@ -1,0 +1,3 @@
+# List of items sold by a shop.
+SHOPLIST, 0, 0, -game:FE6:FE7:FE7J:FE8 -indexMode:8 -terminatingList:00 -end -priority:shopList -offsetMod:1
+	item, 0, 2

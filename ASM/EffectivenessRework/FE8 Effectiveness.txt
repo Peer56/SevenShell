@@ -1,0 +1,15 @@
+ORG 0x16BEC//Reworking how effectiveness is determined
+BYTE $F0 $B5 $0F $1C $3C $68 $00 $2C $2A $D0 $00 $06 $01 $0E $24 $20
+BYTE $48 $43 $15 $4D $40 $19 $42 $7A $40 $21 $11 $40 $00 $29 $1F $D1
+BYTE $02 $8A $00 $2A $1C $D0 $84 $7C $16 $1C $1E $22 $40 $23 $B9 $5C
+BYTE $00 $29 $09 $D0 $24 $20 $41 $43 $49 $19 $48 $7A $18 $40 $00 $28
+BYTE $03 $D1 $02 $32 $26 $2A $F2 $DD $03 $E0 $10 $20 $08 $5A $46 $40
+BYTE $F7 $E7 $79 $68 $50 $31 $09 $88 $31 $40 $20 $1C $00 $29 $00 $D1
+BYTE $00 $20 $F0 $BC $02 $BC $08 $47
+
+POIN $08809B10//Offset of the item table; repoint this if you've relocated yours
+
+ORG 0x2AB08//Reworking how the multiplier is applied
+BYTE $00 $06 $05 $16 $01 $2D $00 $DA $01 $25 $14 $24 $34 $57 $31 $1C
+BYTE $5A $31 $0A $88 $6A $43 $15 $19 $0D $80 $48 $20 $30 $5C $B5 $28
+BYTE $01 $D1 $00 $20 $08 $80 $70 $BC $01 $BC $00 $47

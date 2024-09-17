@@ -1,0 +1,52 @@
+//Turn event helpers
+
+#ifdef _FE7_
+#define TurnEventPlayer(eventID,pointer,turn) "TURN eventID pointer [turn, 0] 0 0"
+#define TurnEventPlayer(eventID,pointer,startTurn,amountOfTurns) "TURN eventID pointer [startTurn, startTurn+amountOfTurns-1] 0 0"
+#define TurnEventEnemy(eventID,pointer,turn) "TURN eventID pointer [turn, 0] 8 0"
+#define TurnEventEnemy(eventID,pointer,startTurn,amountOfTurns) "TURN eventID pointer [startTurn, startTurn+amountOfTurns-1] 8 0"
+#define TurnEventNPC(eventID,pointer,turn) "TURN eventID pointer [startTurn, 0] 0x24 0x00"
+#define TurnEventNPC(eventID,pointer,startTurn,amountOfTurns) "TURN eventID pointer [startTurn, startTurn +amountOfTurns-1] 0x24 0x00"
+#define Survive(pointer,endturn) "TURN 0x00 pointer [endturn, 0] 0 0"
+#define OpeningTurnEvent(pointer) "TURN 0x00 pointer [1,0] 0 0"
+#endif
+
+//Talk event helpers
+
+#ifdef _FE7_
+#define CharacterEvent(eventID,pointer,char1,char2) "TALK eventID pointer [char1,char2] 0"
+#define CharacterEvent(eventID,pointer,char1,char2,afterID) "TALK eventID pointer [char1,char2] 3+afterID*0x10000"
+#define CharacterEventBothWays(eventID,eventPtr,char1,char2) "TALK eventID eventPtr [char1,char2] 0; TALK eventID eventPtr [char2,char1] 0"
+#endif
+
+//Tile event helpers
+
+#ifdef _FE7_
+#define Village(eventID,offset,villX,villY)     "VILLAGE eventID offset [villX,villY] 0xE; LOCA eventID [villX,villY-1] 0x1D"
+#define House(eventID,offset,villX,villY)       "TILE eventID offset [villX,villY] 0xE"
+#define Armory(offset,shopX,shopY)              "SHOP 0 offset [shopX,shopY] 0x13"
+#define Vendor(offset,shopX,shopY)              "SHOP 0 offset [shopX,shopY] 0x14"
+#define SecretShop(offset,shopX,shopY)          "SHOP 0 offset [shopX,shopY] 0x15"
+#define Chest(item,chestX,chestY)               "CHEST 0 item [chestX,chestY] 0x12"
+#define ChestMoney(amountOfMoney,chestX,villY)  "CHEST 0 0x76+amountOfMoney*0x10000 [chestX,chestY] 0x12"
+#define Door(doorX,doorY)                       "DOOR 0 [doorX,doorY] 0x10"
+#define Seize(seizeX,seizeY)                    "TILE 3 [seizeX,seizeY] 0xF"
+#define Seize(eventID,offset,seizeX,seizeY)     "TILE eventID offset [seizeX,seizeY] 0xF"
+#endif
+
+//Misc event helpers
+
+#ifdef _FE7_
+#ifndef _FE7J_
+#define CauseGameOverIfLordDies "FOLLOW 0 0xCA749C 0x65"
+#endif
+#define DefeatBoss(offset) "FOLLOW 0 offset 2"
+#ifndef _FE7J_
+#define DefeatAll(offset) "FOLLOW_ASM 0 offset $79FE9"
+#endif
+#endif
+
+#ifdef _FE7J_
+#define CauseGameOverIfLordDies "FOLLOW 0 0xD6F71C 0x65"
+#define DefeatAll(offset) "FOLLOW_ASM 0 offset $7AA5D"
+#endif

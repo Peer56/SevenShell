@@ -1,0 +1,66 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.1.0.0                              //
+// Game: FE7                                      //
+// File: FE7_clean.gba                            //
+// Offset: $CE9BF8                                //
+// Size: 0x1DC                                    //
+//                                                //
+////////////////////////////////////////////////////
+
+
+
+ORG $CE9BF8
+_0x87
+ASMWORLDMAP 0xB5631
+LOADWM 0x1 [136,232] 0x1C
+STAL 16
+_0x89
+STAL 60
+PLACEDOT 0x0 [250,303] 0x1
+TEXTBOXTOBOTTOM
+GOTO_IFNEM 0x0
+TEXTWM 0x6D7
+SHOWPORTRAIT 0x1 0x6B 52 0x5 20
+SCRO
+REMOVEPORTRAIT 0x1 0x1 0
+SHOWPORTRAIT 0x1 0x6A 52 0x5 16
+SCRO
+PUTSPRITE 0x0 [250,303] 0x1 0x0 0x0 0x0 0x0
+STAL 0
+REMOVEPORTRAIT 0x1 0x1 0
+SHOWPORTRAIT 0x0 0x2 188 0x2 16
+SCRO
+GOTO 0x1
+LABEL 0x0
+TEXTWM 0x6F5
+SHOWPORTRAIT 0x0 0xC 188 0x2 0
+STAL 6
+SHOWPORTRAIT 0x1 0x72 52 0x5 16
+SCRO
+REMOVEPORTRAIT 0x0 0x2 0
+REMOVEPORTRAIT 0x1 0x1 0
+SHOWPORTRAIT 0x1 0x6A 52 0x5 16
+SCRO
+REMOVEPORTRAIT 0x1 0x1 0
+SHOWPORTRAIT 0x1 0x69 52 0x5 16
+SCRO
+PUTSPRITE 0x0 [250,303] 0x3 0x0 0x0 0x0 0x0
+STAL 0
+REMOVEPORTRAIT 0x1 0x1 0
+SHOWPORTRAIT 0x0 0xC 188 0x2 16
+SCRO
+LABEL 0x1
+STAL 60
+_0xCA
+MUEN 4
+_0xAD
+_0xAE
+STAL 60
+WORD 0x0
+
+//The next line is to ensure that new events do not overwrite other data.
+//Do not delete unless you are SURE you know what you are doing!
+ASSERT $CE9DD4 - currentOffset

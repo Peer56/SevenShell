@@ -1,0 +1,11 @@
+# Stalls event execution for specified duration in frames.
+STALL, 0x02, 4, -game:FE7 -repeatable -indexMode:8
+	duration, 2, 2, -preferredBase:10
+
+# Stalls event execution for specified duration in frames. Holding the A button makes this time pass 4x faster.
+STALL_FAST, 0x03, 4, -game:FE7 -repeatable -indexMode:8
+	duration, 2, 2, -preferredBase:10
+
+# Stalls event execution for specified duration in frames, used when a CG is being shown.
+STALL_CG, 0x04, 4, -game:FE7 -indexMode:8
+	duration, 2, 2, -preferredBase:10

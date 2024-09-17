@@ -1,0 +1,187 @@
+#0x22C TD_Lord
+A noble attached to a ruling[N]
+house. Has great potential.[X]
+
+## TD_KnightLord
+An honorific bestowed upon[N]
+Lycia's mounted knights.[X]
+
+## TD_GreatLord
+An honorific bestowed upon[N]
+especially gifted generals.[X]
+
+## TD_BladeLord
+An honorific bestowed upon[N]
+masters of sword and bow.[X]
+
+## TD_Cavalier
+Mounted knights with[N]
+superior movement.[X]
+
+## TD_Paladin
+Dedicated cavaliers with[N]
+superior abilities all around.[X]
+
+## TD_Archer
+Soldiers who attack from a[N]
+distance with their bows.[X]
+
+## TD_Knight
+Heavily armored knights with[N]
+stout defense, but low speed.[X]
+
+## TD_Monk
+Ascetics who wield light[N]
+magic, but can't use staves.[X]
+
+## TD_Cleric
+Priestesses who aid their[N]
+allies with sacred staves.[X]
+
+## TD_Thief
+Jacks of all trades who can[N]
+pick locks and learn secrets.[X]
+
+## TD_Assassin
+Trained killers who can deal[N]
+death in a single blow.[X]
+
+## TD_Mercenary
+Professional soldiers with a[N]
+balanced set of skills.[X]
+
+## TD_Fighter
+Axe-wielding soldiers whose[N]
+attack offers little defense.[X]
+
+## TD_Troubadour
+Staff-wielding maidens who[N]
+travel by horseback.[X]
+
+## TD_Myrmidon
+Swordfighters with superior[N]
+skill. Swift at killing strokes.[X]
+
+## TD_Mage
+Masters of justice. Strong[N]
+against well-defended foes.[X]
+
+## TD_Nomad
+Sacaen plainsmen with good[N]
+movement. Armed with bows.[X]
+
+## TD_Brigand
+Mighty mountaineers who[N]
+prefer axes in combat.[X]
+
+## TD_Pirate
+Bold pirates who use axes in[N]
+battle. Quite adept at sea.[X]
+
+## TD_Corsair
+Courageous, axe-wielding[N]
+corsairs. Adept in lakes.[X]
+
+## TD_Shaman
+Students of dark magic.[N]
+Powerful, but very slow.[X]
+
+## TD_Bard
+Musicians whose melodies[N]
+aid allies. Unable to attack.[X]
+
+## TD_Dancer
+Dancers whose arts aid[N]
+allies. Unable to attack.[X]
+
+## TD_PegKnight
+Knights who've earned the[N]
+right to fly winged steeds.[X]
+
+## TD_WyvernRider
+Wyvern riders, weak only[N]
+against magic and bows.[X]
+
+## TD_Hero
+An honorific bestowed upon[N]
+famed mercenary masters.[X]
+
+## TD_Warrior
+An honorific bestowed upon[N]
+strong, battle-worn fighters.[X]
+
+## TD_Druid
+An honorific bestowed upon[N]
+true masters of dark arts.[X]
+
+## TD_DarkDruid
+A master druid whose heart[N]
+is bound in darkness.[X]
+
+## TD_Valkyrie
+An honorific bestowed upon[N]
+truly talented troubadors.[X]
+
+## TD_Falcoknight
+An honorific bestowed on the[N]
+swiftest pegasus knights.[X]
+
+## TD_Swordmaster
+An honorific bestowed upon[N]
+true masters of swordplay.[X]
+
+## TD_Berserker
+An honorific bestowed upon[N]
+fighters of incredible fury.[X]
+
+## TD_Sage
+An honorific bestowed upon[N]
+staff-wielding mages.[X]
+
+## TD_Archsage
+An honorific bestowed upon[N]
+the wisest of sages.[X]
+
+## TD_MagicSeal
+A living magic seal. Blocks[N]
+the use of any magic.[X]
+
+## TD_Bishop
+An honorific bestowed upon[N]
+devout monks and clerics.[X]
+
+## TD_NmdTrooper
+An honorific bestowed upon[N]
+nomads of great skill.[X]
+
+## TD_Sniper
+An honorific bestowed upon[N]
+peerless veteran archers.[X]
+
+## TD_General
+An honorific bestowed upon[N]
+seasoned knights.[X]
+
+## TD_WyvernLord
+An honorific bestowed upon[N]
+skilled wyvern riders.[X]
+
+## TD_FireDragon
+An ancient, hateful dragon[N]
+that survived the Scouring.[X]
+
+## TD_Prince
+The crown prince of Bern.[N]
+Young, but extremely gifted.[X]
+
+## TD_Civilian
+An innocent peasant with[N]
+no combat skills at all.[X]
+
+## TD_Transporter
+A conveyor of goods and[N]
+items. Lacks combat skills.[X]
+
+## TD_Soldier
+An average soldier, who has[N]
+no special abilities.[X]

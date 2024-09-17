@@ -1,0 +1,7 @@
+# Does a screen fade and changes the weather to the specified weather ID.
+WEATHER, 0x9B, 4, -game:FE7 -indexMode:8
+	weather, 2, 1
+
+# Same as WEATHER, but the fade is skipped when scene skipping.
+WEATHER_SKIPPABLE, 0x9C, 4, -game:FE7 -indexMode:8
+	weather, 2, 1

@@ -1,8 +1,8 @@
-#0x4D9
-Adventurer[X]
-
-#0x4DC
-Ezra[X]
-
-#0x58C
-Ch. 1: Sands of Isolation[X]
+#include "MenuText/UnitDescriptions.txt"
+#include "MenuText/ItemDescriptions.txt"
+#include "MenuText/ItemNames.txt"
+#include "MenuText/ClassNames.txt"
+#include "MenuText/ClassDescriptions.txt"
+#include "MenuText/UnitNames.txt"
+#include "MenuText/CommandNames.txt"
+#include "MenuText/CommandDescriptions.txt"

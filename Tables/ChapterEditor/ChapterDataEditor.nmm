@@ -1,0 +1,611 @@
+#Chapter Data Editor (FE7) - By Icy Toast - V 0.9.3
+#
+
+1
+Chapter Data Editor (FE7) - By Icy Toast - V 0.9.3
+0xC9A200
+68
+152
+Chapters.txt
+NULL
+
+Unused Pointer
+0
+4
+NDHU
+Unused.txt
+
+ObjectType1 (PTABLE)
+4
+1
+NEHU
+NULL
+
+ObjectType2 (PTABLE)
+5
+1
+NEHU
+NULL
+
+Palette (PTABLE)
+6
+1
+NEHU
+NULL
+
+TileConfig (PTABLE)
+7
+1
+NEHU
+NULL
+
+Map (PTABLE)
+8
+1
+NEHU
+NULL
+
+Anims1 (PTABLE)
+9
+1
+NEHU
+NULL
+
+Anims2 (PTABLE)
+10
+1
+NEHU
+NULL
+
+Tile Changes (PTABLE)
+11
+1
+NEHU
+NULL
+
+Vision Distance
+12
+1
+NEDU
+NULL
+
+Has Prep Screen?
+13
+1
+NEDU
+NULL
+
+Unused
+14
+1
+NEHU
+NULL
+
+Unused
+15
+1
+NEHU
+NULL
+
+Initial Camera Coords
+16
+2
+NEHU
+NULL
+
+Initial Weather
+18
+1
+NDDU
+Weather.txt
+
+Battle Background
+19
+1
+NDHU
+BattleBackground.txt
+
+Hard Mode Bonus
+20
+1
+NEHU
+Mode.txt
+
+Byte 22
+21
+1
+NEHU
+NULL
+
+EM Player Phase BGM
+22
+2
+NEHU
+NULL
+
+EM Enemy Phase BGM
+24
+2
+NEHU
+NULL
+
+EM NPC Phase BGM
+26
+2
+NEHU
+NULL
+
+HM Player Phase BGM
+28
+2
+NEHU
+NULL
+
+HM Enemy Phase BGM
+30
+2
+NEHU
+NULL
+
+HM NPC Phase BGM
+32
+2
+NEHU
+NULL
+
+Secondary Player Phase BGM
+34
+2
+NEHU
+NULL
+
+Secondary Enemy Phase BGM
+36
+2
+NEHU
+NULL
+
+Worldmap Chapter Prologue BGM
+38
+2
+NEHU
+NULL
+
+EM Chapter Opening BGM/SFX
+40
+2
+NEHU
+NULL
+
+HM Chapter Opening BGM/SFX
+42
+2
+NEHU
+NULL
+
+Destructible Walls HP
+44
+1
+NEDU
+NULL
+
+ENM Tactics 5-Stars Turn Limit
+45
+1
+NEDU
+NULL
+
+EHM Tactics 5-Stars Turn Limit
+46
+1
+NEDU
+NULL
+
+HNM Tactics 5-Stars Turn Limit
+47
+1
+NEDU
+NULL
+
+HHM Tactics 5-Stars Turn Limit
+48
+1
+NEDU
+NULL
+
+ENM Tactics 4-Stars Turn Limit
+49
+1
+NEDU
+NULL
+
+EHM Tactics 4-Stars Turn Limit
+50
+1
+NEDU
+NULL
+
+HNM Tactics 4-Stars Turn Limit
+51
+1
+NEDU
+NULL
+
+HHM Tactics 4-Stars Turn Limit
+52
+1
+NEDU
+NULL
+
+ENM Tactics 3-Stars Turn Limit
+53
+1
+NEDU
+NULL
+
+EHM Tactics 3-Stars Turn Limit
+54
+1
+NEDU
+NULL
+
+HNM Tactics 3-Stars Turn Limit
+55
+1
+NEDU
+NULL
+
+HHM Tactics 3-Stars Turn Limit
+56
+1
+NEDU
+NULL
+
+ENM Tactics 2-Stars Turn Limit
+57
+1
+NEDU
+NULL
+
+EHM Tactics 2-Stars Turn Limit
+58
+1
+NEDU
+NULL
+
+HNM Tactics 2-Stars Turn Limit
+59
+1
+NEDU
+NULL
+
+HHM Tactics 2-Stars Turn Limit
+60
+1
+NEDU
+NULL
+
+ENM 5-Stars Exp Requirement
+62
+2
+NEDU
+NULL
+
+EHM 5-Stars Exp Requirement
+64
+2
+NEDU
+NULL
+
+HNM 5-Stars Exp Requirement
+66
+2
+NEDU
+NULL
+
+HHM 5-Stars Exp Requirement
+68
+2
+NEDU
+NULL
+
+ENM 4-Stars Exp Requirement
+70
+2
+NEDU
+NULL
+
+EHM 4-Stars Exp Requirement
+72
+2
+NEDU
+NULL
+
+HNM 4-Stars Exp Requirement
+74
+2
+NEDU
+NULL
+
+HHM 4-Stars Exp Requirement
+76
+2
+NEDU
+NULL
+
+ENM 3-Stars Exp Requirement
+78
+2
+NEDU
+NULL
+
+EHM 3-Stars Exp Requirement
+80
+2
+NEDU
+NULL
+
+HNM 3-Stars Exp Requirement
+82
+2
+NEDU
+NULL
+
+HHM 3-Stars Exp Requirement
+84
+2
+NEDU
+NULL
+
+ENM 2-Stars Exp Requirement
+86
+2
+NEDU
+NULL
+
+EHM 2-Stars Exp Requirement
+88
+2
+NEDU
+NULL
+
+HNM 2-Stars Exp Requirement
+90
+2
+NEDU
+NULL
+
+HHM 2-Stars Exp Requirement
+92
+2
+NEDU
+NULL
+
+ENM Maximum Acquirable Funds
+96
+3
+NEDU
+NULL
+
+EHM Maximum Acquirable Funds
+100
+3
+NEDU
+NULL
+
+HNM Maximum Acquirable Funds
+104
+3
+NEDU
+NULL
+
+HHM Maximum Acquirable Funds
+108
+3
+NEDU
+NULL
+
+EM Chapter Title Numbered
+112
+2
+NEHU
+NULL
+
+HM Chapter Title Numbered
+114
+2
+NEHU
+NULL
+
+
+EM Chapter Title
+116
+2
+NEHU
+NULL
+
+HM Chapter Title
+118
+2
+NEHU
+NULL
+
+Events (PTABLE)
+120
+1
+NEHU
+NULL
+
+Worldmap Chapter Prologue Scene
+121
+1
+NDHU
+Prologues.txt
+
+Pre-Augury Text
+122
+1
+NEHU
+NULL
+
+Pre-Augury Text Bank
+123
+1
+NEHU
+NULL
+
+EM Augury Text
+124
+1
+NEHU
+NULL
+
+EM Augury Text Bank
+125
+1
+NEHU
+NULL
+
+HM Augury Text
+126
+1
+NEHU
+NULL
+
+Hm Augury Text Bank
+127
+1
+NEHU
+NULL
+
+Post-Augury Text
+128
+1
+NEHU
+NULL
+
+Post Augury Text Bank
+129
+1
+NEHU
+NULL
+
+Augury Portrait
+130
+1
+NDHU
+Portraits.txt
+
+Augury Price
+131
+1
+NEDU
+NULL
+
+EM Preparation Screen Ch. No.
+132
+1
+NDHU
+PrepNumbers.txt
+
+HM Preparation Screen Ch. No.
+133
+1
+NDHU
+PrepNumbers.txt
+
+EM Merlinus X-Coordinate
+134
+1
+NEDU
+NULL
+
+EM Merlinus Y-Coordinate
+136
+1
+NEDU
+NULL
+
+HM Merlinus X-Coordinate
+135
+1
+NEDU
+NULL
+
+HM Merlinus Y-Coordinate
+137
+1
+NEDU
+NULL
+
+Enemy count for 'Winning Road'
+138
+1
+NEDU
+NULL
+
+Chapter Title Display Fade-out
+139
+1
+NDDU
+TitleFade.txt
+
+Status - Objective Text
+140
+2
+NEHU
+NULL
+
+Goal Window Text
+142
+2
+NEHU
+NULL
+
+Goal Window Information
+144
+1
+NDDU
+GoalWindow.txt
+
+Turns to count down to +1
+145
+1
+NEDU
+NULL
+
+Protect Character Marker
+146
+1
+NDHU
+Characters.txt
+
+Tile Marker - X-Coordinate
+147
+1
+NEDU
+NULL
+
+Tile Marker - Y-Coordinate
+148
+1
+NEDU
+NULL
+
+Byte 150
+149
+1
+NEHU
+NULL
+
+Byte 151
+150
+1
+NEHU
+NULL
+
+Byte 152
+151
+1
+NEHU
+NULL

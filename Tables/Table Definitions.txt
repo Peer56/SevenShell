@@ -1,0 +1,159 @@
+//ifndef guards
+#ifndef TABLE_DEFINITIONS
+#define TABLE_DEFINITIONS
+#endif
+
+#ifndef CharacterTable
+  #define CharacterTable 0xBDCE18
+#endif
+#ifndef ClassTable
+  #define ClassTable 0xBE015C
+#endif
+#ifndef ItemTable
+  #define ItemTable 0xBE222C
+#endif
+
+//Zero
+#define None 0
+#define BlankEntry 0
+#define TD_None 0
+#define TU_None 0
+
+//Affinities
+#define AFire 1
+#define AThunder 2
+#define AWind 3
+#define AIce 4
+#define ADark 5
+#define ALight 6
+#define AAnima 7
+
+//Weapon Ranks
+#define NoRank 0x00
+#define ERank 0x01
+#define DRank 0x1F
+#define CRank 0x47
+#define BRank 0x79
+#define ARank 0xB5
+#define SRank 0xFB
+
+//Character/Class Ability Bitfield
+#define MountedAid 0x00000001
+#define HasCanto 0x00000002
+#define Steal 0x00000004
+#define CanUseLockpick 0x00000008
+#define CanDance 0x00000010
+#define CanPlay 0x00000020
+#define CritBoost 0x00000040
+#define UseBallista 0x00000080
+#define IsPromoted 0x00000100
+#define IsSupply 0x00000200
+#define HorseIcon 0x00000400
+#define DragonIcon 0x00000800
+#define PegIcon 0x00001000
+#define IsLord 0x00002000
+#define IsFemale 0x00004000
+#define IsBoss 0x00008000
+#define UnlockUnused 0x00010000
+#define UnlockSwordmaster 0x00020000
+#define UnlockManakete 0x00040000
+#define IsMorph 0x00080000
+#define CannotControl 0x00100000
+#define TriangleAttack 0x00200000
+#define TriangleAttack2 0x00400000
+#define DecrementIDAfterLoad 0x00800000
+#define GiveNoExp 0x01000000
+#define Lethality 0x02000000
+#define IsMagicSeal 0x04000000
+#define DropLastItem 0x08000000
+#define UnlockEliwood 0x10000000
+#define UnlockHector 0x20000000
+#define UnlockLyn 0x40000000
+#define UnlockAthos 0x80000000
+
+//Item Ability Bitfield
+#define IsWeapon 0x00000001
+#define IsMagic 0x00000002
+#define IsStaff 0x00000004
+#define Unbreakable 0x00000008
+#define Unsellable 0x00000010
+#define IsBrave 0x00000020
+#define MagicDamage 0x00000040
+#define Uncounterable 0x00000080
+#define IsReaver 0x00000100
+#define Unrepairable 0x00000200
+#define MonsterWeapon 0x00000400
+#define WeaponLock1 0x00000800
+#define SwordmasterLock 0x00001000
+#define MyrmidonLock 0x00001000 //Alias
+#define WeaponLock2 0x00002000
+#define NegateFlyingEffectiveness 0x00004000
+#define IsShield 0x00004000 //Alias for Effectiveness Rework
+#define NegateCriticals 0x00008000
+#define CannotUse 0x00010000
+#define NegateDef 0x00020000
+#define EliwoodLock 0x00040000
+#define HectorLock 0x00080000
+#define LynLock 0x00100000
+#define AthosLock 0x00200000
+
+//Class Type Bitfield for Effectiveness Rework
+#define NoType 0x0000
+#define HorseType 0x0001
+#define FlierType 0x0002
+#define DragonType 0x0004
+#define ArmorType 0x0008
+#define SwordType 0x0010
+#define MagicType 0x0020
+#define UnusedType1 0x0040
+#define UnusedType2 0x0080
+#define UnusedType3 0x0100
+#define UnusedType4 0x0200
+#define UnusedType5 0x0400
+#define UnusedType6 0x0800
+#define UnusedType7 0x1000
+#define UnusedType8 0x2000
+#define UnusedType9 0x4000
+#define UnusedType10 0x8000
+
+//Weapon Types
+#define WSword 0x0
+#define WLance 0x1
+#define WAxe 0x2
+#define WBow 0x3
+#define WStaff 0x4
+#define WAnima 0x5
+#define WLight 0x6
+#define WDark 0x7
+#define WItem 0x9
+#define WStone 0xB
+#define WRing 0xC
+
+//Weapon Effect
+#define PoisonEffect 1
+#define NosferatuEffect 2
+#define EclipseEffect 3
+#define DevilEffect 4
+
+//Status Effects
+#define NoStatus 0
+#define PoisonStatus 1
+#define SleepStatus 2
+#define SilenceStatus 3
+#define BerserkStatus 4
+#define AtkRingStatus 5
+#define DefRingStatus 6
+#define CritRingStatus 7
+#define AvoRingStatus 8
+#define SickStatus 9
+
+//Command Text Color
+#define White 0
+#define Gray 1
+#define Blue 2
+#define Yellow 3
+#define Green 4
+
+//Misc (are these even needed if I don't use CSVs?)
+#define negateByte(byte) "0x100-byte"
+#define IsPointer 0x8000000

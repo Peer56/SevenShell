@@ -1,0 +1,7 @@
+6
+0 Shield
+1 Dragon
+2 Knight
+3 Shield
+4 Shield
+5 Shield

@@ -1,5 +1,5 @@
-00
-01
+00 END
+01 END2
 02 STALL frameDuration
 03 STALL_FAST frameDuration
 04 STALL_CG frameDuration
@@ -8,27 +8,27 @@
 07 BACKGROUND_2 backgroundID
 08 BACKGROUND_DEATH
 09 CLEAR
-0A END
-0B PREPSCREEN
+0A NOPREP
+0B PREP
 0C OPEN
 0D TEXT textID
 0E TEXT_OPAQUE textID
 0F TEXT_GAMEMODE textID1 textID2
-10
+10 //broken
 11 MORETEXT textID
 12 MORETEXT_GAMEMODE textID1 textID2
 13 TEXT_SUPPORT
 14 TEXT_RESUME
 15 TEXT_GENERIC list
 16 MORETEXT_GENERIC list
-17
+17 TEXT_RANK category list
 18 TEXT_GENDER textID1 textID2
 19 MORETEXT_GENDER textID1 textID2
 1A TEXT_FLAG eventFlag textID1 textID2
 1B MORETEXT_FLAG eventFlag textID1 textID2
-1C TEXT_FUNCTION asmPointer textID1 textID2
-1D MORETEXT_FUNCTION asmPointer textID1 textID2
-1E CLEAR_SPEECH
+1C TEXT_ASM asmPointer textID1 textID2
+1D MORETEXT_ASM asmPointer textID1 textID2
+1E CLEARSPEECH
 1F CAMERA [X,Y]
 20 CAMERA characterID
 21 CAMERA_PROTAG
@@ -41,79 +41,79 @@
 28 MOVE_SCRIPTED characterID scriptPointer
 29 MOVE_NEXTTO characterID1 characterID2
 2A MOVE_PROTAG [X,Y]
-2B MOVE_SCRIPTED_UNK
-2C
-2D MOVE_ONESTEP
+2B MOVE_FACTION characterID speed [X,Y] scriptOther
+2C MOVE_FACTION characterID scriptAlly scriptOther
+2D MOVE_ONETILE
 2E MOVE_INSTANT [Xorg,Yorg] [Xdest,Ydest]
 2F MOVE_INSTANT characterID [X,Y]
-30 MOVE_SETDEST
-31 MOVE_TODEST
+30 MOVE_SETSLOT characterID slot
+31 MOVE_TOSLOT characterID slot
 32 LOAD unitsPointer
 33 LOAD_ALIVE unitsPointer
-34 LOAD_IFHARD unitsPointer
-35 LOAD_BYMODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
-36
-37
-38
-39 LOAD_SINGLE characterID classID [X,Y]
-3A
+34 LOAD_IF mode difficulty unitsPointer
+35 LOAD_MODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
+36 LOADPARTY unitsPointer
+37 LOADPARTY_IF mode unitsPointer
+38 LOADPARTY_MODE unitsPointerENM unitsPointerEHM unitsPointerHNM unitsPointerHHM
+39 LOAD_DUMMY characterID classID [X,Y]
+3A LOAD_WARP unk
 3B AWAIT
 3C CAMERA_ON
 3D CAMERA_OFF
-3E FUNCTION asmPointer
-3F FUNCTION_UNK1 asmPointer
-40 FUNCTION_UNK2 asmPointer
-41 FUNCTION_UNTIL asmPointer
-42 FUNCTION_WHILE asmPointer
+3E ASMC asmPointer
+3F ASMC_NOSCENESKIP asmPointer
+40 ASMC_NOTEXTSKIP asmPointer
+41 ASMC_UNTIL asmPointer
+42 ASMC_WHILE asmPointer
 43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
 46 GOTO_DEAD eventLabel characterID
-47 GOTO_NOTRECRUITED eventLabel characterID
-48 GOTO_FUNCTRUE eventLabel asmPointer
-49 GOTO_FUNCFALSE eventLabel routinePointer
+47 GOTO_NOTDEPLOYED eventLabel characterID
+48 GOTO_ASMTRUE eventLabel funcPointer
+49 GOTO_ASMFALSE eventLabel funcPointer
 4A GOTO_SCENESKIP eventLabel
-4B GOTO_CONVOSKIP eventLabel
+4B GOTO_TEXTSKIP eventLabel
 4C GOTO_FLAGON eventLabel eventFlag
 4D GOTO_FLAGOFF eventLabel eventFlag
-4E GOTO_NOTACTIVE unk eventLabel characterID
-4F GOTO_NOTHM eventLabel
-50 GOTO_NOTEM eventLabel
-51 GOTO_HARD eventLabel
+4E GOTO_NOTACTIVE eventLabel characterID mode
+4F GOTO_EM eventLabel
+50 GOTO_HM eventLabel
+51 GOTO_DIFFICULTY eventLabel difficulty
 52 GOTO_IFNO eventLabel
-53 GOTO_IFYES eventLabel //in vanilla, this is broken and has identical functionality to 52
+53 GOTO_IFYES eventLabel
 54 GOTO_NOTTUTORIAL eventLabel
-55 GOTO_ALIVE eventLabel characterID unk
-56 GOTO_MONEY eventLabel unk
-57 GOTO_NOTDEPLOYED eventLabel characterID unk
+55 GOTO_ALIVEORFLAGON eventLabel characterID flagID
+56 GOTO_TURN eventLabel minTurn
+57 GOTO_DEPLOYED eventLabel characterID mode
 58 JUMP scenePointer
-59 ASM_UNK1
-5A ASM_UNK2
-5B GIVE_ACTIVE itemID
-5C GIVE characterID itemID
-5D GIVE_PROTAG itemID
-5E MONEY specification moneyAmount
+59 IGNORE_IF count funcPointer
+5A IGNORE_IFNOT count funcPointer
+5B ITEM itemID
+5C ITEM characterID itemID
+5D ITEM_PROTAG itemID
+5E MONEY specification amount
 5F TILECHANGE changeID specification
 60 TILECHANGE [X,Y] specification
 61 TILECHANGE_INSTANT
-62 TILECHANGE_UNK1 changeID unk
-63 TILECHANGE_UNK2 unk
-64 TILECHANGE_AUTOWATER changeID unk
-65 JOIN characterID affiliation
+62 TILECHANGE_UNK1 changeID
+63 TILECHANGE_UNK2
+64 TILECHANGE_AUTO changeID
+65 JOIN characterID faction
 66 CURSOR_FLASH [X,Y]
 67 CURSOR_FLASH characterID
-68 CURSOR_PLACE [X,Y]
+68 CURSOR_SET [X,Y]
 69 CURSOR_END
-6A DELETE [X,Y]
-6B DELETE characterID
+6A REMOVE [X,Y]
+6B REMOVE characterID
 6C KILL [X,Y]
 6D KILL characterID
 6E HIDE [X,Y]
 6F HIDE characterID
 70 DISABLE characterID
 71 ENABLE characterID
-72 STATE_SET characterID condition
-73 STATE_UNSET characterID condition
+72 STATE_SET characterID state
+73 STATE_UNSET characterID state
 74 CHANGEAI characterID [AI1,AI2,AI3,AI4]
 75 CHANGEAI [X,Y] [AI1,AI2,AI3,AI4]
 76 FLAG_ON eventFlag
@@ -127,11 +127,11 @@
 7E MUSIC_UNQUIET
 7F SOUND soundID
 80 SOUND_UNK soundID unk
-81 CHAPTER_GOTO chapterID
+81 CHAPTER chapterID
 82 ENDGAME
 83 ENDLYNMODE
 84 CHAPTER_LOAD chapterID [X,Y]
-85 CHAPTER_SETID chapterID
+85 CHAPTER_SET chapterID
 86
 87 LOCK_B
 88
@@ -139,11 +139,11 @@
 8A UNLOCK unk1 unk2 unk3 unk4
 8B
 8C LOCK_SCENE
-8D LOCK_CONVO
-8E FADEIN_BLACK frameDuration
-8F FADEOUT_BLACK frameDuration
-90 FADEIN_WHITE frameDuration
-91 FADEOUT_WHITE frameDuration
+8D LOCK_TEXT
+8E FADETO_BLACK frameDuration
+8F FADEFROM_BLACK frameDuration
+90 FADETO_WHITE frameDuration
+91 FADEFROM_WHITE frameDuration
 92 HIDEMAP
 93 SHOWMAP
 94 FADE_LYNDEATH
@@ -151,43 +151,43 @@
 96
 97 BATTLE attackerID defenderID scriptPointer unk
 98
-99 WM_FUNCTION asmPointer
-9A
+99 ASM_UNK asmPointer
+9A ASM_UNK asmPointer
 9B WEATHER weatherID
 9C WEATHER_SKIPPABLE weatherID
 9D FOG tileDistance
-9E FOG2 tileDistance
+9E FOG_INSTANT tileDistance
 9F UNSEAL itemID characterID eventFlag
 A0 QUEUE eventPointer
-A1 KEYMASK unk
+A1 KEYMASK keyMask
 A2 RIG
-A3 OVERRIDE_CLEAR
-A4 OVERRIDE_DISABLE commandID
-A5 OVERRIDE_GRAYOUT commandID
-A6 OVERRIDE_ACTIVATE commandID
-A7 TEXT_VERSATILE boxType [X,Y] textID
-A8
+A3 COMMAND_RESET
+A4 COMMAND_HIDE commandID
+A5 COMMAND_DISABLE commandID
+A6 COMMAND_ENABLE commandID
+A7 VERSATILETEXT boxType [X,Y] textID
+A8 VERSATILETEXT_GENDER boxType [X,Y] textID textID2
 A9 TUTORIAL_UNK6
-AA
-AB WM_UNK1
+AA TUTORIAL_UNK7
+AB TUTORIAL_UNK8
 AC WM_LOADMAP mapID [X,Y] specification
-AD WM_UNK2
+AD
 AE
 AF
 B0
 B1 WM_LOADPORTRAIT ID portraitID [X,Y] specification delay
 B2 WM_CLEARPORTRAIT ID specification delay
 B3 WM_TEXT textID
-B4 WM_BOTTOMTEXTBOX
-B5 WM_TOPTEXTBOX
-B6 WM_UNK3
+B4 WM_BOTTOMTEXT
+B5 WM_TOPTEXT
+B6
 B7 WM_LOADMS spriteID [X,Y] classID properties identifier unk1 unk2
 B8 WM_CLEARMS spriteID unk
 B9 WM_HIGHLIGHT area
 BA
 BB
-BC WM_CLEARTEXTBOX
-BD WM_PLACEDOT mapID [X,Y] palette
+BC WM_CLEARTEXT
+BD WM_DOT mapID [X,Y] palette
 BE
 BF
 C0
@@ -200,16 +200,16 @@ C6
 C7
 C8 WM_FADETOMAP [X,Y] mapID unk1 unk2
 C9 WM_RIPPLE [X,Y]
-CA
+CA WM_ENDRIPPLE
 CB CALL scenePointer
-CC WARP [X,Y] specification
-CD WARP characterID specification
+CC WARP [X,Y] mode
+CD WARP characterID mode
 CE
 CF TEXT_CG textID unk
 D0
 D1 MORETEXT_CG textID cutsceneID
 D2
-D3 SHOWCG cutsceneID
+D3 CUTSCENE cutsceneID
 D4
 D5 FADEOUT_CG frameDuration
 D6 FADEIN_CG frameDuration
@@ -218,14 +218,14 @@ D8 CLEARBOX
 D9 FADE_CGTOBG backgroundID unk
 DA FADE_BGTOCG cutsceneID unk
 DB FADE_CGTOMAP [X,Y]
-DC
-DD LIGHTNING
-DE
-DF NINIAN_UNK
-E0 DIM_UNK1
-E1 DIM_UNK2
+DC BLIZZARD duration
+DD LIGHTNINGBOLT [X,Y]
+DE FLASH unk unk [unk,unk] unk
+DF LOADNINIAN [X,Y]
+E0 DIM unk unk unk
+E1 DIM_PREPARE
 E2
-E3 UNKNOWN pointer [X,Y]
+E3 EFFECT pointer [X,Y]
 E4
 E5
 E6

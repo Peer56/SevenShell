@@ -1,0 +1,50 @@
+#define NoItems [0x00,0x00,0x00,0x00]
+
+//Unit data level helpers
+#define Predetermined 0x50
+#define Ally 0
+#define NPC 1
+#define Enemy 2
+#define Level(level,side,autoLevel) level*8+side*2+autoLevel
+
+//Unit state helpers (old)
+/*
+#define Visible 1
+#define GrayedOut 2
+#define OnAnotherUnit 4 //????
+#define Rescuing 0x10
+#define IsBeingResqued 0x20
+#define InBallista 0x800
+#define UsableOrSomething 0x10000
+#define MerlinusAndAthosOrSomething 0x400000
+*/
+
+//Unit state helpers
+#define IsSelected 0x00000001
+#define IsUnselectable 0x00000002
+#define IsDead 0x00000004
+#define IsNotDeployed 0x00000008
+#define IsRescued 0x00000010
+#define IsRescuing 0x00000020
+#define HasMoved 0x00000040
+#define UnderRoof 0x00000080
+//#define DontUseSelection 0x00000100 
+//#define DontUseLinkArena 0x00000200
+//#define DontUseAI 0x00000400
+#define RidingBallista 0x00000800
+#define DropsLastItem 0x00001000
+#define UsedAfasDrops 0x00002000
+#define SoloAnim1 0x00004000
+#define SoloAnim2 0x00008000
+//#define DontUseEsoteric1 0x00010000
+//#define DontUseEsoteric2 0x00020000
+//#define DontUseEsoteric3 0x00040000
+//#define DontUseEsoteric4 0x00080000
+//#define DontUseEsoteric5 0x00100000
+#define NotDeployedLastChapter 0x00200000
+#define IsDummy 0x00400000
+#define IncrementPortraitID 0x00800000
+#define ShakeMapSprite 0x01000000
+#define IsBanned 0x02000000
+#define IsRemoved 0x04000000
+#define IsAltPalette 0x08000000

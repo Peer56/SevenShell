@@ -1,0 +1,158 @@
+#0x4DC TN_Eliwood
+Eliwood[X]
+
+## TN_Hector
+Hector[X]
+
+## TN_Lyn
+Lyn[X]
+
+## TN_Raven
+Raven[X]
+
+## TN_Geitz
+Geitz[X]
+
+## TN_Guy
+Guy[X]
+
+## TN_Karel
+Karel[X]
+
+## TN_Dorcas
+Dorcas[X]
+
+## TN_Bartre
+Bartre[X]
+
+## TN_Oswin
+Oswin[X]
+
+## TN_Fargus
+Fargus[X]
+
+## TN_Wil
+Wil[X]
+
+## TN_Rebecca
+Rebecca[X]
+
+## TN_Louise
+Louise[X]
+
+## TN_Lucius
+Lucius[X]
+
+## TN_Serra
+Serra[X]
+
+## TN_Renault
+Renault[X]
+
+## TN_Erk
+Erk[X]
+
+## TN_Nino
+Nino[X]
+
+## TN_Pent
+Pent[X]
+
+## TN_Canas
+Canas[X]
+
+## TN_Kent
+Kent[X]
+
+## TN_Sain
+Sain[X]
+
+## TN_Lowen
+Lowen[X]
+
+## TN_Marcus
+Marcus[X]
+
+## TN_Priscilla
+Priscilla[X]
+
+## TN_Rath
+Rath[X]
+
+## TN_Florina
+Florina[X]
+
+## TN_Fiora
+Fiora[X]
+
+## TN_Farina
+Farina[X]
+
+## TN_Heath
+Heath[X]
+
+## TN_Vaida
+Vaida[X]
+
+## TN_Hawkeye
+Hawkeye[X]
+
+## TN_Matthew
+Matthew[X]
+
+## TN_Jaffar
+Jaffar[X]
+
+## TN_Ninian
+Ninian[X]
+
+## TN_Nils
+Nils[X]
+
+## TN_Athos
+Athos[X]
+
+## TN_Merlinus
+Merlinus[X]
+
+## TN_Eleanora
+Eleanora[X]
+
+## TN_Uther
+Uther[X]
+
+## TN_Igrene
+Igrene[X]
+
+## TN_Dart
+Dart[X]
+
+## TN_Wallace
+Wallace[X]
+
+## TN_Isadora
+Isadora[X]
+
+## TN_Nadine
+Nadine[X]
+
+## TN_Legault
+Legault[X]
+
+## TN_Harken
+Harken[X]
+
+## TN_Karla
+Karla[X]
+
+## TN_Leila
+Leila[X]
+
+## TN_Bramimond
+Bramimond[X]
+
+## TN_Kishuna
+Kishuna[X]
+
+## TN_Temp
+[X]

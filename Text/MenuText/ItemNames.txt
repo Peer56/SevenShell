@@ -1,0 +1,467 @@
+#0x3F3 TN_IronSword
+Iron sword[X]
+
+## TN_SlimSword
+Slim sword[X]
+
+## TN_SteelSword
+Steel sword[X]
+
+## TN_SilverSword
+Silver sword[X]
+
+## TN_IronBlade
+Iron blade[X]
+
+## TN_SteelBlade
+Steel blade[X]
+
+## TN_SilverBlade
+Silver blade[X]
+
+## TN_PoisonSword
+Poison sword[X]
+
+## TN_Rapier
+Rapier[X]
+
+## TN_ManiKatti
+Mani Katti[X]
+
+## TN_SolKatti
+Sol Katti[X]
+
+## TN_BraveSword
+Brave sword[X]
+
+## TN_WoDao
+Wo Dao[X]
+
+## TN_KillingEdge
+Killing Edge[X]
+
+## TN_Armorslayer
+Armorslayer[X]
+
+## TN_Wyrmslayer
+Wyrmslayer[X]
+
+## TN_LightBrand
+Light Brand[X]
+
+## TN_Runesword
+Runesword[X]
+
+## TN_Lancereaver
+Lancereaver[X]
+
+## TN_Longsword
+Longsword[X]
+
+## TN_RegalBlade
+Regal Blade[X]
+
+## TN_IronLance
+Iron lance[X]
+
+## TN_SlimLance
+Slim lance[X]
+
+## TN_SteelLance
+Steel lance[X]
+
+## TN_SilverLance
+Silver lance[X]
+
+## TN_PoisonLance
+Poison lance[X]
+
+## TN_BraveLance
+Brave lance[X]
+
+## TN_KillerLance
+Killer lance[X]
+
+## TN_Horseslayer
+Horseslayer[X]
+
+## TN_Javelin
+Javelin[X]
+
+## TN_Spear
+Spear[X]
+
+## TN_Axereaver
+Axereaver[X]
+
+## TN_RexHasta
+Rex Hasta[X]
+
+## TN_HeavySpear
+Heavy spear[X]
+
+## TN_ShortSpear
+Short spear[X]
+
+## TN_IronAxe
+Iron axe[X]
+
+## TN_SteelAxe
+Steel axe[X]
+
+## TN_SilverAxe
+Silver axe[X]
+
+## TN_PoisonAxe
+Poison axe[X]
+
+## TN_BraveAxe
+Brave axe[X]
+
+## TN_KillerAxe
+Killer axe[X]
+
+## TN_Halberd
+Halberd[X]
+
+## TN_Hammer
+Hammer[X]
+
+## TN_DevilAxe
+Devil axe[X]
+
+## TN_HandAxe
+Hand axe[X]
+
+## TN_Tomahawk
+Tomahawk[X]
+
+## TN_Swordreaver
+Swordreaver[X]
+
+## TN_Swordslayer
+Swordslayer[X]
+
+## TN_WolfBeil
+Wolf Beil[X]
+
+## TN_Basilikos
+Basilikos[X]
+
+## TN_IronBow
+Iron bow[X]
+
+## TN_SteelBow
+Steel bow[X]
+
+## TN_SilverBow
+Silver bow[X]
+
+## TN_PoisonBow
+Poison bow[X]
+
+## TN_KillerBow
+Killer bow[X]
+
+## TN_BraveBow
+Brave bow[X]
+
+## TN_ShortBow
+Short bow[X]
+
+## TN_Longbow
+Longbow[X]
+
+## TN_Rienfleche
+Rienfleche[X]
+
+## TN_Ballista
+Ballista[X]
+
+## TN_IronBallista
+Iron ballista[X]
+
+## TN_KillerBallista
+Killer ballista[X]
+
+## TN_Fire
+Fire[X]
+
+## TN_Thunder
+Thunder[X]
+
+## TN_Elfire
+Elfire[X]
+
+## TN_Bolting
+Bolting[X]
+
+## TN_Fimbulvetr
+Fimbulvetr[X]
+
+## TN_Forblaze
+Forblaze[X]
+
+## TN_Excalibur
+Excalibur[X]
+
+## TN_Lightning
+Lightning[X]
+
+## TN_Shine
+Shine[X]
+
+## TN_Divine
+Divine[X]
+
+## TN_Purge
+Purge[X]
+
+## TN_Aura
+Aura[X]
+
+## TN_Luce
+Luce[X]
+
+## TN_Aureola
+Aureola[X]
+
+## TN_Flux
+Flux[X]
+
+## TN_Luna
+Luna[X]
+
+## TN_Nosferatu
+Nosferatu[X]
+
+## TN_Eclipse
+Eclipse[X]
+
+## TN_Fenrir
+Fenrir[X]
+
+## TN_Gespenst
+Gespenst[X]
+
+## TN_Ereshkigal
+Ereshkigal[X]
+
+## TN_Heal
+Heal[X]
+
+## TN_Mend
+Mend[X]
+
+## TN_Recover
+Recover[X]
+
+## TN_Physic
+Physic[X]
+
+## TN_Fortify
+Fortify[X]
+
+## TN_Restore
+Restore[X]
+
+## TN_Silence
+Silence[X]
+
+## TN_Sleep
+Sleep[X]
+
+## TN_Berserk
+Berserk[X]
+
+## TN_Warp
+Warp[X]
+
+## TN_Rescue
+Rescue[X]
+
+## TN_Torch
+Torch[X]
+
+## TN_Hammerne
+Hammerne[X]
+
+## TN_Unlock
+Unlock[X]
+
+## TN_Barrier
+Barrier[X]
+
+## TN_TiinaStaff
+Tiina staff[X]
+
+## TN_AngelicRobe
+Angelic robe[X]
+
+## TN_EnergyRing
+Energy ring[X]
+
+## TN_SecretBook
+Secret book[X]
+
+## TN_Speedwings
+Speedwings[X]
+
+## TN_GoddessIcon
+Goddess icon[X]
+
+## TN_Dragonshield
+Dragonshield[X]
+
+## TN_Talisman
+Talisman[X]
+
+## TN_Boots
+Boots[X]
+
+## TN_BodyRing
+Body ring[X]
+
+## TN_HeroCrest
+Hero crest[X]
+
+## TN_OceanSeal
+Ocean seal[X]
+
+## TN_KnightCrest
+Knight crest[X]
+
+## TN_OrionsBolt
+Orion's bolt[X]
+
+## TN_ElysianWhip
+Elysian whip[X]
+
+## TN_GuidingRing
+Guiding ring[X]
+
+## TN_EarthSeal
+Earth seal[X]
+
+## TN_HeavenSeal
+Heaven seal[X]
+
+## TN_FellContract
+Fell contract[X]
+
+## TN_AfasDrops
+Afa's Drops[X]
+
+## TN_ChestKey
+Chest key[X]
+
+## TN_DoorKey
+Door key[X]
+
+## TN_Lockpick
+Lockpick[X]
+
+## TN_Vulnerary
+Vulnerary[X]
+
+## TN_Elixir
+Elixir[X]
+
+## TN_PureWater
+Pure water[X]
+
+## TN_Antitoxin
+Antitoxin[X]
+
+##
+Torch[X]
+
+## TN_DelphiShield
+Delphi shield[X]
+
+## TN_MemberCard
+Member card[X]
+
+## TN_SilverCard
+Silver card[X]
+
+## TN_WhiteGem
+White gem[X]
+
+## TN_RedGem
+Red gem[X]
+
+## TN_BlueGem
+Blue gem[X]
+
+## TN_Gold
+Gold[X]
+
+##
+[X]
+
+##
+[X]
+
+## TN_Mine
+Mine[X]
+
+## TN_LightRune
+Light rune[X]
+
+## TN_IronRune
+Iron rune[X]
+
+## TN_FillasMight
+Filla's Might[X]
+
+## TN_NinissGrace
+Ninis's Grace[X]
+
+## TN_ThorsIre
+Thor's Ire[X]
+
+## TN_SetsLitany
+Set's Litany[X]
+
+## TN_EmblemBlade
+Emblem blade[X]
+
+## TN_EmblemLance
+Emblem lance[X]
+
+## TN_EmblemAxe
+Emblem axe[X]
+
+## TN_EmblemBow
+Emblem bow[X]
+
+## TN_EmblemSeal
+Emblem seal[X]
+
+## TN_Durandal
+Durandal[X]
+
+## TN_Armads
+Armads[X]
+
+## TN_Flametongue
+Flametongue[X]
+
+## TN_WindSword
+Wind sword[X]
+
+## TN_DragonAxe
+Dragon axe[X]
+
+## TN_Dance
+Dance[X]
+
+## TN_Play
+Play[X]
+
+## TN_5000G
+5, 000 G[X]
+
+## TN_3000G
+3, 000 G[X]

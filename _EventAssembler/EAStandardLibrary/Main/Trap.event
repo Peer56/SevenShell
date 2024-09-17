@@ -1,0 +1,7 @@
+#define Ballista(XX,YY) "BALLISTA [XX,YY] 0x34"
+#define NormalBallista(XX,YY) "BALLISTA [XX,YY] 0x34"
+#define IronBallista(XX,YY) "BALLISTA [XX,YY] 0x35"
+#define KillerBallista(XX,YY) "BALLISTA [XX,YY] 0x36 "
+#define FireTrap(XX,YY) "FIRE [XX,YY] 0x0 [1,1]"
+#define GasTrap(XX,YY,direction) "GAS [XX,YY] direction [1,1]"
+#define PoisonTrap(XX,YY,direction) "GAS [XX,YY] direction [1,1]"

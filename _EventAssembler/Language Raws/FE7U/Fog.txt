@@ -1,0 +1,7 @@
+# Changes the fog vision distance of the current chapter. Does a screen fade only if not scene skipping.
+FOG, 0x9D, 4, -game:FE7 -indexMode:8
+	distance, 2, 1, -preferredBase:10
+
+# Same as FOG, but never fades, regardless of scene skipping.
+FOG_INSTANT, 0x9E, 4, -game:FE7 -indexMode:8
+	distance, 2, 1, -preferredBase:10

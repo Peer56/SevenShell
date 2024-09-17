@@ -1,0 +1,8 @@
+#define Clear 0
+#define Snow 1 
+#define Snowstorm 2
+#define BlueBackground 3
+#define Rain 4
+#define Flames 5
+#define Sandstorm 6
+#define Clouds 7

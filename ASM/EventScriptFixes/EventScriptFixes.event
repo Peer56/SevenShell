@@ -1,0 +1,29 @@
+PUSH
+
+//_0x10 (UNK_10) Behavior Fix
+//in vanilla, this doesn't work
+
+	ORG $00BA50 // in EvtCmd_TalkSetFunc
+	SHORT $6840 // add r0, #4 -> ldr r0, [r0, #4]
+
+//_0x22 (CAMERA_CENTERED) Crash Fix
+//in vanilla, this breaks the game if centering the camera to given coords would result in out of bounds tiles being displayed
+
+	ORG $15C26
+	BYTE $E
+	ORG $15C3A
+	BYTE $9
+
+//_0x53 (GOTO_IFYES) Behavior Fix
+//in vanilla, the behavior is identical to _0x52 (GOTO_IFNO)
+
+	ORG $00D81F // in EvtCmd_GotoIfyTalkYes
+	BYTE $D0 // bne -> beq
+
+//_0xA0 (QUEUE) Behavior Fix
+//in vanilla, this doesn't work
+
+	ORG $00EC34 // in EvtCmd_EnqueueEvent
+	SHORT $6840 // add r0, #4 -> ldr r0, [r0, #4]
+
+POP

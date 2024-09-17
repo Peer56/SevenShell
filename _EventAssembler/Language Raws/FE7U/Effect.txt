@@ -1,0 +1,46 @@
+# Shows warp animation on specified position. Unit isn't moved by this code. Must be used alongside MOVE_INSTANT to actually move the unit.
+# Mode determines whether the animation is warping out (0) or in (any other value).
+WARP, 0xCC, 12, -game:FE7 -indexMode:8
+	position, 4, 4, -coordinate:2 -preferredBase:10
+	mode, 8, 1
+
+# Shows warp animation on specified character. Unit isn't moved by this code. Must be used alongside MOVE_INSTANT to actually move the unit.
+# Mode determines whether the animation is warping out (0) or in (any other value).
+WARP, 0xCD, 12, -game:FE7 -indexMode:8
+	character, 4, 4
+	mode, 8, 1
+
+# Plays a magic blizzard animation that covers the whole screen.
+BLIZZARD, 0xDC, 8, -game:FE7 -indexMode:8
+	duration, 4, 4, -preferredBase:10
+
+# Plays a lightning bolt animation at specified screen position (not map position).
+LIGHTNINGBOLT, 0xDD, 12, -game:FE7 -indexMode:8
+	position, 4, 8, -coordinates:2
+
+# Quickly flashes the screen to white. NEEDS RESEARCH
+FLASH, 0xDE, 20, -game:FE7 -indexMode:8
+	unk, 4, 4
+	unk, 8, 4
+	unk, 12, 4, -coordinates:2
+	unk, 16, 4
+
+# Shows a shrinking circle of glowing orbs centered on the screen.
+# Also shows some falling sparkles and loads a generic NPC Citizen of the Dancer class at specified position.
+LOADNINIAN, 0xDF, 12, -game:FE7 -indexMode:8
+	position, 4, 8, -coordinates:2
+
+# Dims the screen. NEEDS RESEARCH
+DIM, 0xE0, 16, -game:FE7 -indexMode:8
+	unk, 4, 4
+	unk, 8, 4
+	unk, 12, 2
+	unk, 14, 2
+
+# Prepares palettes so the screen can dim. Required before using DIM to dim the screen but not before using DIM to undim.
+DIM_PREPARE, 0xE1, 4, -game:FE7 -indexMode:8
+
+# Plays a special "map effect" at specified screen position (not map position).
+EFFECT, 0xE3, 12, -game:FE7 -indexMode:8
+	effect, 4, 4, -pointer:unknown
+	position, 8, 4, -coordinates:2

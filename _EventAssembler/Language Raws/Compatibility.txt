@@ -1,0 +1,117 @@
+
+AFEV, 1, 12, -language:FE8:FE7:FE6 -priority:main -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Event ID to follow, 8, 2
+
+AFEV, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+AREA, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+CHAR, 3, 16, -language:FE7:FE8 -priority:main -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Characters, 8, 2, -coordinates:2
+	Extra, 12, 4
+
+CHAR, 3, 16, -language:FE7:FE8 -priority:main -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Characters, 8, 2, -coordinates:2
+	Extra1, 12, 1
+	Extra2, 13, 1
+	Extra3, 14, 1
+	Extra4, 15, 1
+
+CHAR, 3, 16, -language:FE7:FE8 -priority:main -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Character 1, 8, 1
+	Character 2, 9, 1
+	Extra, 12, 4
+
+CHAR, 3, 16, -language:FE7:FE8 -priority:main -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Character 2, 8, 1
+	Character 2, 9, 1
+	Extra1, 12, 1
+	Extra2, 13, 1
+	Extra3, 14, 1
+	Extra4, 15, 1
+
+CHAR, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+CHARASM, 0x4, 16, -game:FE7 -indexMode:8 -priority:main
+	Event ID, 2, 2
+	Event pointer, 4, 4, -pointer:none
+	Characters, 8, 2, -coordinates:2
+	ASM pointer, 12, 4, -pointer:ASM
+
+CHARASM, 0x4, 16, -game:FE7 -indexMode:8 -priority:main
+	Event ID, 2, 2
+	Event pointer, 4, 4, -pointer:none
+	Character 1, 8, 1
+	Character 2, 9, 1
+	ASM pointer, 12, 4, -pointer:ASM
+
+CHARASM, 0, 4, -priority:main -language:FE7 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+LOCA, 5, 12, -priority:main -language:FE8:FE7:FE6 -indexMode:8
+	ID, 2, 2
+	1, 4, 4, -fixed
+	Position, 8, 2, -coordinates:2 -preferredBase:10
+	Command, 10, 2
+
+LOCA, 5, 12, -priority:main -language:FE8:FE7:FE6 -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Position, 8, 2, -coordinates:2 -preferredBase:10
+	Command, 10, 2
+
+VILL, 6, 12, -priority:main -language:FE8:FE7:FE6 -indexMode:8
+	ID, 2, 2
+	Event Pointer, 4, 4, -pointer
+	Position, 8, 2, -coordinates:2 -preferredBase:10
+	Command, 10, 2
+
+CHES, 7, 12, -priority:main -language:FE8:FE7:FE6 -indexMode:8
+	ID, 2, 2
+	Chest data, 4, 4
+	Position, 8, 2, -coordinates:2 -preferredBase:10
+	Command, 10, 2
+
+LOCA, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+VILL, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+SHOP, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+CHES, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+DOOR, 0, 4, -priority:main -language:FE8:FE7:FE6 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+TURN, 0, 4, -priority:main -language:FE6:FE7 -end -indexMode:8 -noDisassembly
+	0, 0, 4, -fixed
+
+ASME, 0xE, 12, -game:FE7 -priority:main -indexMode:8
+	Event ID, 2, 2
+	Pointer to event, 4, 4, -pointer
+	ASM Pointer, 8, 4, -pointer
+
+ASME, 0xD, 12, -game:FE6 -indexMode:8 -priority:main
+	Event ID, 2, 2
+	Pointer to event, 4, 4, -pointer:none
+	ASM pointer, 8, 4, -pointer:ASM
+
+COORDS, 0, 4, -priority:coordList -language:FE7 -indexMode:8
+	Position, 0, 2, -coordinates:2 -preferredBase:10

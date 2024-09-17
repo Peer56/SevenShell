@@ -1,0 +1,8 @@
+//Chapter data pointer list editing
+
+#ifdef _FE7_
+#ifndef _FE7J_
+#define EventPointerListOffset 0xC9C9C8
+#define EventPointerTable(id,offset) "PUSH; ORG EventPointerListOffset+(4*id); POIN offset; POP"
+#endif
+#endif

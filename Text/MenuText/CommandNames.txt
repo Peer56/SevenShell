@@ -1,0 +1,74 @@
+# 0x10C8 TN_CRide
+Ride[X]
+
+## TN_CExit
+Exit[X]
+
+## TN_CSeize
+Seize[X]
+
+## TN_CAttack
+Attack[X]
+
+## TN_CStaff
+Staff[X]
+
+## TN_CPlay
+Play[X]
+
+## TN_CDance
+Dance[X]
+
+## TN_CSteal
+Steal[X]
+
+## TN_CTalk
+Talk[X]
+
+## TN_CSupport
+Support[X]
+
+## TN_CVisit
+Visit[X]
+
+## TN_CChest
+Chest[X]
+
+## TN_CDoor
+Door[X]
+
+## TN_CArmory
+Armory[X]
+
+## TN_CVendor
+Vendor[X]
+
+## TN_CSecret
+Secret[X]
+
+## TN_CArena
+Arena[X]
+
+## TN_CRescue
+Rescue[X]
+
+## TN_CDrop
+Drop[X]
+
+## TN_CTake
+Take[X]
+
+## TN_CGive
+Give[X]
+
+## TN_CItem
+Item[X]
+
+## TN_CTrade
+Trade[X]
+
+## TN_CMerch
+Merch[X]
+
+## TN_CWait
+Wait[X]

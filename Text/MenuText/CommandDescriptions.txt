@@ -1,0 +1,95 @@
+# 0x350 TD_CSupport
+Strengthen the bond[N]
+between units by talking.[X]
+
+# 0x352 TD_CWait
+End the turn. Be sure you're[N]
+done before you select this.[X]
+
+## TD_CAttack
+Attack an enemy unit.[X]
+
+## TD_CStaff
+Use the magic stored[N]
+within a staff.[X]
+
+## TD_CDance
+Use a ring that allows your[N]
+allies to move again.[X]
+
+## TD_CPlay
+Use a ring that allows your[N]
+allies to move again.[X]
+
+## TD_CSteal
+Shhh...[N]
+(Steal enemy items!)[X]
+
+## TD_CRescue
+Rescue an ally from[N]
+an adjacent space.[X]
+
+## TD_CDrop
+Place a rescued ally in[N]
+an adjacent space.[X]
+
+## TD_CGive
+Pass a rescued ally to[N]
+another ally next to you.[X]
+
+## TD_CTake
+Receive a rescued ally from[N]
+another ally next to you.[X]
+
+## TD_CTalk
+Talk to an ally or enemy[N]
+in an adjacent space.[X]
+
+## TD_CVisit
+Visit a village or a home.[X]
+
+## TD_CSeize
+Seize a designated point[N]
+to complete the chapter.[X]
+
+## TD_CDoor
+A door.[N]
+Use a key to open it.[X]
+
+## TD_CChest
+A chest.[N]
+Use a key to open it.[X]
+
+## TD_CArmory
+An armory.[N]
+Enter to buy weapons.[X]
+
+## TD_CVendor
+A shop.[N]
+Enter to buy items.[X]
+
+## TD_CSecret
+Congratulations! Only for[N]
+one as lucky as you...[X]
+
+## TD_CArena
+An arena. Wager your life[N]
+in battle for gold.[X]
+
+## TD_CItem
+Use and equip items.[X]
+
+## TD_CTrade
+Trade items with allies[N]
+in adjacent spaces.[X]
+
+## TD_CMerch
+Adjacent units can manage[N]
+items with Merlinus.[X]
+
+## TD_CRide
+Get on ballista and[N]
+use it to attack.[X]
+
+## TD_CExit
+Get off of ballista.[X]

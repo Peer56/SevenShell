@@ -1,0 +1,111 @@
+# Conditional label. Does nothing on its own, needed for all GOTO instructions.
+LABEL, 0x44, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution, unconditionally, to the specified LABEL.
+# All GOTO instructions check forward in ROM until they either find their LABEL.
+# If it runs into END (specifically END, not END2) before finding the LABEL, the GOTO will fail.
+GOTO, 0x45, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if the specified character is dead.
+GOTO_DEAD, 0x46, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    character, 8, 4
+
+# Moves event execution to specified LABEL if the specified character is not deployed in the current chapter.
+# Obsoleted by GOTO_DEPLOYED which has an invert check and has other useful properties.
+GOTO_NOTDEPLOYED, 0x47, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    character, 8, 4
+
+# Moves event execution to specified LABEL if ASM function returns non-zero.
+GOTO_ASMTRUE, 0x48, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    function, 8, 4, -pointer:unknown
+
+# Moves event execution to specified LABEL if ASM function returns zero.
+GOTO_ASMFALSE, 0x49, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    function, 8, 4, -pointer:unknown
+
+# Moves event execution to specified LABEL if scene skipping.
+GOTO_SCENESKIP, 0x4A, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if text skipping.
+GOTO_TEXTSKIP, 0x4B, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if specified flag is set.
+GOTO_FLAGON, 0x4C, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    flag, 8, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if specified flag is not set.
+GOTO_FLAGOFF, 0x4D, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    flag, 8, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if the active character is different from specified character ID. 
+# If invert parameter is non-zero, the check is inverted to check if active and specified character IDs are the same rather than different.
+GOTO_NOTACTIVE, 0x4E, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    character, 8, 4
+    invert, 2, 2, -preferredBase:10
+
+# Moves event execution to specified LABEL if in Eliwood mode.
+GOTO_EM, 0x4F, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if in Hector mode.
+GOTO_HM, 0x50, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if current difficulty matches specified difficulty.
+GOTO_DIFFICULTY, 0x51, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    difficulty, 2, 2, -preferredBase:10
+
+# Moves event execution to specified LABEL if result of last talk prompt was 'No' or if the text was skipped.
+GOTO_IFNO, 0x52, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if result of last talk prompt was 'Yes' or if the text was skipped.
+# In vanilla, this instruction is bugged and has identical behavior to GOTO_IFNO. (Fixed by FE7 Essential Fixes.)
+GOTO_IFYES, 0x53, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if not in tutorial.
+GOTO_NOTTUTORIAL, 0x54, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+
+# Moves event execution to specified LABEL if specified character is not dead, OR if flag is set.
+# Sets specified flag if the GOTO fails.
+GOTO_ALIVEORFLAGON, 0x55, 16, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    character, 8, 4
+    flag, 12, 4
+
+# Moves event execution to specified LABEL if current turn number is greater than or equal to specified turn number.
+GOTO_TURN, 0x56, 8, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    turn, 2, 2, -preferredBase:10
+
+# Moves event execution to specified LABEL if specified character is deployed in the current chapter.
+# If invert parameter is non-zero, the check is inverted to check if the character is not deployed.
+# Unlike GOTO_NOTDEPLOYED, this instruction checks for the "away" unit bitflag (ie. banned from deployment) so it's recommended to use this instead.
+GOTO_DEPLOYED, 0x57, 12, -game:FE7 -indexMode:8
+    label, 4, 4, -preferredBase:10
+    character, 8, 4
+    invert, 2, 2, -preferredBase:10
+
+# Ignores the next N instructions in event execution if ASM function returns non-zero.
+IGNORE_IF, 0x59, 8, -game:FE7 -indexMode:8
+    count, 2, 2, -preferredBase:10
+    function, 4, 4, -pointer:unknown
+
+# Ignores the next N instructions in event execution if ASM function returns zero.
+IGNORE_IFNOT, 0x5A, 8, -game:FE7 -indexMode:8
+    count, 2, 2, -preferredBase:10
+    function, 4, 4, -pointer:unknown

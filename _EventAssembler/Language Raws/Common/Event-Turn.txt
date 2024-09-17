@@ -1,0 +1,16 @@
+TURN, 2, 128, -priority:main -game:FE7:FE7J
+	ID, 16, 16, 
+	Event Pointer, 32, 32, -pointer 
+	Turns, 64, 16, -coordinates:2 -preferredBase:10
+	TurnMoment, 84, 4
+	Extra, 96, 32
+
+TURN, 2, 128, -priority:main -game:FE7:FE7J
+	ID, 16, 16, 
+	Event Pointer, 32, 32, -pointer 
+	Turns, 64, 16, -coordinates:2 -preferredBase:10
+	TurnMoment, 84, 4
+	Extra1, 96, 8
+	Extra2, 104, 8
+	Extra3, 112, 8
+	Extra4, 120, 8

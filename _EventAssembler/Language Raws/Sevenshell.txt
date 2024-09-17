@@ -1,0 +1,134 @@
+#Character table entry
+CHARTABLE, 0, 52, -game:FE7 -priority:low -indexMode:8
+	Name, 0, 2
+	Description, 2, 2
+	Unit ID, 4, 1
+	Class ID, 5, 1
+	Portrait, 6, 2
+	Map Portrait, 8, 1
+	Affinity, 9, 1
+	Sort Order, 10, 1, -preferredBase:10
+	Level, 11, 1, -preferredBase:10
+	Base Stats, 12, 8, -coordinates:1-8 -preferredBase:10
+	Weapon Ranks, 20, 8, -coordinates:1-8 -preferredBase:10
+	Growth Rates, 28, 7, -coordinates:1-7 -preferredBase:10
+	Unpromoted Palette ID, 35, 1
+	Promoted Palette ID, 36, 1
+	Unpromoted Unique Anim ID, 37, 1
+	Promoted Unique Anim ID, 38, 1
+	0, 39, 1, -fixed
+	Ability Bitfield, 40, 4, -preferredBase:2
+	Support Pointer, 44, 4, -pointer
+	Conversation Group, 48, 1
+	0, 49, 3, -fixed
+
+#Class table entry
+CLASSTABLE, 0, 84, -game:FE7 -priority:low -indexMode:8
+	Name, 0, 2
+	Description, 2, 2
+	Class ID, 4, 1
+	Promotion, 5, 1
+	SMS ID, 6, 1
+	Walking Speed, 7, 1, -preferredBase:10
+	Class Card, 8, 2
+	Sort Order, 10, 1, -preferredBase:10
+	Base Stats, 11, 8, -coordinates:1-8 -preferredBase:10
+	Stat Caps, 19, 7, -coordinates:1-7 -preferredBase:10
+	Relative Power, 26, 1
+	Growth Rates, 27, 7, -coordinates:1-7 -preferredBase:10
+	Promotion Gains, 34, 6, -coordinates:1-6 -preferredBase:10
+	Ability Bitfield, 40, 4, -preferredBase:2
+	Weapon Ranks, 44, 8, -coordinates:1-8 -preferredBase:10
+	Anim Pointer, 52, 4, -pointer
+	Mov Cost Pointer, 56, 4, -pointer
+	Mov Rain Pointer, 60, 4, -pointer
+	Mov Snow Pointer, 64, 4, -pointer
+	Terrain Avo Pointer, 68, 4, -pointer
+	Terrain Def Pointer, 72, 4, -pointer
+	Terrain Res Pointer, 76, 4, -pointer
+	Unknown Pointer, 80, 4, -pointer
+
+#Item table entry
+ITEMTABLE, 0, 36, -game:FE7 -priority:low -indexMode:8
+	Name, 0, 2
+	Description, 2, 2
+	Use Description, 4, 2
+	Item ID, 6, 1
+	Item Type, 7, 1
+	Ability Bitfield, 8, 4, -preferredBase:2
+	Stat Bonuses Pointer, 12, 4, -pointer
+	Effectiveness Pointer, 16, 4, -pointer
+	Stats, 20, 5, -coordinates:1-5 -preferredBase:10
+	Range, 25, 1
+	Cost, 26, 2, -preferredBase:10
+	Rank, 28, 1, -preferredBase:10
+	Icon ID, 29, 1
+	Staff/Use Effect, 30, 1
+	Weapon Effect, 31, 1
+	Weapon Exp, 32, 1, -preferredBase:10
+	1, 33, 1, -fixed
+	0, 34, 2, -fixed
+	
+#Item table blank entry
+ITEMTABLE, 0, 36, -game:FE7 -priority:low -indexMode:8
+	Blank, 0, 2
+	0, 2, 34, -fixed
+
+#Menu command table entry
+#There's a bunch of these tables, it's not just the UnitMenu
+COMMANDTABLE, 0, 36, -game:FE7 -priority:low -indexMode:8
+	Unused pointer, 0, 4, -pointer
+	Name, 4, 2
+	Description, 6, 2
+	Color, 8, 1
+	Command ID, 9, 1
+	0, 10, 2, -fixed
+	Asm pointer 1, 12, 4, -pointer
+	Asm pointer 2, 16, 4, -pointer
+	Asm pointer 3, 20, 4, -pointer
+	Asm pointer 4, 24, 4, -pointer
+	Asm pointer 5, 28, 4, -pointer
+	Asm pointer 6, 32, 4, -pointer
+
+#Battle palette association table entry
+PALTABLE, 0, 16, -game:FE7 -priority:low -indexMode:8
+	0, 0, 12, -fixed
+	Palette pointer, 12, 4, -pointer
+
+#Battle palette association table entry with string
+PALTABLE, 0, 16, -game:FE7 -priority:low -indexMode:8
+	Name string, 0, 12
+	Palette pointer, 12, 4, -pointer
+	
+#Effectiveness list
+EFFECTIVENESS, 0, 0, -game:FE7 -indexMode:8 -repeatable -terminatingList:00 -offsetMod:1
+	Class, 0, 2
+
+#Stat bonuses list
+STATBONUS, 0, 12, -game:FE7 -indexMode:8 -offsetMod:1
+	HP, 0, 1, -preferredBase:10
+	StrMag, 1, 1, -preferredBase:10
+	Skl, 2, 1, -preferredBase:10
+	Spd, 3, 1, -preferredBase:10
+	Def, 4, 1, -preferredBase:10
+	Res, 5, 1, -preferredBase:10
+	Luck, 6, 1, -preferredBase:10
+	Mov, 7, 1, -preferredBase:10
+	Con, 8, 1, -preferredBase:10
+	0, 9, 3, -fixed
+
+#Anim association entry
+ANIM, 0, 4, -game:FE7 -indexMode:8 -offsetMod:1
+	Weapon, 0, 1
+	1, 1, 1, -fixed
+	Animation, 2, 2
+
+#Anim association unique entry
+ANIM, 0, 4, -game:FE7 -indexMode:8 -offsetMod:1
+	Weapon, 0, 1
+	Type, 1, 1
+	Animation, 2, 2
+
+#Anim association terminator
+ANIM, 0, 4, -game:FE7 -indexMode:8 -offsetMod:1
+	0, 0, 4, -fixed

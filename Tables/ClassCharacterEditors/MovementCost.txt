@@ -1,0 +1,48 @@
+47
+0x0000000 None
+0x8BE3888 Lords and T2 infantry
+0x8BE3CD9 Lords and T2 infantry (rain)
+0x8BE40E9 Lords and T2 infantry (snow)
+0x8BE38C9 T1 infantry
+0x8BE3D1A T1 infantry (rain)
+0x8BE412A T1 infantry (snow)
+0x8BE390A Armor
+0x8BE3D5B Armor (rain)
+0x8BE416B Armor (snow)
+0x8BE394B Fighter and warrior
+0x8BE3D9C Fighter and warrior (rain)
+0x8BE41AC Fighter and warrior (snow)
+0x8BE398C Berserker
+0x8BE3DDD Berserker (rain)
+0x8BE41ED Berserker (snow)
+0x8BE39CD Brigand
+0x8BE3E1E Brigand (rain)
+0x8BE422E Brigand (snow)
+0x8BE3A0E Pirate and corsair
+0x8BE3E5F Pirate and corsair (rain)
+0x8BE426F Pirate and corsair (snow)
+0x8BE3A4F Thief and assassin
+0x8BE3EA0 Thief and assassin (rain)
+0x8BE42B0 Thief and assassin (snow)
+0x8BE3A90 Magic infantry
+0x8BE3EE1 Magic infantry (rain)
+0x8BE42F1 Magic infantry (snow)
+0x8BE3AD1 Merlinus and civilians
+0x8BE3F22 Merlinus and civilians (rain)
+0x8BE4332 Merlinus and civilians (snow)
+0x8BE3B12 T1 cavalry
+0x8BE3F63 T1 cavalry (rain)
+0x8BE4373 T1 cavalry (snow)
+0x8BE3B53 T2 cavalry
+0x8BE3FA4 T2 cavalry (rain)
+0x8BE43B4 T2 cavalry (snow)
+0x8BE3B94 Nomad
+0x8BE3FE5 Nomad (rain)
+0x8BE43F5 Nomad (snow)
+0x8BE3BD5 Nomadic trooper
+0x8BE4026 Nomadic trooper (rain)
+0x8BE4436 Nomadic trooper (snow)
+0x8BE3C16 Flier
+0x8BE4067 Flier (rain)
+0x8BE4477 Flier (snow)
+0x8BE3C57 Fire Dragon (all)

@@ -1,0 +1,265 @@
+1
+FE7 Character Editor
+0xBDCE18
+254
+52
+CharacterEditor.txt
+NULL
+
+Name
+0
+2
+NEHU
+NULL
+
+Description
+2
+2
+NEHU
+NULL
+
+Character ID
+4
+1
+NDHU
+PID.txt
+
+Class ID (support viewer only)
+5
+1
+NDHU
+JID.txt
+
+Portrait ID
+6
+2
+NDHU
+Portrait.txt
+
+Mini Portrait
+8
+1
+NDDU
+MiniPortrait.txt
+
+Affinity
+9
+1
+NDDU
+Affinity.txt
+
+Sort Order
+10
+1
+NEDU
+NULL
+
+Level
+11
+1
+NEDU
+NULL
+
+HP Base
+12
+1
+NEDS
+NULL
+
+Strength/Magic Base
+13
+1
+NEDS
+NULL
+
+Skill Base
+14
+1
+NEDS
+NULL
+
+Speed
+15
+1
+NEDS
+NULL
+
+Defense Base
+16
+1
+NEDS
+NULL
+
+Resistance Base
+17
+1
+NEDS
+NULL
+
+Luck Base
+18
+1
+NEDS
+NULL
+
+Constitution Bonus
+19
+1
+NEDS
+NULL
+
+Sword Rank
+20
+1
+NDDU
+WeaponRank.txt
+
+Lance Rank
+21
+1
+NDDU
+WeaponRank.txt
+
+Axe Rank
+22
+1
+NDDU
+WeaponRank.txt
+
+Bow Rank
+23
+1
+NDDU
+WeaponRank.txt
+
+Staff Rank
+24
+1
+NDDU
+WeaponRank.txt
+
+Anima Rank
+25
+1
+NDDU
+WeaponRank.txt
+
+Light Rank
+26
+1
+NDDU
+WeaponRank.txt
+
+Dark Rank
+27
+1
+NDDU
+WeaponRank.txt
+
+HP Growth
+28
+1
+NEDS
+NULL
+
+Strength/Magic Growth
+29
+1
+NEDS
+NULL
+
+Skill Growth
+30
+1
+NEDS
+NULL
+
+Speed Growth
+31
+1
+NEDS
+NULL
+
+Defense Growth
+32
+1
+NEDS
+NULL
+
+Resistance Growth
+33
+1
+NEDS
+NULL
+
+Luck Growth
+34
+1
+NEDS
+NULL
+
+Battle Palette T1
+35
+1
+NDHU
+BattlePalette.txt
+
+Battle Palette T2
+36
+1
+NDHU
+BattlePalette.txt
+
+Unique Battle Anim T1
+37
+1
+NDHU
+UniqueAnim.txt
+
+Unique Battle Anim T2
+38
+1
+NDHU
+UniqueAnim.txt
+
+Zero
+39
+1
+NEHU
+NULL
+
+Ability Bitfield
+40
+4
+NEHU
+NULL
+
+Support Pointer
+44
+4
+NEHU
+NULL
+
+Conversation Group
+48
+1
+NEDU
+NULL
+
+***UNKNOWN*** (Zero)
+49
+1
+NEHU
+NULL
+
+***UNKNOWN*** (Zero)
+50
+1
+NEHU
+NULL
+
+***UNKNOWN*** (Zero)
+51
+1
+NEHU
+NULL

@@ -1,0 +1,20 @@
+//Icons
+PUSH
+	ORG $4E20
+	POIN NewIcons
+	ORG $4EF4
+	POIN NewIcons
+POP
+
+ALIGN 4
+NewIcons: //$C5EA4 in vanilla
+#incext Png2Dmp "ItemIcons.png"
+ORG CURRENTOFFSET-22*128
+#incext Png2Dmp "OtherIcons.png"
+
+PUSH
+	ORG $CBEA4
+	#incext Png2Dmp "ItemIcons.png" --palette-only
+	ORG $CBEC4
+	#incext Png2Dmp "OtherIcons.png" --palette-only
+POP

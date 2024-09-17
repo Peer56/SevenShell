@@ -1,3 +1,4 @@
+#ifdef _FE7_
 #include "EAstdlib.event"
 #include "CustomDefinitions.event"
 
@@ -11,12 +12,17 @@ MESSAGE Used text space ends at currentOffset
 //Graphics
 #include "Graphics/_GraphicsInstaller.event"
 
+		//Uncomment this to repoint tables. (Not yet implemented)
+		//#define REPOINTTABLES 0
+
 //Tables
-#include "Tables/TableInstaller.event"
-MESSAGE Used table space ends at currentOffset
+#include "Tables/Table Installer.event"
+#ifdef REPOINTTABLES
+	MESSAGE Used table space ends at currentOffset
+#endif
 
 //ASM
-#include "Assembly/_HackInstaller.event"
+#include "ASM/_ASMInstaller.event"
 MESSAGE Used hax space ends at currentOffset
 	
 //Events
@@ -24,3 +30,7 @@ MESSAGE Used hax space ends at currentOffset
 
 //Maps
 #include "Maps/MasterMapInstaller.event"
+
+#else
+	ERROR This buildfile is for FE7. You are using a different ROM.
+#endif

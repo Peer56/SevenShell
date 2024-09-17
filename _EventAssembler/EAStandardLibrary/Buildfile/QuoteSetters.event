@@ -1,0 +1,14 @@
+//Death quotes by events macro
+#ifdef _FE7_
+#ifndef _FE7J_
+#ifndef DQTableOffset
+#define DQTableOffset 0xC9F2EC
+#endif
+#ifndef BQTableOffset
+#define BQTableOffset 0xC9EDA0
+#endif
+#endif
+#define DeathQuoteTable(index,Character,Chapter,TextPointer,EventPointer,TriggerID) "PUSH; ORG DQTableOffset+(16*index); BYTE Character Chapter 0x0 0x0; SHORT TextPointer 0x0; POIN EventPointer; BYTE TriggerID 0x0 0x0 0x0; POP"
+#define DeathQuoteTable(index,Character,TextPointer,EventPointer,TriggerID) "PUSH; ORG DQTableOffset+(16*index); BYTE Character 0x43 0x0 0x0; SHORT TextPointer 0x0; POIN EventPointer; BYTE TriggerID 0x0 0x0 0x0; POP"
+#define BattleQuoteTable(index,Character1,Character2,Chapter,TextPointer,EventPointer,ID) "PUSH; ORG BQTableOffset+(16*index); BYTE Character1 Character2 Chapter 0x0; SHORT TextPointer 0x0; POIN EventPointer; BYTE ID 0x0 0x0 0x0; POP"
+#endif

@@ -144,7 +144,7 @@ filled with a solemn energy.[X]
 
 ## TD_Nils
 A bard possessing arcane[N]
-powers. Brother of Ninian.
+powers. Brother of Ninian.[X]
 
 ## TD_Athos
 An archsage. One of the[N]

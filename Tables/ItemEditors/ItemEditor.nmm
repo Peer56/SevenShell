@@ -3,63 +3,44 @@ FE7 Item Editor by SpyroDi, updated by Nintenlord
 0xBE222C
 159
 36
-FE7 Item Editor.txt
+ItemEditor.txt
 NULL
 
-Item Name Pointer
+Name
 0
 2
 NEHU
 NULL
 
-
-Item Description Pointer
+Description
 2
 2
 NEHU
 NULL
 
-Use Item Description Pointer
+Use Description
 4
 2
 NEHU
 NULL
 
-Item Number
+Item ID
 6
 1
 NDHU
-Item List.txt
+IID.txt
 
-Weapon Type
+Item/Weapon Type
 7
 1
 NDDU
-Weapon Type.txt
+Type.txt
 
-Weapon Ability 1
+Item Ability Bitfield
 8
-1
-NDHU
-Weapon Ability 1.txt
-
-Weapon Ability 2
-9
-1
-NDHU
-Weapon Ability 2.txt
-
-Weapon Ability 3
-10
-1
-NDHU
-Weapon Ability 3.txt
-
-Weapon Ability 4
-11
-1
-NDHU
-Weapon Ability 4.txt
+4
+NEHU
+NULL
 
 Stat Bonuses Pointer
 12
@@ -67,7 +48,7 @@ Stat Bonuses Pointer
 NEHU
 NULL
 
-Effectiveness
+Effectiveness Pointer
 16
 4
 NEHU
@@ -79,7 +60,7 @@ Durability
 NEDU
 NULL
 
-Power
+Might
 21
 1
 NEDU
@@ -103,7 +84,7 @@ Critical%
 NEDU
 NULL
 
-Minimum - Maximum Range
+Min - Max Range
 25
 1
 NEHU
@@ -119,25 +100,25 @@ Weapon Rank
 28
 1
 NDDU
-Weapon Rank.txt
+WeaponRank.txt
 
-Item Icon #
+Item Icon
 29
 1
 NDHU
-Item Icons.txt
+Icon.txt
 
 Staff/Use Effect
 30
 1
 NDHU
-Staff&use effect.txt
+StaffUseEffect.txt
 
 Weapon Effect
 31
 1
 NDHU
-Weapon Effect.txt
+WeaponEffect.txt
 
 Weapon Experience
 32

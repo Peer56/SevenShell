@@ -45,6 +45,8 @@
 #define Nomad_F 0x2F
 #define NomadTrooper 0x30
 #define NomadTrooper_F 0x31
+#define NomadicTrooper 0x30
+#define NomadicTrooper_F 0x31
 #define PegasusKnight 0x32
 #define Falcoknight 0x33
 #define WyvernRider 0x34
@@ -84,7 +86,7 @@
 #define FallenWarrior 0x56
 #define Child_2 0x57
 #define Child_2_F 0x58
-#define TransporterHorse 0x59
+#define Transporter_T2 0x59
 #define UberSage 0x5A
 #define ArcherInBallista 0x5B
 #define ArcherInIronBallista 0x5C

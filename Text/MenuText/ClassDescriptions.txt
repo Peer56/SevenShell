@@ -94,7 +94,7 @@ aid allies. Unable to attack.[X]
 Dancers whose arts aid[N]
 allies. Unable to attack.[X]
 
-## TD_PegKnight
+## TD_PegasusKnight
 Knights who've earned the[N]
 right to fly winged steeds.[X]
 
@@ -150,7 +150,7 @@ the use of any magic.[X]
 An honorific bestowed upon[N]
 devout monks and clerics.[X]
 
-## TD_NmdTrooper
+## TD_NomadicTrooper
 An honorific bestowed upon[N]
 nomads of great skill.[X]
 

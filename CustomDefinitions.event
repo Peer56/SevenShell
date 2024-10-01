@@ -1,3 +1,25 @@
+//Class Type Bitfield for Effectiveness Rework
+//Here because effectiveness is assembled before table defs
+#define NoType 0x0000
+#define HorseType 0x0001
+#define FlierType 0x0002
+#define DragonType 0x0004
+#define ArmorType 0x0008
+#define SwordType 0x0010
+#define MagicType 0x0020
+#define InfantryType 0x0040
+#define DarkDruidType 0x0080
+/*
+#define UnusedType 0x0100
+#define UnusedType 0x0200
+#define UnusedType 0x0400
+#define UnusedType 0x0800
+#define UnusedType 0x1000
+#define UnusedType 0x2000
+#define UnusedType 0x4000
+#define UnusedType 0x8000
+*/
+
 //These will eventually go in whatever battle palette setup I come up with and be modular
 //I couldn't get pal2ea to work
 #define PalBlank 0x00

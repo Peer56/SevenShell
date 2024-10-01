@@ -10,7 +10,7 @@ Weapon
 0
 2
 NDHU
-Item List TU.txt
+IID.txt
 
 No. of Chars to Display (1 or 2)
 2
@@ -22,7 +22,7 @@ Animation Used
 4
 2
 NDHU
-Spell Animations.txt
+SpellAnim.txt
 
 Alternate Pointer
 8
@@ -33,17 +33,17 @@ NULL
 Return to original position (map)
 12
 1
-NDHU
-Returning.txt
+NEHU
+NULL
 
 Facing position (map)
 13
 1
 NDHU
-Facing.txt
+FacingDirection.txt
 
 Enemy's flashing colour (map)
 14
 1
 NDHU
-Enemy flash.txt
+Flash.txt

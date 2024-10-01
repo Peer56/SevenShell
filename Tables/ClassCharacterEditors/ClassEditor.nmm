@@ -324,8 +324,14 @@ Terrain Resistance Bonus Pointer
 NEHU
 NULL
 
-Unknown Pointer
+Class Type Bitfield
 80
-4
+2
+NEHU
+NULL
+
+Padding
+82
+2
 NEHU
 NULL

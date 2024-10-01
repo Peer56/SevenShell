@@ -15,6 +15,9 @@ MESSAGE Used text space ends at currentOffset
 		//Uncomment this to repoint tables. (Not yet implemented)
 		//#define REPOINTTABLES 0
 
+//Other data
+#include "OtherData/_Installer.event"
+
 //Tables
 #include "Tables/Table Installer.event"
 #ifdef REPOINTTABLES

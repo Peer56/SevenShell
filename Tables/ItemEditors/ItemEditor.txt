@@ -1,4 +1,3 @@
-159
 0x00 None
 0x01 Iron Sword
 0x02 Slim Sword
@@ -24,7 +23,7 @@
 0x16 Steel Lance
 0x17 Silver Lance
 0x18 Poison Lance
-0x19 Brave Spear
+0x19 Brave Lance
 0x1A Killer Lance
 0x1B Horseslayer
 0x1C Javelin
@@ -127,7 +126,7 @@
 0x7D Ninis's Grace
 0x7E Thor's Ire
 0x7F Set's Litany
-0x80 Emblem Sword
+0x80 Emblem Blade
 0x81 Emblem Lance
 0x82 Emblem Axe
 0x83 Emblem Bow

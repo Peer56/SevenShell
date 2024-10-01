@@ -103,9 +103,6 @@ Brigand[X]
 ## TN_Pirate
 Pirate[X]
 
-## TN_Corsair
-Corsair[X]
-
 ## TN_Berserker
 Berserker[X]
 
@@ -136,9 +133,6 @@ Civilian[X]
 ## TN_Child
 Child[X]
 
-## TN_Bramimond
-Bramimond[X]
-
 ## TN_Peer
 Peer[X]
 
@@ -150,6 +144,9 @@ Queen[X]
 
 ## TN_Transporter
 Transporter[X]
+
+## TN_Corsair
+Corsair[X]
 
 ##
 [X]

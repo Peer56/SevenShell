@@ -10,11 +10,9 @@
 
 #include "ItemEditors\BOEG Editor.event"
 
-#include "ItemEditors\Item Editor.event"
+#include "ItemEditors\ItemEditor.event"
 
-#include "ItemEditors\Spell Association Editor.event"
-
-#include "ItemEditors\Stat Bonuses Editor.event"
+#include "ItemEditors\SpellAssociationEditor.event"
 
 #include "ItemEditors\Promotion Item\Fallen Contract Promotion Editor.event"
 

@@ -8,7 +8,7 @@ BYTE $26 $2E $ED $DD $0E $1C $00 $24 $13 $88 $00 $2B $09 $D0 $33 $40
 BYTE $00 $2B $03 $D0 $90 $78 $A0 $42 $00 $DB $04 $1C $04 $32 $F3 $E7
 BYTE $00 $24 $20 $1C $F0 $BC $02 $BC $08 $47 $C0 $46
 
-POIN $08BE222C//Defalt offset of the item table; repoint this if you've relocated yours
+POIN ItemTable
 
 ORG 0x28B3A//Reworking how the effectiveness multiplier is applied
 BYTE $00 $06 $00 $16 $01 $28 $00 $DA $01 $20 $14 $24 $2C $57 $29 $1C

@@ -1,0 +1,38 @@
+//Vanilla stat bonuses
+PUSH
+ORG $C98F98
+StatsForblaze:
+BYTE 0 0 0 0 0 0 5 0 0
+StatsAngelicRobe:
+BYTE 7 0 0 0 0 0 0 0 0
+StatsEnergyRing:
+BYTE 0 2 0 0 0 0 0 0 0
+StatsSecretBook:
+BYTE 0 0 2 0 0 0 0 0 0
+StatsSpeedwings:
+BYTE 0 0 0 2 0 0 0 0 0
+StatsGoddessIcon:
+BYTE 0 0 0 0 0 0 2 0 0
+StatsDragonshield:
+BYTE 0 0 0 0 2 0 0 0 0
+StatsTalisman:
+BYTE 0 0 0 0 0 2 0 0 0
+StatsBoots:
+BYTE 0 0 0 0 0 0 0 2 0
+StatsBodyRing:
+BYTE 0 0 0 0 0 0 0 0 2
+StatsUberSpear:
+BYTE 17 5 4 9 4 14 0 0 0
+StatsDurandal:
+BYTE 0 5 0 0 0 0 0 0 0
+StatsArmads:
+BYTE 0 0 0 0 5 0 0 0 0
+StatsAureola:
+BYTE 0 0 0 0 0 5 0 0 0
+StatsSolKatti:
+BYTE 0 0 0 0 0 5 0 0 0
+StatsFlametongue:
+BYTE 0 10 10 0 20 10 0 0 0
+POP
+
+//Add your custom stat bonuses here, outside the PUSH/POP

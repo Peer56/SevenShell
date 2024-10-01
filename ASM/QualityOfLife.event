@@ -23,6 +23,7 @@ POP
 
 //Change Effectiveness Multiplier to 3x
 //Credit: stan
+/*
 PUSH
 	ORG 0x028B48
 	SHORT $215A // movs r1, #0x5A
@@ -31,6 +32,8 @@ PUSH
 	SHORT $4350 // muls r0, r2
 	SHORT $5268 // strh r0, [r5, r1]
 POP
+*/
+//Commented out because Effectiveness Rework is installed.
 
 //Display Battle Stats with Animations Off
 //Credit: Tequila

@@ -158,32 +158,36 @@ __TEXTPROCESS1D3:
 setText($1D3, __TEXTPROCESS1D3)
 
 __TEXTPROCESS1D4:
-#incbin ".TextEntries\TextBuildfileTD_Merlinus.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Athos.fetxt.dmp"
 setText($1D4, __TEXTPROCESS1D4)
 
 __TEXTPROCESS1D5:
-#incbin ".TextEntries\TextBuildfileTD_Dart.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Merlinus.fetxt.dmp"
 setText($1D5, __TEXTPROCESS1D5)
 
 __TEXTPROCESS1D6:
-#incbin ".TextEntries\TextBuildfileTD_Wallace.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Dart.fetxt.dmp"
 setText($1D6, __TEXTPROCESS1D6)
 
 __TEXTPROCESS1D7:
-#incbin ".TextEntries\TextBuildfileTD_Isadora.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Wallace.fetxt.dmp"
 setText($1D7, __TEXTPROCESS1D7)
 
 __TEXTPROCESS1D8:
-#incbin ".TextEntries\TextBuildfileTD_Legault.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Isadora.fetxt.dmp"
 setText($1D8, __TEXTPROCESS1D8)
 
 __TEXTPROCESS1D9:
-#incbin ".TextEntries\TextBuildfileTD_Harken.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Legault.fetxt.dmp"
 setText($1D9, __TEXTPROCESS1D9)
 
 __TEXTPROCESS1DA:
-#incbin ".TextEntries\TextBuildfileTD_Karla.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_Harken.fetxt.dmp"
 setText($1DA, __TEXTPROCESS1DA)
+
+__TEXTPROCESS1DB:
+#incbin ".TextEntries\TextBuildfileTD_Karla.fetxt.dmp"
+setText($1DB, __TEXTPROCESS1DB)
 
 __TEXTPROCESS279:
 #incbin ".TextEntries\TextBuildfileTD_PoisonWeapon.fetxt.dmp"
@@ -1778,67 +1782,67 @@ __TEXTPROCESS4B1:
 setText($4B1, __TEXTPROCESS4B1)
 
 __TEXTPROCESS4B2:
-#incbin ".TextEntries\TextBuildfileTN_Corsair.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Berserker.fetxt.dmp"
 setText($4B2, __TEXTPROCESS4B2)
 
 __TEXTPROCESS4B3:
-#incbin ".TextEntries\TextBuildfileTN_Berserker.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Thief.fetxt.dmp"
 setText($4B3, __TEXTPROCESS4B3)
 
 __TEXTPROCESS4B4:
-#incbin ".TextEntries\TextBuildfileTN_Thief.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Assassin.fetxt.dmp"
 setText($4B4, __TEXTPROCESS4B4)
 
 __TEXTPROCESS4B5:
-#incbin ".TextEntries\TextBuildfileTN_Assassin.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Dancer.fetxt.dmp"
 setText($4B5, __TEXTPROCESS4B5)
 
 __TEXTPROCESS4B6:
-#incbin ".TextEntries\TextBuildfileTN_Dancer.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Bard.fetxt.dmp"
 setText($4B6, __TEXTPROCESS4B6)
 
 __TEXTPROCESS4B7:
-#incbin ".TextEntries\TextBuildfileTN_Bard.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Archsage.fetxt.dmp"
 setText($4B7, __TEXTPROCESS4B7)
 
 __TEXTPROCESS4B8:
-#incbin ".TextEntries\TextBuildfileTN_Archsage.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_MagicSeal.fetxt.dmp"
 setText($4B8, __TEXTPROCESS4B8)
 
 __TEXTPROCESS4B9:
-#incbin ".TextEntries\TextBuildfileTN_MagicSeal.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_FireDragon.fetxt.dmp"
 setText($4B9, __TEXTPROCESS4B9)
 
 __TEXTPROCESS4BA:
-#incbin ".TextEntries\TextBuildfileTN_FireDragon.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Civilian.fetxt.dmp"
 setText($4BA, __TEXTPROCESS4BA)
 
 __TEXTPROCESS4BB:
-#incbin ".TextEntries\TextBuildfileTN_Civilian.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Child.fetxt.dmp"
 setText($4BB, __TEXTPROCESS4BB)
 
 __TEXTPROCESS4BC:
-#incbin ".TextEntries\TextBuildfileTN_Child.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Peer.fetxt.dmp"
 setText($4BC, __TEXTPROCESS4BC)
 
 __TEXTPROCESS4BD:
-#incbin ".TextEntries\TextBuildfileTN_Bramimond.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Prince.fetxt.dmp"
 setText($4BD, __TEXTPROCESS4BD)
 
 __TEXTPROCESS4BE:
-#incbin ".TextEntries\TextBuildfileTN_Peer.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Queen.fetxt.dmp"
 setText($4BE, __TEXTPROCESS4BE)
 
 __TEXTPROCESS4BF:
-#incbin ".TextEntries\TextBuildfileTN_Prince.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Transporter.fetxt.dmp"
 setText($4BF, __TEXTPROCESS4BF)
 
 __TEXTPROCESS4C0:
-#incbin ".TextEntries\TextBuildfileTN_Queen.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTN_Corsair.fetxt.dmp"
 setText($4C0, __TEXTPROCESS4C0)
 
 __TEXTPROCESS4C1:
-#incbin ".TextEntries\TextBuildfileTN_Transporter.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfile4C1.fetxt.dmp"
 setText($4C1, __TEXTPROCESS4C1)
 
 __TEXTPROCESS4C2:
@@ -1941,10 +1945,6 @@ __TEXTPROCESS4DA:
 #incbin ".TextEntries\TextBuildfile4DA.fetxt.dmp"
 setText($4DA, __TEXTPROCESS4DA)
 
-__TEXTPROCESS4DB:
-#incbin ".TextEntries\TextBuildfile4DB.fetxt.dmp"
-setText($4DB, __TEXTPROCESS4DB)
-
 __TEXTPROCESS22C:
 #incbin ".TextEntries\TextBuildfileTD_Lord.fetxt.dmp"
 setText($22C, __TEXTPROCESS22C)
@@ -2042,7 +2042,7 @@ __TEXTPROCESS243:
 setText($243, __TEXTPROCESS243)
 
 __TEXTPROCESS244:
-#incbin ".TextEntries\TextBuildfileTD_PegKnight.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_PegasusKnight.fetxt.dmp"
 setText($244, __TEXTPROCESS244)
 
 __TEXTPROCESS245:
@@ -2098,7 +2098,7 @@ __TEXTPROCESS251:
 setText($251, __TEXTPROCESS251)
 
 __TEXTPROCESS252:
-#incbin ".TextEntries\TextBuildfileTD_NmdTrooper.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_NomadicTrooper.fetxt.dmp"
 setText($252, __TEXTPROCESS252)
 
 __TEXTPROCESS253:

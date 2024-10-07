@@ -16,7 +16,7 @@ UNIT Jaffar Assassin 0 Level(20,Enemy,0) [9,7] [9,7] [KillingEdge] GuardTileAI
 END_UNIT
 
 Good:
-UNIT Lyn BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [SolKatti] NoAI
+UNIT Lyn BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [ManiKatti,SolKatti] NoAI
 END_UNIT
 
 TurnEvents:
@@ -42,13 +42,7 @@ OpeningScene:
 OPEN
 LOAD Good
 AWAIT
-STALL 30
-EFFECT AssassinMapEffect ScreenCoords(9,7)
-STALL 30
-LOAD Bad
-AWAIT
-STALL 30
-LIGHTNINGBOLT ScreenCoords(7,5)
+NOPREP
 END
 
 EndingScene:

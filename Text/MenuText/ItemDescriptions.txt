@@ -2,22 +2,22 @@
 Coated in lethal poison.[X]
 
 ## TD_ArmorEffective
-Effective 3x against [Armor].[X]
+3x damage against [Armor].[X]
 
 ## TD_HorseEffective
-Effective 3x against [Horse].[X]
+3x damage against [Horse].[X]
 
-## TD_PrfEffective
-Effective 3x against [Armor] and [Horse].[X]
+## TD_RapierEffective
+3x damage against [Armor] and [Horse].[X]
 
 ## TD_FlierEffective
-Effective 3x against [Flier].[X]
+3x damage against [Flier].[X]
 
 ## TD_DragonEffective
-Effective 3x against [Dragon].[X]
+2x damage against [Dragon].[X]
 
 ## TD_SwordEffective
-Effective 3x against [Sword].[X]
+3x damage against [Sword].[X]
 
 ## TD_BraveWeapon
 Can strike consecutively.[X]
@@ -29,7 +29,7 @@ Improves critical hit rate.[X]
 For experienced units only.[X]
 
 ## TD_RangedWeapon
-Doubles as ranged attack.[X]
+Extended attack range.[X]
 
 ## TD_DevilWeapon
 Might injure its wielder.[X]
@@ -86,10 +86,10 @@ A tactician's axe.[X]
 A tactician's bow.[X]
 
 ## TD_Durandal
-Increases strength by 5 pts.[X]
+Boosts strength by 5 pts.[X]
 
 ## TD_Armads
-Lightning-charged axe.[X]
+Boosts defense by 5 pts.[X]
 
 ## TD_Aureola
 Boosts resistance by 5 pts.[X]

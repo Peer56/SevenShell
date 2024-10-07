@@ -202,7 +202,7 @@ __TEXTPROCESS27B:
 setText($27B, __TEXTPROCESS27B)
 
 __TEXTPROCESS27C:
-#incbin ".TextEntries\TextBuildfileTD_PrfEffective.fetxt.dmp"
+#incbin ".TextEntries\TextBuildfileTD_RapierEffective.fetxt.dmp"
 setText($27C, __TEXTPROCESS27C)
 
 __TEXTPROCESS27D:

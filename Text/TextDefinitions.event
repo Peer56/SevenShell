@@ -52,7 +52,7 @@
 #define TD_PoisonWeapon $279
 #define TD_ArmorEffective $27A
 #define TD_HorseEffective $27B
-#define TD_PrfEffective $27C
+#define TD_RapierEffective $27C
 #define TD_FlierEffective $27D
 #define TD_DragonEffective $27E
 #define TD_SwordEffective $27F

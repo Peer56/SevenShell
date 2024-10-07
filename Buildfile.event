@@ -12,17 +12,12 @@ MESSAGE Used text space ends at currentOffset
 //Graphics
 #include "Graphics/_GraphicsInstaller.event"
 
-		//Uncomment this to repoint tables. (Not yet implemented)
-		//#define REPOINTTABLES 0
-
 //Other data
 #include "OtherData/_Installer.event"
 
 //Tables
 #include "Tables/Table Installer.event"
-#ifdef REPOINTTABLES
-	MESSAGE Used table space ends at currentOffset
-#endif
+MESSAGE Used table space ends at currentOffset
 
 //ASM
 #include "ASM/_ASMInstaller.event"

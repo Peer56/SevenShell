@@ -73,13 +73,6 @@ PUSH
 	WORD 0x9C00B007 0x6A24B087 0x68243C04 0x0C240224 0x47004800 0x08067AED
 POP
 
-//Enable Augury in Hard Mode
-//Credit: Crazycolorz5
-PUSH
-	ORG $992FC
-	SHORT $2000
-POP
-
 //Enemy Control Glitch Fix
 //Credit: Brendor
 PUSH

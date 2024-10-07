@@ -39,6 +39,13 @@ POP
 //Credit: Tequila
 #include "BattleStatsWithAnimsOff/BattleStatsWithAnimsOff.event"
 
+//Enable Augury in Hard Mode
+//Credit: Crazycolorz5
+PUSH
+	ORG $992FC
+	SHORT $2000
+POP
+
 //Hold L to Toggle Battle Animations
 //Credit: Tequila
 #include "LToggle/LToggle.event"

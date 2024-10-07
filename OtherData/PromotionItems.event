@@ -1,0 +1,67 @@
+//This is ugly, but it's the best way I can think of until we have some kind of IER for FE7.
+//With this method we can't add new promo items without replacing old ones.
+
+//Repointers
+PUSH
+	ORG $27500
+	POIN HeroCrestList
+	ORG $27508
+	POIN KnightCrestList
+	ORG $27510
+	POIN OrionsBoltList
+	ORG $27518
+	POIN ElysianWhipList
+	ORG $27520
+	POIN GuidingRingList
+	ORG $27528
+	POIN EarthSealList
+	ORG $27540
+	POIN HeavenSealListEM HeavenSealListHM
+	ORG $2754C
+	POIN FellContractList
+	ORG $27574
+	POIN OceanSealList
+POP
+
+//Class lists
+ALIGN 4
+
+HeroCrestList:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter
+BYTE 0
+
+KnightCrestList:
+BYTE Cavalier Cavalier_F Knight Knight_F
+BYTE 0
+
+OrionsBoltList:
+BYTE Archer Archer_F Nomad Nomad_F
+BYTE 0
+
+ElysianWhipList:
+BYTE PegasusKnight WyvernRider WyvernRider_F
+BYTE 0
+
+GuidingRingList:
+BYTE Monk Cleric Mage Mage_F Shaman Shaman_F Troubadour
+BYTE 0
+
+EarthSealList:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Brigand Cavalier Cavalier_F Knight Knight_F Archer Archer_F Nomad Nomad_F PegasusKnight WyvernRider WyvernRider_F Monk Cleric Mage Mage_F Shaman Shaman_F Troubadour
+BYTE 0
+
+HeavenSealListEM:
+BYTE LynLord HectorLord
+BYTE 0
+
+HeavenSealListHM:
+BYTE EliwoodLord LynLord
+BYTE 0
+
+FellContractList:
+BYTE Thief Thief_F //Female not included in vanilla pointer
+BYTE 0
+
+OceanSealList:
+BYTE Pirate
+BYTE 0

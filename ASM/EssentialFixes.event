@@ -80,9 +80,9 @@ PUSH
 	SHORT $E007
 POP
 
-//Event Script Behavior Fixes
+//Event Instruction Behavior Fixes
 //Credit: stan
-#include "EventScriptFixes/EventScriptFixes.event"
+#include "EventInstructionFixes/EventInstructionFixes.event"
 
 //Generic Portraits in Trade Menu Fix
 //Credit: FE8U version by hypergammaspaces, FE7U port by stan

@@ -5,7 +5,7 @@ ORG $C97E96
 EffArmor:
 BYTE Knight General Knight_F General_F GreatLord
 ORG $C97E9C
-EffHorseAndArmor:
+EffRapier:
 BYTE Cavalier Cavalier_F Paladin Paladin_F Knight General Knight_F General_F Nomad Nomad_F NomadicTrooper NomadicTrooper_F Troubadour Valkyrie KnightLord GreatLord
 ORG $C97EAD
 EffSword:
@@ -27,7 +27,10 @@ POP
 
 //Effectiveness Rework
 #define Effectiveness(ClassTypes,Multiplier) "SHORT ClassTypes; BYTE Multiplier 0"
+#define Shield(ClassTypes) "SHORT ClassTypes"
 #define EndEffectiveness "SHORT 0"
+
+ALIGN 4
 
 EffArmor:
 Effectiveness(ArmorType,3)
@@ -55,5 +58,9 @@ EndEffectiveness
 
 EffAureola:						//In FE7J, all effective weapons do 3x damage, except dragon-effectives, which do 2x. (As opposed to FE7U, where all effective damage is 2x.)
 Effectiveness(DragonType,2)		//Aureola is the exception, doing 3x damage to dragons, because IntSys gave it its own effectiveness pointer that also includes the Dark Druid class, but they forgot to make it 2x.
-Effectiveness(DarkDruidType,3)	//Here, I'm showcasing the capabilities (and providing an example use case) of how to make a weapon with multiple effectiveness multipliers against different class types.
+Effectiveness(DarkDruidType,3)	//Here, I'm showcasing the capabilities (and providing an example use case) of how to make a weapon with different effectiveness multipliers against different class types.
 EndEffectiveness
+
+EffDelphiShield:
+Shield(FlierType)
+EndEffectiveness				//I'm not sure if this is required, because shields can only have one effectiveness bitfield due to not needing multipliers, but this is here just in case.

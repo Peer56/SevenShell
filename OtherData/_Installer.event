@@ -1,2 +1,3 @@
 #include "Effectiveness.event"
 #include "StatBonuses.event"
+#include "PromotionItems.event"

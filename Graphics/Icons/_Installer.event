@@ -1,4 +1,4 @@
-//Icons
+//Repointers
 PUSH
 	ORG $4E20
 	POIN NewIcons
@@ -6,15 +6,33 @@ PUSH
 	POIN NewIcons
 POP
 
+//Graphics
 ALIGN 4
 NewIcons: //$C5EA4 in vanilla
-#incext Png2Dmp "ItemIcons.png"
-ORG CURRENTOFFSET-22*128
-#incext Png2Dmp "OtherIcons.png"
+PUSH
+	#incext Png2Dmp "ItemIcons.png"
+POP
+PUSH
+	ORG CURRENTOFFSET+0x70*128
+	#incext Png2Dmp "RankIcons.png"
+POP
+PUSH
+	ORG CURRENTOFFSET+0x7A*128
+	#incext Png2Dmp "AffinityIcons.png"
+POP
+PUSH
+	ORG CURRENTOFFSET+0xAD*128
+	#incext Png2Dmp "ClassIcons.png"
+POP
+ORG CURRENTOFFSET+0xFF*128
 
+//Palettes
+//Uncomment if you're using custom palettes for these
+/*
 PUSH
 	ORG $CBEA4
 	#incext Png2Dmp "ItemIcons.png" --palette-only
 	ORG $CBEC4
-	#incext Png2Dmp "OtherIcons.png" --palette-only
+	#incext Png2Dmp "RankIcons.png" --palette-only
 POP
+*/

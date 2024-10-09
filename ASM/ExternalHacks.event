@@ -1,6 +1,6 @@
 //Effectiveness Rework
 //Credit: Vennobennu
-#include "EffectivenessRework/Alternate/Installer.event"
+#include "EffectivenessRework/Installer.event"
 
 //Stats, Levels, Character and Class Tables Expansion Enabler
 //Credit: Vesly

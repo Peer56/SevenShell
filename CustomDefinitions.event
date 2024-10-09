@@ -2,8 +2,8 @@
 //Here because effectiveness is assembled before table defs
 #define NoType 0x0000
 #define HorseType 0x0001
-#define FlierType 0x0002
-#define DragonType 0x0004
+#define DragonType 0x0002
+#define FlierType 0x0004
 #define ArmorType 0x0008
 #define SwordType 0x0010
 #define MagicType 0x0020

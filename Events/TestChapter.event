@@ -17,6 +17,14 @@ END_UNIT
 
 Good:
 UNIT Lyn BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [ManiKatti,SolKatti] NoAI
+UNIT Kent Paladin 0 Level(20,Ally,1) [7,7] [7,7] [SilverLance] NoAI
+UNIT Florina Falcoknight 0 Level(20,Ally,1) [7,8] [7,8] [SilverLance] NoAI
+UNIT Heath WyvernLord 0 Level(20,Ally,1) [7,9] [7,9] [SilverLance] NoAI
+UNIT Wallace General 0 Level(20,Ally,1) [8,7] [8,7] [SilverLance] NoAI
+UNIT Erk Sage 0 Level(20,Ally,1) [8,8] [8,8] [Elfire] NoAI
+UNIT Raven Hero 0 Level(20,Ally,1) [8,9] [8,9] [BraveSword] NoAI
+UNIT Wil Sniper 0 Level(20,Ally,1) [6,7] [6,7] [KillerBow] NoAI
+UNIT Ninian Dancer 0 Level(20,Ally,1) [6,8] [6,8] [0] NoAI
 END_UNIT
 
 TurnEvents:

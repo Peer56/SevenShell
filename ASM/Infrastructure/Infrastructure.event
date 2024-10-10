@@ -86,6 +86,10 @@ POP
 //Credit: Blazer? Nintenlord? I'm not sure. This version is the one that comes with EA.
 #include "TutorialKiller/TutorialKiller.event"
 
+//Make Staff Healing Constants Based On Item Might
+//Credit: Vennobennu
+#include "StaffHealingAmountByMt/Installer.event"
+
 //Melee/Magic Animation Fix
 //Credit: Hextator, Tequila
 PUSH

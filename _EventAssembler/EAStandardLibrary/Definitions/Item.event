@@ -128,7 +128,8 @@
 #define NinissGrace 0x7D
 #define ThorsIre 0x7E
 #define SetsLitany 0x7F
-#define EmblemSword 0x80
+#define EmblemBlade 0x80
+#define EmblemSword 0x80 //alias
 #define EmblemLance 0x81
 #define EmblemAxe 0x82
 #define EmblemBow 0x83

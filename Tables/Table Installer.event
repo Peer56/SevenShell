@@ -8,21 +8,9 @@
 
 #include "ClassCharacterEditors\ClassEditor.event"
 
-#include "ItemEditors\BOEG Editor.event"
-
 #include "ItemEditors\ItemEditor.event"
 
 #include "ItemEditors\SpellAssociationEditor.event"
-
-#include "ItemEditors\Promotion Item\Fallen Contract Promotion Editor.event"
-
-#include "ItemEditors\Promotion Item\Heaven Seal Promotion Editor.event"
-
-#include "ItemEditors\Promotion Item\Ocean Seal Promotion Editor.event"
-
-#include "ItemEditors\Promotion Item\Promotion Item Editor.event"
-
-#include "ItemEditors\Promotion Item\Promotion Pointer Editor.event"
 
 #include "QuoteEditors\Death quote editor part 1.event"
 

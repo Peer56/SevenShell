@@ -116,6 +116,8 @@ POP
 //Credit: Tequila
 #include "StaffRangeFix/StaffRangeFix.event"
 
+/*
 //Stats, Levels, Character and Class Tables Expansion
 //Credit: Vesly
 #include "StatClassExpansion/Installer.event"
+*/

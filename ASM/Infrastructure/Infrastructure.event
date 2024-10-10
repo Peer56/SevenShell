@@ -1,19 +1,7 @@
-//12 Tracks/16 Sounds Patch
-//Credit: Agro, Brendor
-PUSH
-	ORG 0x3fcd
-	BYTE 0xe0
-	ORG 0x3ff6
-	BYTE 0xc
-	ORG 0x3ffa
-	BYTE 0xc
-	ORG 0x69d670
-	BYTE 0xc
-	ORG 0x69d678
-	BYTE 0x0 0x60
-	ORG 0x69d67c
-	BYTE 0xc
-POP
+//AI Danger Map Optimizations
+//Credit: FE8U version by hypergammaspaces, rewritten for FE7U by stan
+ALIGN 4
+#include "AIDangerMap/ai-fast-danger.event"
 
 //Allow Multiple S-Ranks
 //Credit: Contro
@@ -22,34 +10,12 @@ PUSH
 	SHORT $E007
 POP
 
-//Anti-Huffman Patch
-//Credit: original by Hextator and Nintenlord, modified by stan
-ALIGN 4
-#include "AntiHuffman/AntiHuffman.event"
-
-//Autocursor and Statscreen Lord Fix (by Vennobennu)
-//note to self: Replace with stan version
-ALIGN 4
-AutocursorFix:
-#incbin "AutocursorFixes/Cursor.dmp"
-PUSH
-	ORG $1D64C
-	SHORT $4A00 $4710
-	POIN AutocursorFix|1
-POP
-
-ALIGN 4
-StatScreenFix:
-#incbin "AutocursorFixes/StatusScreen.dmp"
-PUSH
-	ORG $8681C
-	SHORT $4A00 $4710
-	POIN StatScreenFix|1
-POP
+//Autocursor and Statscreen Lord Fix
+//Credit: Vennobennu
+#include "AutocursorFixes/Installer.event"
 
 //Ballista Canto Crash Fix
 //Credit: Contro
-//note to self: Replace with stan version
 #include "BallistaCantoFix/NoBallistaCanto.event"
 
 //C01 Animation Command Hack
@@ -72,6 +38,18 @@ PUSH
 	ORG $CB554
 	WORD 0x9C00B007 0x6A24B087 0x68243C04 0x0C240224 0x47004800 0x08067AED
 POP
+
+//Con and Mov Getters & Display -- Mov for GuardTileAI
+//Credit: Tequila
+#include "MovConGetters/Getters.event"
+
+//Display Negative Stat Boosts Correctly
+//Credit: FE8U version by circleseverywhere, FE7U port by Contro
+#include "NegativeStatBoosts/Installer.event"
+
+//Effectiveness Rework
+//Credit: Vennobennu
+#include "EffectivenessRework/Installer.event"
 
 //Enemy Control Glitch Fix
 //Credit: Brendor
@@ -122,6 +100,22 @@ PUSH
 	SHORT $6129 $2026 $5429 $3002 $5429
 POP
 
+//Remove Huffman Encoding
+//Credit: original by Hextator and Nintenlord, modified by stan
+ALIGN 4
+#include "RemoveHuffmanEncoding/AntiHuffman.event"
+
+//Remove Pent and Louise Death Hardcoding
+//Credit: Tequila
+PUSH
+	ORG $796E4
+	BYTE 0x0A 0xE0
+POP
+
 //Staff and Weapon Custom Range Fix
 //Credit: Tequila
 #include "StaffRangeFix/StaffRangeFix.event"
+
+//Stats, Levels, Character and Class Tables Expansion
+//Credit: Vesly
+#include "StatClassExpansion/Installer.event"

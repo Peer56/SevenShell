@@ -1,0 +1,17 @@
+ALIGN 4
+AutocursorFix:
+#incbin "Cursor.dmp"
+PUSH
+	ORG $1D64C
+	SHORT $4A00 $4710
+	POIN AutocursorFix|1
+POP
+
+ALIGN 4
+StatScreenFix:
+#incbin "StatusScreen.dmp"
+PUSH
+	ORG $8681C
+	SHORT $4A00 $4710
+	POIN StatScreenFix|1
+POP

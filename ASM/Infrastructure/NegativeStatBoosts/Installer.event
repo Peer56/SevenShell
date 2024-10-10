@@ -1,0 +1,23 @@
+  {
+
+  PUSH
+    ORG $6240
+      jumpToHack(NegStatBoosts)
+
+    ORG $B8BF6C //minus sign position fix
+      WORD 0 0 0 $3ff0 $eaac $3ff0
+
+    ORG $7f800 //drawing the bars
+      //SHORT $46C0
+      jumpToHack(NegativeStatBars)
+  POP
+
+  ALIGN 4
+  NegStatBoosts:
+    #incbin "asm/negativestatboosts.dmp"
+
+  ALIGN 4
+  NegativeStatBars:
+    #incbin "asm/negativestatbar.dmp"
+
+  }

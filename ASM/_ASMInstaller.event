@@ -1,5 +1,4 @@
 #include "Extensions/Hack Installation.txt"
 
-#include "EssentialFixes.event"
-#include "QualityOfLife.event"
-#include "ExternalHacks.event"
+#include "Infrastructure/Infrastructure.event"
+#include "ExternalHacks/ExternalHacks.event"

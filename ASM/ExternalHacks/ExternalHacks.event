@@ -1,7 +1,19 @@
-//AI Danger Map Optimizations
-//Credit: FE8U version by hypergammaspaces, rewritten for FE7U by stan
-ALIGN 4
-#include "AIDangerMap/ai-fast-danger.event"
+//12 Tracks/16 Sounds Patch
+//Credit: Agro, Brendor
+PUSH
+	ORG 0x3fcd
+	BYTE 0xe0
+	ORG 0x3ff6
+	BYTE 0xc
+	ORG 0x3ffa
+	BYTE 0xc
+	ORG 0x69d670
+	BYTE 0xc
+	ORG 0x69d678
+	BYTE 0x0 0x60
+	ORG 0x69d67c
+	BYTE 0xc
+POP
 
 //Allow Forced Deployed Units To Swap Positions
 //Credit: original by Aura Wolf, FE7 research by 7743
@@ -20,20 +32,6 @@ PUSH
 	ORG $2DFCA  //Game/text speed Fast, autocursor Off
 	SHORT $22D0
 POP
-
-//Change Effectiveness Multiplier to 3x
-//Credit: stan
-/*
-PUSH
-	ORG 0x028B48
-	SHORT $215A // movs r1, #0x5A
-	SHORT $5A68 // ldrh r0, [r5, r1]
-	SHORT $2203 // movs r2, #3
-	SHORT $4350 // muls r0, r2
-	SHORT $5268 // strh r0, [r5, r1]
-POP
-*/
-//Commented out because Effectiveness Rework is installed.
 
 //Display Battle Stats with Animations Off
 //Credit: Tequila
@@ -54,10 +52,6 @@ POP
 //Credit: Tequila
 #include "HPBars/HPBars.event"
 
-//Mov and Con Getters & Display -- Mov for GuardTileAI
-//Credit: Tequila
-#include "MovConGetters/Getters.event"
-
 //Press Select in Status Screen to Display Growths
 //Credit: Tequila
 #include "DisplayGrowths/DisplayGrowths.event"
@@ -74,6 +68,14 @@ PUSH
 	ORG 0x1c8ab
 	BYTE 0xe0
 POP
+
+//Prevent Movement Arrow RNG Abuse
+//Credit: clackmer
+PUSH
+    ORG 0x19F90
+    SHORT 0x2000 0x0000
+POP
+
 
 //Remove Requirements for A-Button Speedup
 //Credit: Gryz

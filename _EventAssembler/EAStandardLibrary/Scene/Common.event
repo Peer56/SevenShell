@@ -5,9 +5,9 @@
 #define GotoPrepScreen "PREP; END"
 
 //Common scenes
-#define VillageEventItem(textID,backgroundID,itemID) "MUSIC_QUIET; FADETO_BLACK 16; HIDEMAP; BACKGROUND backgroundID; FADEFROM_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; _FADU2; SHOWMAP; ITEM itemID; NOPREP; END"
-#define VillageEventMoney(textID,backgroundID,amount) "MUSIC_QUIET; FADETO_BLACK 16; HIDEMAP; BACKGROUND backgroundID; FADEFROM_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; _FADU2; SHOWMAP; MONEY 0 amount; NOPREP; END"
-#define HouseEvent(textID,backgroundID) "MUSIC_QUIET; FADETO_BLACK 16; HIDEMAP; BACKGROUND backgroundID; FADEFROM_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; NOPREP; END"
+#define VillageEventItem(textID,backgroundID,itemID) "MUSIC_QUIET; FADE_BLACK 16; HIDEMAP; BACKGROUND backgroundID; UNFADE_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; _FADU2; SHOWMAP; ITEM itemID; NOPREP; END"
+#define VillageEventMoney(textID,backgroundID,amount) "MUSIC_QUIET; FADE_BLACK 16; HIDEMAP; BACKGROUND backgroundID; UNFADE_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; _FADU2; SHOWMAP; MONEY 0 amount; NOPREP; END"
+#define HouseEvent(textID,backgroundID) "MUSIC_QUIET; FADE_BLACK 16; HIDEMAP; BACKGROUND backgroundID; UNFADE_BLACK 16; SHOWMAP; TEXT textID; CLEAR; MUSIC_UNQUIET; NOPREP; END"
 #define ConvoEvent(textID) "MUSIC_QUIET; TEXT textID; CLEAR; MUSIC_UNQUIET; NOPREP; END"
 #define ReinforcementEvent(unitPtr) "LOAD unitPtr; AWAIT; NOPREP; END"
 
@@ -17,16 +17,14 @@
 #endif
 
 //Special effects
-#define Lightning(Xpositioning) "BYTE 0xE1 0x00 0x00 0x00; BYTE 0xE0 0x00 0x00 0x00; BYTE 0xFF 0xFF 0xFF 0xFF; BYTE 0x04 0x00 0x00 0x00; BYTE 0x80 0x00 0x02 0x08; BYTE 0x5A 0x00 0x01 0x00; BYTE 0xB9 0xA3 0x07 0x08; BYTE 0x7F 0x00 0xF5 0x00; BYTE 0xDD 0x00 0x00 0x00; BYTE Xpositioning 0xFF 0xFF 0xFF; BYTE 0xF0 0xFF 0xFF 0xFF; BYTE 0x42 0x00 0x00 0x00; BYTE 0x99 0x14 0x01 0x08; BYTE 0xE0 0x00 0x00 0x00; BYTE 0xFF 0xFF 0xFF 0xFF; BYTE 0x04 0x00 0x00 0x00; BYTE 0x00 0x01 0x04 0x10; BYTE 0xE2 0x00 0x00 0x00; BYTE 0x3B 0x00 0x00 0x00"
-
 #ifndef _FE7J_
-#define QuintessenceEffect "ASMC 0x7D711; STALL 0x3C; ASMC 0x7D7B5; STALL 0x3C; ASMC 0x6CCB9; ASMC 0x7D771"
-#define Rumble "ASMC $7D645"
-#define EndRumble "ASMC 0x7D689"
+#define QuintessenceEffect "FUNCTION 0x7D711; STALL 0x3C; FUNCTION 0x7D7B5; STALL 0x3C; FUNCTION 0x6CCB9; FUNCTION 0x7D771"
+#define Rumble "FUNCTION $7D645"
+#define EndRumble "FUNCTION 0x7D689"
 #else
-#define QuintessenceEffect "ASMC 0x7E445; STALL 0x3C; ASMC 0x7E4E9; STALL 0x3C; ASMC 0x6D4A5; ASMC 0x7E4A5"
-#define Rumble "ASMC $7E379"
-#define EndRumble "ASMC 0x7E3BD"
+#define QuintessenceEffect "FUNCTION 0x7E445; STALL 0x3C; FUNCTION 0x7E4E9; STALL 0x3C; FUNCTION 0x6D4A5; FUNCTION 0x7E4A5"
+#define Rumble "FUNCTION $7E379"
+#define EndRumble "FUNCTION 0x7E3BD"
 #endif
 
 //Fallen text loaders
@@ -37,53 +35,53 @@
 
 //Game ending helpers
 #ifndef _FE7J_
-#define LynModeEnding "FLAG_ON 0x83; ENDLYNMODE; END2; ASMC 0xB85D5; STALL 0; STALL 0"
-#define TheEnd "FADETO_BLACK 2; HIDEMAP; ASMC 0x7A8B9; ENDGAME; END2"
+#define LynModeEnding "FLAG_ON 0x83; ENDLYNMODE; END2; FUNCTION 0xB85D5; STALL 0; STALL 0"
+#define TheEnd "FADE_BLACK 2; HIDEMAP; FUNCTION 0x7A8B9; ENDGAME; END2"
 #define RunCharacterEndings "CALL 0x08CC0F3C"
 #else
-#define TheEnd "FADETO_BLACK 2; HIDEMAP; ASMC 0x7B32D; ENDGAME; END2"
+#define TheEnd "FADE_BLACK 2; HIDEMAP; FUNCTION 0x7B32D; ENDGAME; END2"
 #endif
 
 //Basic moving to a chapter.
-#define MoveToChapter(chapterID) "FADETO_BLACK 4; HIDEMAP; BACKGROUND 0x5B; CHAPTER chapterID; STALL 1; END2"
+#define MoveToChapter(chapterID) "FADE_BLACK 4; HIDEMAP; BACKGROUND 0x5B; CHAPTER chapterID; STALL 1; END2"
 
 //Show text with background and return to map
 #define Text(text) "TEXT text; CLEAR"
-#define Text(bg,text) "FADETO_BLACK 0x10; HIDEMAP; BACKGROUND bg; FADEFROM_BLACK 0x10; SHOWMAP; TEXT text; CLEAR"
+#define Text(bg,text) "FADE_BLACK 0x10; HIDEMAP; BACKGROUND bg; UNFADE_BLACK 0x10; SHOWMAP; TEXT text; CLEAR"
 
 #ifndef _FE7J_
-#define ClearBrownBox "ASMC_WHILE 0x83181"
+#define ClearBrownBox "FUNCTION_WHILE 0x83181"
 #else
-#define ClearBrownBox "ASMC_WHILE 0x83B81"
+#define ClearBrownBox "FUNCTION_WHILE 0x83B81"
 #endif
 
 //Smooth changing to CG
-#define ChangeToCutscene(cutscene) "FADICG 0x10; HIDEMAP; CUTSCENE cutscene; FADUCG 0x10; SHOWMAP"
+#define ChangeToCutscene(cutscene) "FADE_CG 0x10; HIDEMAP; CUTSCENE cutscene; UNFADE_CG 0x10; SHOWMAP"
 
 //Shows text on a scroll
 #ifndef _FE7J_
-#define ScrollText(textID) "VERSATILETEXT 7 [0,0] textID; ASMC_WHILE $83181; LOCK_START"
+#define ScrollText(textID) "VERSATILETEXT 7 [0,0] textID; FUNCTION_WHILE $83181; LOCK_START"
 #else
-#define ScrollText(textID) "VERSATILETEXT 7 [0,0] textID; ASMC_WHILE $83B81; LOCK_START"
+#define ScrollText(textID) "VERSATILETEXT 7 [0,0] textID; FUNCTION_WHILE $83B81; LOCK_START"
 #endif
 
 //Conditional helpers
 #ifndef _FE7J_
-#define IfPlayerPhase(labelID) "GOTO_ASMTRUE labelID 0x7A2F1"
-#define IfUnitLucky(labelID) "GOTO_ASMTRUE labelID 0x7D2B1"
+#define IfPlayerPhase(labelID) "GOTO_FUNCTIONTRUE labelID 0x7A2F1"
+#define IfUnitLucky(labelID) "GOTO_FUNCTIONTRUE labelID 0x7D2B1"
 #define UnitLucky 0x7D2B1
 #else
-#define IfPlayerPhase(labelID) "GOTO_ASMTRUE labelID 0x7AD65"
-#define IfUnitLucky(labelID) "GOTO_ASMTRUE labelID 0x7DEC1"
+#define IfPlayerPhase(labelID) "GOTO_FUNCTIONTRUE labelID 0x7AD65"
+#define IfUnitLucky(labelID) "GOTO_FUNCTIONTRUE labelID 0x7DEC1"
 #define UnitLucky 0x7DEC1
 #endif
 
 //Warp effect, under construction
 #ifndef _FE7J_
-#define WarpIn(char,class,X,Y)	"WARP [X,Y] 1; LOAD_DUMMY char class [X,Y]; ASMC_WHILE $20AB9"
-#define WarpIn(unitPtr,X,Y)		"WARP [X,Y] 1; LOAD unitPtr; ASMC_WHILE $20AB9"
-#define WarpOut(X,Y)			"WARP [X,Y] 0; REMOVE [X,Y]; ASMC_WHILE $20AB9"
-#define WarpOut(char)			"WARP char  0; REMOVE char; ASMC_WHILE $20AB9"
+#define WarpIn(char,class,X,Y)	"WARP [X,Y] 1; LOAD_DUMMY char class [X,Y]; FUNCTION_WHILE $20AB9"
+#define WarpIn(unitPtr,X,Y)		"WARP [X,Y] 1; LOAD unitPtr; FUNCTION_WHILE $20AB9"
+#define WarpOut(X,Y)			"WARP [X,Y] 0; REMOVE [X,Y]; FUNCTION_WHILE $20AB9"
+#define WarpOut(char)			"WARP char  0; REMOVE char; FUNCTION_WHILE $20AB9"
 #endif
 
 //Cursor
@@ -113,17 +111,17 @@
 #endif
 
 #ifndef _FE7J_
-#define UnitsInvisible "ASMC 0x7A939; ASMC 0x7A9D5"
-#define PromoteMainChar "ASMC 0x79AF5"
-#define UnitClear "ASMC $7A8B9"
-#define ClearAllUnits "ASMC 0x7A8B9"
-#define LevelMerlinus "ASMC 0x79B5D"
+#define UnitsInvisible "FUNCTION 0x7A939; FUNCTION 0x7A9D5"
+#define PromoteMainChar "FUNCTION 0x79AF5"
+#define UnitClear "FUNCTION $7A8B9"
+#define ClearAllUnits "FUNCTION 0x7A8B9"
+#define LevelMerlinus "FUNCTION 0x79B5D"
 #else
-#define UnitsInvisible "ASMC 0x7B3AD; ASMC 0x7B449"
-#define PromoteMainChar "ASMC 0x7A569"
-#define UnitClear "ASMC $7B32D"
-#define ClearAllUnits "ASMC 0x7B32D"
-#define LevelMerlinus "ASMC 0x7A5D1"
+#define UnitsInvisible "FUNCTION 0x7B3AD; FUNCTION 0x7B449"
+#define PromoteMainChar "FUNCTION 0x7A569"
+#define UnitClear "FUNCTION $7B32D"
+#define ClearAllUnits "FUNCTION 0x7B32D"
+#define LevelMerlinus "FUNCTION 0x7A5D1"
 #endif
 
 //KEYMASK helpers

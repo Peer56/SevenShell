@@ -1,7 +1,7 @@
 # Shows warp animation on specified position. Unit isn't moved by this code. Must be used alongside MOVE_INSTANT to actually move the unit.
 # Mode determines whether the animation is warping out (0) or in (any other value).
 WARP, 0xCC, 12, -game:FE7 -indexMode:8
-	position, 4, 4, -coordinate:2 -preferredBase:10
+	position, 4, 4, -coordinates:2 -preferredBase:10
 	mode, 8, 1
 
 # Shows warp animation on specified character. Unit isn't moved by this code. Must be used alongside MOVE_INSTANT to actually move the unit.

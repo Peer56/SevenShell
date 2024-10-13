@@ -1,5 +1,5 @@
 # Gives the player the specified amount of gold.
-# If second parameter is non-zero, checks if active unit is an enemy, and if so, displays the "was pilfered" text instead.
+# If mode parameter is non-zero, checks if active unit is an enemy, and if so, displays the "was pilfered" text instead.
 MONEY, 0x5E, 8, -game:FE7 -indexMode:8
-    amount, 4, 4, -preferredBase:10
-    villagecheck, 2, 2, -preferredBase:10
+	amount, 4, 4, -preferredBase:10
+	mode, 2, 2, -preferredBase:10

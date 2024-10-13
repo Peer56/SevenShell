@@ -3,21 +3,21 @@ CLEAR, 0x09, 4, -game:FE7 -indexMode:8
 
 # Starts conversation using specified text ID.
 TEXT, 0x0D, 8, -game:FE7 -indexMode:8
-	text, 4, 2
+	textID, 4, 2
 
 # Starts conversation using specified text ID.
 # Used alongside screen effects that need hardware color blending.
 TEXT_OPAQUE, 0x0E, 8, -game:FE7 -indexMode:8
-	text, 4, 2
+	textID, 4, 2
 
 # Starts conversation using text ID depending on game mode.
 TEXT_GAMEMODE, 0x0F, 12, -game:FE7 -indexMode:8
-	textEM, 4, 4
-	textHM, 8, 4
+	textID_EM, 4, 4
+	textID_HM, 8, 4
 
 # Broken. Do not use.
 TEXT_BROKEN, 0x10, 8, -game:FE7 -indexMode:8
-	function, 4, 4, -pointer:unknown
+	function, 4, 4, -pointer:ASM
 
 # Continues conversation without clearing portraits and speech bubbles using specified text ID.
 MORETEXT, 0x11, 8, -game:FE7 -indexMode:8
@@ -25,8 +25,8 @@ MORETEXT, 0x11, 8, -game:FE7 -indexMode:8
 
 # Continues conversation without clearing portraits and speech bubbles using text ID depending on game mode.
 MORETEXT_GAMEMODE, 0x12, 12, -game:FE7 -indexMode:8
-	textEM, 4, 4
-	textHM, 8, 4
+	textID_EM, 4, 4
+	textID_HM, 8, 4
 
 # Starts conversation using context-dependant text ID, used within support events.
 TEXT_SUPPORT, 0x13, 4, -game:FE7 -indexMode:8
@@ -46,46 +46,46 @@ MORETEXT_GENERIC, 0x15, 8, -game:FE7 -indexMode:8
 
 # Starts conversation using text ID from given text ID list. Entry is defined by the tactician rank in the given category. NEEDS RESEARCH
 TEXT_RANK, 0x17, 8, -game:FE7 -indexMode:8
-    category, 2, 2, -preferredBase:10
+	category, 2, 2, -preferredBase:10
 	list, 4, 4, -pointer:unknown
 
 # Starts conversation using text ID depending on tactician's gender.
 TEXT_GENDER, 0x18, 12, -game:FE7 -indexMode:8
-	textM, 4, 4
-	textF, 8, 4
+	textID_M, 4, 4
+	textID_F, 8, 4
 
 # Continues conversation without clearing portraits and speech bubbles using text ID depending on depending on tactician's gender.
 MORETEXT_GENDER, 0x19, 12, -game:FE7 -indexMode:8
-	textM, 4, 4
-	textF, 8, 4
+	textID_M, 4, 4
+	textID_F, 8, 4
 
 # Starts conversation using text ID depending on flag.
 # Uses first text ID if flag is set, second otherwise.
 TEXT_FLAG, 0x1A, 16, -game:FE7 -indexMode:8
 	flag, 4, 2
-	text1, 8, 2
-	text0, 12, 2
+	textID1, 8, 2
+	textID2, 12, 2
 
 # Continues conversation without clearing portraits and speech bubbles using text ID depending on flag.
 # Uses first text ID if flag is set, second otherwise.
 MORETEXT_FLAG, 0x1B, 16, -game:FE7 -indexMode:8
 	flag, 4, 2
-	text1, 8, 2
-	text0, 12, 2
+	textID1, 8, 2
+	textID2, 12, 2
 
 # Starts conversation using text ID depending on ASM function.
 # Uses first text ID if function returns non-zero, second otherwise.
 TEXT_FUNCTION, 0x1C, 16, -game:FE7 -indexMode:8
-	function, 4, 4, -pointer:unknown
-	text1, 8, 2
-	text0, 12, 2
+	function, 4, 4, -pointer:ASM
+	textID1, 8, 2
+	textID2, 12, 2
 
 # Continues conversation without clearing portraits and speech bubbles using text ID depending on ASM function.
 # Uses first text ID if function returns non-zero, second otherwise.
 MORETEXT_FUNCTION, 0x1D, 16, -game:FE7 -indexMode:8
-	function, 4, 4, -pointer:unknown
-	text1, 8, 2
-	text0, 12, 2
+	function, 4, 4, -pointer:ASM
+	textID1, 8, 2
+	textID2, 12, 2
 
 # Clears speech bubbles.
 CLEARSPEECH, 0x1E, 4, -game:FE7 -indexMode:8
@@ -94,11 +94,11 @@ CLEARSPEECH, 0x1E, 4, -game:FE7 -indexMode:8
 VERSATILETEXT, 0xA7, 12, -game:FE7 -indexMode:8
 	box, 2, 2
 	position, 4, 4, -coordinates:2
-	text, 8, 2
+	textID, 8, 2
 
 # Shows boxed text at an arbitrary screen position depending on tactician's gender.
 VERSATILETEXT_GENDER, 0xA8, 16, -game:FE7 -indexMode:8
 	box, 2, 2
 	position, 4, 4, -coordinates:2
-	textM, 8, 2
-	textF, 12, 2
+	textID_M, 8, 2
+	textID_F, 12, 2

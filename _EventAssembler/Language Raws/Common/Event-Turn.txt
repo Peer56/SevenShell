@@ -1,16 +1,16 @@
 TURN, 2, 128, -priority:main -game:FE7:FE7J
-	ID, 16, 16, 
-	Event Pointer, 32, 32, -pointer 
-	Turns, 64, 16, -coordinates:2 -preferredBase:10
-	TurnMoment, 84, 4
-	Extra, 96, 32
+	flagID, 16, 16, 
+	scene, 32, 32, -pointer 
+	turns, 64, 16, -coordinates:2 -preferredBase:10
+	phase, 84, 4
+	extra, 96, 32
 
 TURN, 2, 128, -priority:main -game:FE7:FE7J
-	ID, 16, 16, 
-	Event Pointer, 32, 32, -pointer 
-	Turns, 64, 16, -coordinates:2 -preferredBase:10
-	TurnMoment, 84, 4
-	Extra1, 96, 8
-	Extra2, 104, 8
-	Extra3, 112, 8
-	Extra4, 120, 8
+	flagID, 16, 16, 
+	scene, 32, 32, -pointer 
+	turns, 64, 16, -coordinates:2 -preferredBase:10
+	phase, 84, 4
+	extra1, 96, 8
+	extra2, 104, 8
+	extra3, 112, 8
+	extra4, 120, 8

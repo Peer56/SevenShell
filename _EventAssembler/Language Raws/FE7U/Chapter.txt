@@ -1,6 +1,6 @@
 # Ends current chapter and moves to specified chapter through Save menu.
 CHAPTER, 0x81, 4, -game:FE7 -indexMode:8
-	chapter, 2, 2
+	chapterID, 2, 2
 	
 # Ends the game.
 ENDGAME, 0x82, 4, -game:FE7 -indexMode:8
@@ -10,9 +10,9 @@ ENDLYNMODE, 0x83, 4, -game:FE7 -indexMode:8
 
 # Replaces the chapter ID, events, and map of the current chapter with the specified chapter. Also sets the camera position.
 CHAPTER_LOAD, 0x84, 16, -game:FE7 -indexMode:8
-	chapter, 4, 2
-	position, 8, 8, -coordinate:2 -preferredBase:10
+	chapterID, 4, 2
+	position, 8, 8, -coordinates:2 -preferredBase:10
 
 # Replaces the chapter ID of the current chapter with the specified chapter.
-CHAPTER_SETID, 0x85, 8, -game:7 -indexMode:8
-	chapter, 4, 2
+CHAPTER_SETID, 0x85, 8, -game:FE7 -indexMode:8
+	chapterID, 4, 2

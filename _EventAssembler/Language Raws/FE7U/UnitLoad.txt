@@ -45,6 +45,6 @@ LOADPARTY_MODE, 0x38, 20, -game:FE7 -indexMode:8
 # Loads a single dummy unit of given character and class ID. This unit only exists in during the scene and its data doesn't persist.
 # Useful for not needing to bother with unit groups when a cutscene needs a single unit loaded.
 LOAD_DUMMY, 0x39, 12, -game:FE7 -indexMode:8
-	character, 4, 2
-	class, 6, 2
-	position, 8, 4, -coordinate:2 -preferredBase:10
+	characterID, 4, 2
+	classID, 6, 2
+	position, 8, 4, -coordinates:2 -preferredBase:10

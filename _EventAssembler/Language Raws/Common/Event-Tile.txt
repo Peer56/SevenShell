@@ -1,49 +1,49 @@
-##Tile based events that happen when a unit is placed on specified position and player selects the correct command from the menu.
-##Leaving scene out and having ID as 3 causes the event to automatically call the ending scene of the chapter.
+# Tile based events that happen when a unit is placed on specified position and player selects the correct command from the menu.
+# Leaving scene out and having ID as 3 causes the event to automatically call the ending scene of the chapter.
 TILE, 5, 12, -priority:main -game:FE7:FE7J -indexMode:8
-	Flag, 2, 2
+	flagID, 2, 2
 	1, 4, 4, -fixed
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
 TILE, 5, 12, -priority:main -game:FE7:FE7J -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	flagID, 2, 2
+	scene, 4, 4, -pointer
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
-##The location based event used for visiting villages.
-##A nearby map change happens automatically after this event.
+# The location based event used for visiting villages.
+# A nearby map change happens automatically after this event.
 VILLAGE, 6, 12, -priority:main -game:FE8:FE7:FE7J:FE6 -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	flagID, 2, 2
+	scene, 4, 4, -pointer
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
-##Location based event that gives items or money and causes a map change.
+# Location based event that gives items or money and causes a map change.
 CHEST, 7, 12, -priority:main -game:FE8:FE7:FE7J:FE6 -indexMode:8
-	Flag, 2, 2
-	Chest data, 4, 4
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	flagID, 2, 2
+	contents, 4, 4
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
-##Tile event triggered by unit being placed on an adjacent tile and choosing the right command.
-##Causes automatic map change if no scene is specified.
+# Tile event triggered by unit being placed on an adjacent tile and choosing the right command.
+# Causes automatic map change if no scene is specified.
 DOOR, 8, 12, -priority:main -game:FE7:FE7J -indexMode:8
-	Flag, 2, 2
+	flagID, 2, 2
 	1, 4, 4, -fixed
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
 DOOR, 8, 12, -priority:main -game:FE7:FE7J -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	flagID, 2, 2
+	scene, 4, 4, -pointer
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2
 
-##Tile event that takes the player to a shop to buy items.
+# Tile event that takes the player to a shop to buy items.
 SHOP, 10, 12, -priority:main -game:FE7:FE7J -indexMode:8
-	Flag, 2, 2
-	Shop List, 4, 4, -pointer:shopList
-	Position, 8, 2, -coordinates:2 -preferredBase:10
-	Command, 10, 2
+	flagID, 2, 2
+	shopList, 4, 4, -pointer:shopList
+	position, 8, 2, -coordinates:2 -preferredBase:10
+	commandID, 10, 2

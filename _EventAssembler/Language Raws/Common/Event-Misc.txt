@@ -1,33 +1,33 @@
 # Scene that happens after another scene ends that sets a flag.
 FOLLOW, 1, 12, -game:FE7:FE7J -priority:main -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	Flag to follow, 8, 2
+	flagID1, 2, 2
+	scene, 4, 4, -pointer
+	flagID2, 8, 2
 
 # Scene that happens when a unit lands on specific tile range.
 AREA, 11, 12, -game:FE7:FE7J -priority:main -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	Top left position, 8, 2, -coordinates:2 -preferredBase:10
-	Bottom right position, 10, 2, -coordinates:2 -preferredBase:10
+	flagID, 2, 2
+	scene, 4, 4, -pointer
+	position1, 8, 2, -coordinates:2 -preferredBase:10
+	position2, 10, 2, -coordinates:2 -preferredBase:10
 
 # Scene that only happens if the ASM routine returns true.
-FOLLOW_ASM, 14, 12, -game:FE7:FE7J -priority:main -indexMode:8
-	Flag, 2, 2
-	Scene, 4, 4, -pointer
-	ASM Pointer, 8, 4, -pointer
+FOLLOW_FUNCTION, 14, 12, -game:FE7:FE7J -priority:main -indexMode:8
+	flagID, 2, 2
+	scene, 4, 4, -pointer
+	function, 8, 4, -pointer
 
 EVENT_UNKNOWN_15, 15, 16, -priority:main -game:FE7:FE7J -indexMode:8
-	ID, 2, 2 
-	Event Pointer, 4, 4, -pointer:coordList
-	Event Pointer2, 8, 4, -pointer
-	id2, 12, 4
+	flagID1, 2, 2 
+	unk, 4, 4, -pointer:coordList
+	scene, 8, 4, -pointer
+	flagID2, 12, 4
 	
 EVENT_UNKNOWN_16, 16, 16, -priority:main -game:FE7:FE7J -indexMode:8
-	ID, 2, 2 
-	Event Pointer, 4, 4, -pointer:coordList
-	Event Pointer2, 8, 4, -pointer
-	id2, 12, 4
+	flagID1, 2, 2 
+	unk, 4, 4, -pointer:coordList
+	scene, 8, 4, -pointer
+	flagID2, 12, 4
 
 # End of main code list.
 END_MAIN, 0, 4, -priority:main -game:FE7:FE7J -end -indexMode:8

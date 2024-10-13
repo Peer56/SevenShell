@@ -148,9 +148,9 @@
 93 SHOWMAP
 94 FADE_LYNDEATH
 95
-96
+96 WM_FUNCTION asmPointer
 97 BATTLE attackerID defenderID scriptPointer unk
-98
+98 
 99 FUNCTION_UNK asmPointer
 9A FUNCTION_UNK2 asmPointer
 9B WEATHER weatherID

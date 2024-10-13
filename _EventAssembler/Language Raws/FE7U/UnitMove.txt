@@ -1,39 +1,39 @@
 # Moves character at specified old position to new position.
 MOVE, 0x23, 12, -game:FE7 -indexMode:8
-	position1, 4, 4, -coordinate:2 -preferredBase:10 -signed
-	position2, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	position1, 4, 4, -coordinates:2 -preferredBase:10 -signed
+	position2, 8, 4, -coordinates:2 -preferredBase:10 -signed
 
 # Moves character at specified old position to new position with specified speed.
 MOVE, 0x24, 16, -game:FE7 -indexMode:8
-	position1, 4, 4, -coordinate:2 -preferredBase:10 -signed
-	position2, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	position1, 4, 4, -coordinates:2 -preferredBase:10 -signed
+	position2, 8, 4, -coordinates:2 -preferredBase:10 -signed
 	speed, 12, 4, -preferredBase:10
 
 # Moves character at specified position according to a movement script.
 MOVE_SCRIPTED, 0x25, 12, -game:FE7 -indexMode:8
-	position, 4, 4, -coordinate:2 -preferredBase:10 -signed
+	position, 4, 4, -coordinates:2 -preferredBase:10 -signed
 	script, 8, 4, -pointer:moveManual
 
 # Moves specified character to specified position.
 MOVE, 0x26, 12, -game:FE7 -indexMode:8
-	character, 4, 2
-	position, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	characterID, 4, 2
+	position, 8, 4, -coordinates:2 -preferredBase:10 -signed
 
 # Moves specified character to specified position with specified speed.
 MOVE, 0x27, 16, -game:FE7 -indexMode:8
-	character, 4, 2
-	position, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	characterID, 4, 2
+	position, 8, 4, -coordinates:2 -preferredBase:10 -signed
 	speed, 12, 4, -preferredBase:10
 
 # Moves specified character according to a movement script.
 MOVE_SCRIPTED, 0x28, 12, -game:FE7 -indexMode:8
-	character, 4, 2
+	characterID, 4, 2
 	script, 8, 4, -pointer:moveManual
 
 # Moves specified character to a position adjacent to specified target character.
 MOVE_NEXTTO, 0x29, 12, -game:FE7 -indexMode:8
-	character, 4, 4
-	target, 8, 4
+	characterID1, 4, 4
+	characterID2, 8, 4
 
 # Moves main character to specified position. The main character is Lyn_t, Eliwood, or Hector depending on game mode.
 MOVE_PROTAG, 0x2A, 8, -game:FE7 -indexMode:8
@@ -41,32 +41,32 @@ MOVE_PROTAG, 0x2A, 8, -game:FE7 -indexMode:8
 
 # Moves specified character according to the speed and position parameters if it's part of the player faction, or according to a movement script otherwise.
 MOVE_FACTION, 0x2B, 16, -game:FE7 -indexMode:8
-	character, 4, 2
+	characterID, 4, 2
 	speed, 6, 2
 	position, 8, 4, -coordinates:2 -preferredBase:10 -signed
 	script, 12, 4, -pointer:moveManual
 
 # Moves specified character according to first movement script if it's part of the player faction, or second movement script otherwise.
 MOVE_FACTION, 0x2C, 16, -game:FE7 -indexMode:8
-	character, 4, 2
+	characterID, 4, 2
 	script1, 8, 4, -pointer:moveManual
 	script2, 12, 4, -pointer:moveManual
 
 # Moves specified character one tile in a direction: Up: 0, Down: 1, Left: 2, Right: 3.
 # In vanilla, this event instruction is bugged as it interprets the next command ID as the movement speed.
 MOVE_ONETILE, 0x2D, 12, -game:FE7 -indexMode:8
-	character, 4, 4
+	characterID, 4, 4
 	direction, 8, 4, -preferredBase:10
 
 # Moves character at specified position instantly without showing movement animations.
 MOVE_INSTANT, 0x2E, 12, -game:FE7 -indexMode:8
-	old position, 4, 4, -coordinate:2 -preferredBase:10 -signed
-	new position, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	position1, 4, 4, -coordinates:2 -preferredBase:10 -signed
+	position2, 8, 4, -coordinates:2 -preferredBase:10 -signed
 
 # Moves specified character instantly without showing movement animations.
 MOVE_INSTANT, 0x2F, 12, -game:FE7 -indexMode:8
-	character, 4, 4
-	position, 8, 4, -coordinate:2 -preferredBase:10 -signed
+	characterID, 4, 4
+	position, 8, 4, -coordinates:2 -preferredBase:10 -signed
 
 # Saves position of specified character to specified movement slot.
 # If character parameter is 0, the protagonist's current position is saved to slot 1 for Lyn, 2 for Eliwood, and 3 for Hector; ignoring the slot parameter.

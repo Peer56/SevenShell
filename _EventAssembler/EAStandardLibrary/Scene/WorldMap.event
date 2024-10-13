@@ -1,10 +1,10 @@
-#define EndWorldMap "_0xCA; MUEN 4; _0xAD; _0xAE; STAL 60; WORD $0"
+#define EndWorldMap "_0xCA; MUEN 4; _0xAD; _0xAE; STALL 60; WORD $0"
 
 #ifndef _FE7J_
 #define WorldMapPointerTable(id,offset) "PUSH; ORG 0xC9CDA4+(4*id); POIN offset; POP"
-#define StartWorldMap(Map, X, Y, LoadWay) "_0x87; ASMWORLDMAP 0xB5631; LOADWM Map [X,Y] LoadWay; STAL 16; _0x89; STAL 136"
+#define StartWorldMap(Map, X, Y, LoadWay) "LOCK_B; ASMWORLDMAP 0xB5631; LOADWM Map [X,Y] LoadWay; STALL 16; LOCK_START; STALL 136"
 #else
-#define StartWorldMap(Map, X, Y, LoadWay) "_0x87; ASMWORLDMAP 0xB6451; LOADWM Map [X,Y] LoadWay; STAL 16; _0x89; STAL 136"
+#define StartWorldMap(Map, X, Y, LoadWay) "LOCK_B; ASMWORLDMAP 0xB6451; LOADWM Map [X,Y] LoadWay; STALL 16; LOCK_START; STALL 136"
 #endif
 
 //World maps

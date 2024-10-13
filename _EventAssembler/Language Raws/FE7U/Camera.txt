@@ -4,7 +4,7 @@ CAMERA, 0x1F, 4, -game:FE7 -indexMode:8
 
 # Moves the camera to specified character. The position will be at least 2 tiles away from the screen border.
 CAMERA, 0x20, 4, -game:FE7 -indexMode:8
-	character, 2, 2
+	characterID, 2, 2
 
 # Moves the camera to the main character. The main character is Lyn_t, Eliwood, or Hector depending on the game mode.
 CAMERA_PROTAG, 0x21, 4, -game:FE7 -indexMode:8

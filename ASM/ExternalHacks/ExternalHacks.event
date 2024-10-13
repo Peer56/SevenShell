@@ -33,6 +33,14 @@ PUSH
 	SHORT $22D0
 POP
 
+//Class Type Icons Instead of Aid Type
+//Credit: Peerless
+#ifdef UsingEffectivenessRework
+	#include "ClassTypeIcons/Installer.event"
+#else
+	WARNING You are using Class Type Icons without Effectiveness Rework!
+#endif //UsingEffectivenessRework
+
 //Display Battle Stats with Animations Off
 //Credit: Tequila
 #include "BattleStatsWithAnimsOff/BattleStatsWithAnimsOff.event"

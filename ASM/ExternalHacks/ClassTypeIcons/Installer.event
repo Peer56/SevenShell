@@ -1,0 +1,10 @@
+//Changing GetAidIconFromAttributes
+PUSH
+	ORG $7FFF0
+	callHack_r0(GetAidIconFromClassType)
+	WORD 0
+POP
+
+GetAidIconFromClassType:
+#incbin "GetAidIconFromClassType.dmp"
+

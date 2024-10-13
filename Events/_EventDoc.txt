@@ -26,8 +26,8 @@
 19 MORETEXT_GENDER textID1 textID2
 1A TEXT_FLAG eventFlag textID1 textID2
 1B MORETEXT_FLAG eventFlag textID1 textID2
-1C TEXT_ASM asmPointer textID1 textID2
-1D MORETEXT_ASM asmPointer textID1 textID2
+1C TEXT_FUNCTION asmPointer textID1 textID2
+1D MORETEXT_FUNCTION asmPointer textID1 textID2
 1E CLEARSPEECH
 1F CAMERA [X,Y]
 20 CAMERA characterID
@@ -60,18 +60,18 @@
 3B AWAIT
 3C CAMERA_ON
 3D CAMERA_OFF
-3E ASMC asmPointer
-3F ASMC_NOSCENESKIP asmPointer
-40 ASMC_NOTEXTSKIP asmPointer
-41 ASMC_UNTIL asmPointer
-42 ASMC_WHILE asmPointer
+3E FUNCTION asmPointer
+3F FUNCTION_NOSCENESKIP asmPointer
+40 FUNCTION_NOTEXTSKIP asmPointer
+41 FUNCTION_UNTIL asmPointer
+42 FUNCTION_WHILE asmPointer
 43 HALT
 44 LABEL eventLabel
 45 GOTO eventLabel
 46 GOTO_DEAD eventLabel characterID
 47 GOTO_NOTDEPLOYED eventLabel characterID
-48 GOTO_ASMTRUE eventLabel funcPointer
-49 GOTO_ASMFALSE eventLabel funcPointer
+48 GOTO_FUNCTIONTRUE eventLabel funcPointer
+49 GOTO_FUNCTIONFALSE eventLabel funcPointer
 4A GOTO_SCENESKIP eventLabel
 4B GOTO_TEXTSKIP eventLabel
 4C GOTO_FLAGON eventLabel eventFlag
@@ -151,8 +151,8 @@
 96
 97 BATTLE attackerID defenderID scriptPointer unk
 98
-99 ASM_UNK asmPointer
-9A ASM_UNK asmPointer
+99 FUNCTION_UNK asmPointer
+9A FUNCTION_UNK2 asmPointer
 9B WEATHER weatherID
 9C WEATHER_SKIPPABLE weatherID
 9D FOG tileDistance
@@ -211,8 +211,8 @@ D1 MORETEXT_CG textID cutsceneID
 D2
 D3 CUTSCENE cutsceneID
 D4
-D5 FADEOUT_CG frameDuration
-D6 FADEIN_CG frameDuration
+D5 FADE_CG frameDuration
+D6 UNFADE_CG frameDuration
 D7 TEXTBOX textID [X,Y]
 D8 CLEARBOX
 D9 FADE_CGTOBG backgroundID unk
@@ -230,7 +230,7 @@ E4
 E5
 E6
 E7
-E8
+E8 //E7 is the highest event instruction.
 E9
 EA
 EB

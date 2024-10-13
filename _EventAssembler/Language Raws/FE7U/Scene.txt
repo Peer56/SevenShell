@@ -20,5 +20,6 @@ QUEUE, 0xA0, 8, -game:FE7 -indexMode:8
 	scene, 4, 4, -pointer
 
 # Calls subscene. When the subscene ends, the event execution will move to where the parent scene left off.
+# Unlike in FE8, CALLs cannot be nested.
 CALL, 0xCB, 8, -game:FE7 -indexMode:8
 	scene, 4, 4, -pointer

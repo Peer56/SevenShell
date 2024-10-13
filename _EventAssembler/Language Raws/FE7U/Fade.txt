@@ -1,19 +1,19 @@
 # Fades the screen out of the opening darkness set in the Chapter Data Table.
-# This is mandatory if a chapter has opening darkness. Not using OPEN or using FADEFROM_BLACK instead will lead to visual glitches.
+# This is mandatory if a chapter has opening darkness. Not using OPEN or using UNFADE_BLACK instead will lead to visual glitches.
 OPEN, 0x0C, 4, -game:FE7 -indexMode:8
 
 # Fades the screen out to black. The duration determines how many frames the fade takes to end.
-FADETO_BLACK, 0x8E, 4, -game:FE7 -indexMode:8
+FADE_BLACK, 0x8E, 4, -game:FE7 -indexMode:8
 	duration, 2, 2, -preferredBase:10
 
 # Fades the screen in from black to normal. The duration determines how many frames the fade takes to end.
-FADEFROM_BLACK, 0x8F, 4, -game:FE7 -indexMode:8
+UNFADE_BLACK, 0x8F, 4, -game:FE7 -indexMode:8
 	duration, 2, 2, -preferredBase:10
 
 # Fades the screen out to white. The duration determines how many frames the fade takes to end.
-FADETO_WHITE, 0x90, 4, -game:FE7 -indexMode:8
+FADE_WHITE, 0x90, 4, -game:FE7 -indexMode:8
 	duration, 2, 2, -preferredBase:10
 
 # Fades the screen in from white to normal. The duration determines how many frames the fade takes to end.
-FADEFROM_WHITE, 0x91, 4, -game:FE7 -indexMode:8
+UNFADE_WHITE, 0x91, 4, -game:FE7 -indexMode:8
 	duration, 2, 2, -preferredBase:10

@@ -2,15 +2,6 @@
 ##Removes brown text-boxes.
 RETB, 0xD8, 4, -game:FE7 -indexMode:8
 
-##Shows text with specific bubble type and position.
-TEX6, 0xA7, 12, -game:FE7 -indexMode:8
-##Bubble type to use
-	Bubble type, 2, 2
-##Position of the text. [0,0] is the center of the screen.
-	Text position, 4, 4, -coordinates:2 -preferredBase:10
-##Text to show.
-	Text ID, 8, 2
-
 ##Shows text.
 TEXTCG, 0xCF, 12, -game:FE7 -indexMode:8 -noDisassembly
 ##Text to show.

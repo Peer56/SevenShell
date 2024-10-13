@@ -2,14 +2,12 @@
 PUSH
 
     ORG $0393E8
-
     #include "src/ai-fast-danger.lyn.event"
 
-    ASSERT $039510 - CURRENTOFFSET
+    ASSERT $08039510 - CURRENTOFFSET
 
-    // ASSERT NuAiFillDangerMap == $0393E9
-    ASSERT NuAiFillDangerMap - $0393E9
-    // ASSERT $0393E9 - NuAiFillDangerMap
-	//uncomment this later
+    // ASSERT NuAiFillDangerMap == $080393E9
+    ASSERT NuAiFillDangerMap - $080393E9
+    ASSERT $080393E9 - NuAiFillDangerMap
 
 POP

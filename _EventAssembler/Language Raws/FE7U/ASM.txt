@@ -1,3 +1,0 @@
-# Calls ASM function during a scene. Thumb functions need to be added 1.
-FUNCTION, 0x3E, 8, -game:FE7 -repeatable -indexMode:8
-	function, 4, 4, -pointer:ASM

@@ -17,3 +17,13 @@ FADE_WHITE, 0x90, 4, -game:FE7 -indexMode:8
 # Fades the screen in from white to normal. The duration determines how many frames the fade takes to end.
 UNFADE_WHITE, 0x91, 4, -game:FE7 -indexMode:8
 	duration, 2, 2, -preferredBase:10
+
+# Fades the screen to a CG. The duration determines how many frames the fade takes to end.
+# In a typical fade to a background, you would use FADE_BLACK or FADE_WHITE. In a fade to a CG, this should be used instead.
+FADE_CG, 0xD5, 4, -game:FE7 -indexMode:8
+	duration, 2, 2, -preferredBase:10
+
+# Fades the screen from a CG. The duration determines how many frames the fade takes to end.
+# In a typical fade from a background, you would use UNFADE_BLACK or UNFADE_WHITE. In a fade to a CG, this should be used instead.
+UNFADE_CG, 0xD6, 4, -game:FE7 -indexMode:8
+	duration, 2, 2, -preferredBase:10

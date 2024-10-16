@@ -20,11 +20,6 @@ MORETEXTCG, 0xD1, 12, -game:FE7 -indexMode:8
 #Usually 1
 	CG Value, 8, 4
 
-##Shows large cut-scene picture.
-SHCG, 0xD3, 4, -game:FE7 -indexMode:8
-##Cutscene picture to show.
-	Cutscene, 2, 2
-
 ##Shows text.
 TEX8, 0xD7, 12, -game:FE7 -indexMode:8
 ##Text to show.

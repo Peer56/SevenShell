@@ -549,5 +549,6 @@
 #define TD_CMerch $367
 #define TD_CRide $368
 #define TD_CExit $369
+#define T_Placeholder $36A
 
 #endif // TEXT_DEFINITIONS_TEXTBUILDFILE_EVENT

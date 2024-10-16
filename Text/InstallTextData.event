@@ -2545,6 +2545,10 @@ __TEXTPROCESS369:
 #incbin ".TextEntries\TextBuildfileTD_CExit.fetxt.dmp"
 setText($369, __TEXTPROCESS369)
 
+__TEXTPROCESS36A:
+#incbin ".TextEntries\TextBuildfileT_Placeholder.fetxt.dmp"
+setText($36A, __TEXTPROCESS36A)
+
 }
 
 #endif // TEXT_INSTALLER_TEXTBUILDFILE_EVENT

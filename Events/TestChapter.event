@@ -4,7 +4,7 @@ EventPointerTable(0x6,TestChapterEvents)
 TestChapterEvents:
 POIN TurnEvents 
 POIN TalkEvents 
-POIN LocaEvents 
+POIN TileEvents 
 POIN MiscEvents
 POIN TrapData TrapData
 POIN Bad Bad Bad Bad
@@ -12,7 +12,7 @@ POIN Good Good Good Good
 POIN OpeningScene EndingScene
 
 Bad:
-UNIT Jaffar Assassin 0 Level(20,Enemy,0) [9,7] [9,7] [KillingEdge] GuardTileAI
+UNIT Batta Berserker 0 Level(20,Enemy,0) [11,8] [11,8] [SteelAxe] GuardTileAI
 END_UNIT
 
 Good:
@@ -32,9 +32,10 @@ OpeningTurnEvent(OpeningScene) //Do not include this event if the chapter has a 
 END_MAIN
 
 TalkEvents:
+TALK 0 TalkScene Lyn Kent 0
 END_MAIN
 
-LocaEvents:
+TileEvents:
 END_MAIN
 
 MiscEvents:
@@ -50,10 +51,20 @@ OpeningScene:
 OPEN
 LOAD Good
 AWAIT
+LOAD Bad
+AWAIT
 NOPREP
 END
 
 EndingScene:
 MoveToChapter(2)
+NOPREP
+END
+
+TalkScene:
+LCKS
+TEXT T_Placeholder
+CLEAR
+BLIZZARD 30
 NOPREP
 END

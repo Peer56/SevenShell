@@ -6,3 +6,5 @@
 #include "MenuText/UnitNames.txt"
 #include "MenuText/CommandNames.txt"
 #include "MenuText/CommandDescriptions.txt"
+
+#include "DialogueText/TestChapter.txt"

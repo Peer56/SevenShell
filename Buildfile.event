@@ -11,16 +11,18 @@ MESSAGE Used text space ends at currentOffset
 
 //Graphics
 #include "Graphics/_GraphicsInstaller.event"
+MESSAGE Used graphics space ends at currentOffset
 
 //Other data
+//Install this before tables
 #include "OtherData/_Installer.event"
 
 //Tables
 #include "Tables/Table Installer.event"
 MESSAGE Used table space ends at currentOffset
 
-//ASM
-#include "ASM/_ASMInstaller.event"
+//Engine Hacks
+#include "EngineHacks/_HackInstaller.event"
 MESSAGE Used hax space ends at currentOffset
 	
 //Events

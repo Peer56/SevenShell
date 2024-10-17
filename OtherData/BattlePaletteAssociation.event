@@ -1,0 +1,7 @@
+//For Palette Rework (Needed for Split Promo Items).
+//If you're not using Palette Rework, you can comment out this file and do this step entirely in Pal2EA's input file.
+
+PUSH
+PaletteTable:
+FILL 256*16
+POP

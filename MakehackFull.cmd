@@ -16,6 +16,7 @@ set "textprocess=%~dp0_Tools\textprocess\text-process-classic"
 set "ups=%~dp0_Tools\ups\ups"
 set "parsefile=%~dp0_EventAssembler\Tools\ParseFile.exe"
 set "tmx2ea=%~dp0_Tools\tmx2ea\tmx2ea"
+set "pal2ea=%~dp0_Tools\pal2ea\pal2EA.exe"
 
 set "base_dir=%~dp0"
 
@@ -42,6 +43,12 @@ copy "%source_rom%" "%target_rom%"
 
   cd "%base_dir%Maps"
   echo: | ("%tmx2ea%" -s -O "MasterMapInstaller.event")
+  
+  echo:
+  echo Processing battle palettes
+  
+  cd "%base_dir%Graphics\BattlePalettes"
+  echo: | ("%pal2ea%" "PaletteInput.txt")
 
 echo:
 echo Assembling

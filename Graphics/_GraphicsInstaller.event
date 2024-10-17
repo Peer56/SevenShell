@@ -3,3 +3,18 @@
 
 //Icons
 #include "Icons/_Installer.event"
+
+//Battle Palettes
+//repointing, this will break vanilla palettes!
+/*
+PUSH
+	ORG $541F8
+	POIN PaletteTable
+	ORG $54C84
+	POIN PaletteTable
+	ORG $54DF8
+	POIN PaletteTable
+POP
+*/
+
+#include "BattlePalettes/Palette Installer.event"

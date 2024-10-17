@@ -21,7 +21,6 @@
 */
 
 //These will eventually go in whatever battle palette setup I come up with and be modular
-//I couldn't get pal2ea to work
 #define PalBlank 0x00
 #define PalLyn1 0x01
 #define PalRebecca1 0x02

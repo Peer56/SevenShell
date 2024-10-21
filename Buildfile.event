@@ -1,17 +1,23 @@
 #ifdef _FE7_
+#ifndef _FE7J_
+
 #include "EAstdlib.event"
 #include "CustomDefinitions.event"
 
-#define FreeSpace 0xDA0000
-ORG FreeSpace
+FreeSpace1 := 0x08D00000
+FreeSpace2 := 0x08DA0000
+EndOfRom := 0x09000000
+
+ORG FreeSpace2 //because that's what I've been using. FreeSpace1 should be free but I need to confirm myself
+PROTECT 0x08E00008 //animation table
 
 //Text
 #include "Text/InstallTextData.event"
-MESSAGE Used text space ends at currentOffset
+MESSAGE Used text space ends at CURRENTOFFSET
 
 //Graphics
 #include "Graphics/_GraphicsInstaller.event"
-MESSAGE Used graphics space ends at currentOffset
+MESSAGE Used graphics space ends at CURRENTOFFSET
 
 //Other data
 //Install this before tables
@@ -20,18 +26,23 @@ MESSAGE Used graphics space ends at currentOffset
 //Tables
 #include "Tables/Repointers.event"
 #include "Tables/Table Installer.event"
-MESSAGE Used table space ends at currentOffset
+MESSAGE Used table space ends at CURRENTOFFSET
 
 //Engine Hacks
 #include "EngineHacks/_HackInstaller.event"
-MESSAGE Used hax space ends at currentOffset
+MESSAGE Used hax space ends at CURRENTOFFSET
 	
 //Events
 #include "Events/_MasterEventInstaller.event"
+MESSAGE Used event space ends at CURRENTOFFSET
 
 //Maps
 #include "Maps/MasterMapInstaller.event"
+MESSAGE Used map space ends at CURRENTOFFSET
 
+#else
+	ERROR FE7J is not yet supported! You WILL run into problems unless you manually accounted for a bunch of address differences! If you did, please open a pull request!
+#endif
 #else
 	ERROR This buildfile is for FE7. You are using a different ROM.
 #endif

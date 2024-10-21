@@ -129,6 +129,14 @@
 #define CritRingStatus 7
 #define AvoRingStatus 8
 
+//Standing Map Sprite Size
+#define Small 0
+#define Medium 1
+#define Large 2
+#define SMS16x16 0
+#define SMS16x32 1
+#define SMS32x32 2
+
 //Command Text Color
 #define White 0
 #define Gray 1

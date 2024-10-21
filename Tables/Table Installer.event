@@ -12,6 +12,10 @@
 
 #include "Item\SpellAssociationTable.event"
 
+#include "MapSprite\MovingMapSpriteTable.event"
+
+#include "MapSprite\StandingMapSpriteTable.event"
+
 #include "Palette\PaletteTable.event"
 
 #include "Quote\Death quote editor part 1.event"

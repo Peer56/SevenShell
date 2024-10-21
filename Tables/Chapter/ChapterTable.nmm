@@ -1,12 +1,9 @@
-#Chapter Data Editor (FE7) - By Icy Toast - V 0.9.3
-#
-
 1
 Chapter Data Editor (FE7) - By Icy Toast - V 0.9.3
 0xC9A200
 68
 152
-Chapters.txt
+ChapterTable.txt
 NULL
 
 Unused Pointer
@@ -48,14 +45,14 @@ NULL
 Anims1 (PTABLE)
 9
 1
-NEHU
-NULL
+NDHU
+Anims1.txt
 
 Anims2 (PTABLE)
 10
 1
-NEHU
-NULL
+NDHU
+Anims2.txt
 
 Tile Changes (PTABLE)
 11

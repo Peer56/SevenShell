@@ -2,25 +2,25 @@
 
 #include "Table Definitions.txt"
 
-#include "ChapterEditor\ChapterDataEditor.event"
+#include "Chapter\ChapterTable.event"
 
-#include "ClassCharacterEditors\CharacterEditor.event"
+#include "ClassCharacter\CharacterTable.event"
 
-#include "ClassCharacterEditors\ClassEditor.event"
+#include "ClassCharacter\ClassTable.event"
 
-#include "ItemEditors\ItemEditor.event"
+#include "Item\ItemTable.event"
 
-#include "ItemEditors\SpellAssociationEditor.event"
+#include "Item\SpellAssociationTable.event"
 
-#include "PaletteEditor\PaletteEditor.event"
+#include "Palette\PaletteTable.event"
 
-#include "QuoteEditors\Death quote editor part 1.event"
+#include "Quote\Death quote editor part 1.event"
 
-#include "QuoteEditors\Death quote editor part 2.event"
+#include "Quote\Death quote editor part 2.event"
 
-#include "QuoteEditors\Specified Battle Convo Editor.event"
+#include "Quote\Specified Battle Convo Editor.event"
 
-#include "QuoteEditors\Triangle Attack Convo Editor.event"
+#include "Quote\Triangle Attack Convo Editor.event"
 
-#include "QuoteEditors\Unspecified Battle Convo Editor.event"
+#include "Quote\Unspecified Battle Convo Editor.event"
 

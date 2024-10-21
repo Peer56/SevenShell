@@ -1,0 +1,4 @@
+3
+0x00 None
+0x98 Shimmering ice (Snow)
+0xAB Lava (Lava Cave)

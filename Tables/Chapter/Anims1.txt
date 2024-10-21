@@ -1,0 +1,7 @@
+6
+0x00 None
+0x05 Water (Fields; Plains; M&S)
+0x58 Water (Town&Docks)
+0x5F Water (Ship)
+0xA1 Water (Plains&Castle)
+0xC5 Gate and torches (Dragon's Gate)

@@ -18,6 +18,7 @@ MESSAGE Used graphics space ends at currentOffset
 #include "OtherData/_Installer.event"
 
 //Tables
+#include "Tables/Repointers.event"
 #include "Tables/Table Installer.event"
 MESSAGE Used table space ends at currentOffset
 

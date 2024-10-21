@@ -12,6 +12,8 @@
 
 #include "ItemEditors\SpellAssociationEditor.event"
 
+#include "PaletteEditor\PaletteEditor.event"
+
 #include "QuoteEditors\Death quote editor part 1.event"
 
 #include "QuoteEditors\Death quote editor part 2.event"

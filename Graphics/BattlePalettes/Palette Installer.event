@@ -3,6 +3,6 @@
 
 ALIGN 4
 
-PalLynLord:
-	#incbin "./_palettes/PalLynLord.lzpal" 
+PalErkSage:
+	#incbin "./_palettes/PalErkSage.lzpal" 
 

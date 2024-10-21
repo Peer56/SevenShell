@@ -4,5 +4,5 @@
 #include "Palette Definitions.txt"
 #include "Palette Installer.event"
 
-// PalLynLord
-	setPalette(0x01,PalLynLord)
+// PalErkSage
+	setPalette(0x1,PalErkSage)

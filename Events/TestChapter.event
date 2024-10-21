@@ -16,7 +16,7 @@ UNIT Batta Berserker 0 Level(20,Enemy,0) [11,8] [11,8] [SteelAxe] GuardTileAI
 END_UNIT
 
 Good:
-UNIT Lyn BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [ManiKatti,SolKatti] NoAI
+UNIT Lyn_t BladeLord 0 Level(20,Ally,1) [7,6] [7,6] [ManiKatti,SolKatti] NoAI
 UNIT Kent Paladin 0 Level(20,Ally,1) [7,7] [7,7] [SilverLance] NoAI
 UNIT Florina Falcoknight 0 Level(20,Ally,1) [7,8] [7,8] [SilverLance] NoAI
 UNIT Heath WyvernLord 0 Level(20,Ally,1) [7,9] [7,9] [SilverLance] NoAI

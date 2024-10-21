@@ -1,0 +1,13 @@
+//Palette table
+PUSH
+	ORG $541F8
+	POIN PaletteTable
+	ORG $54C84
+	POIN PaletteTable
+	ORG $54DF8
+	POIN PaletteTable
+POP
+
+ALIGN 4
+PaletteTable:
+FILL 0xFF*16
